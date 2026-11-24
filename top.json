@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T16:22:33+00:00",
+  "updated_at": "2026-11-24T17:50:57+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,6 +15,32 @@
   "window_hours": 24,
   "count": 5,
   "items": [
+    {
+      "id": "88b982e416d9",
+      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
+      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T13:28:26+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
+          "published": "2026-11-24T14:11:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "published": "2026-11-24T13:28:26+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+          "published": "2026-11-24T16:32:56+00:00"
+        }
+      ]
+    },
     {
       "id": "5cf9b85b8c4f",
       "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
@@ -33,27 +59,6 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
           "published": "2026-11-24T14:21:56+00:00"
-        }
-      ]
-    },
-    {
-      "id": "88b982e416d9",
-      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
-      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T13:28:26+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
-          "published": "2026-11-24T14:11:04+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-          "published": "2026-11-24T13:28:26+00:00"
         }
       ]
     },

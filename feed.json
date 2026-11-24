@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T16:22:33+00:00",
+  "updated_at": "2026-11-24T17:50:57+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -12,8 +12,56 @@
     "privacy-policy",
     "other"
   ],
-  "count": 51,
+  "count": 54,
   "items": [
+    {
+      "id": "367e93123f70",
+      "headline": "Radware Discloses Breach Exposing Customer Cloud Access Keys",
+      "summary": "Cybersecurity firm Radware says attackers reached some customers' account details and cloud access keys through an unsecured internal Cloud WAF management API left exposed online.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T17:49:05+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+          "published": "2026-11-24T17:49:05+00:00"
+        }
+      ]
+    },
+    {
+      "id": "21126c75eb99",
+      "headline": "Iran-Aligned Group Volant Manticore Uses IPFS-Based KuboShell Backdoor",
+      "summary": "A newly documented Iran-aligned espionage group has targeted telecom firms, airlines and critical infrastructure in Cyprus using the KuboShell backdoor, which relies on IPFS for command-and-control.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-24T16:54:07+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+          "published": "2026-11-24T16:54:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "665f85d067d2",
+      "headline": "ShinyHunters Claims Return After Arrests, Posts Old PGP Keys",
+      "summary": "The ShinyHunters extortion gang says it is back, posting on a new data leak site after recent arrests of alleged members. It used old PGP keys as proof.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T16:30:19+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+          "published": "2026-11-24T16:30:19+00:00"
+        }
+      ]
+    },
     {
       "id": "6bb640861ddc",
       "headline": "Carnegie Endowment Donor Data Leaked in Third-Party Vendor Breach",
@@ -37,12 +85,17 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-24T14:49:59+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
           "published": "2026-11-24T14:49:59+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+          "published": "2026-11-24T16:22:44+00:00"
         }
       ]
     },
@@ -122,7 +175,7 @@
       "category": "vulnerability",
       "importance": 7,
       "published": "2026-11-24T13:28:26+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T17:50:57+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -133,6 +186,11 @@
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
           "published": "2026-11-24T13:28:26+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+          "published": "2026-11-24T16:32:56+00:00"
         }
       ]
     },
