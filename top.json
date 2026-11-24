@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T14:21:55+00:00",
+  "updated_at": "2026-11-24T16:22:33+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -16,33 +16,23 @@
   "count": 5,
   "items": [
     {
-      "id": "f5dd8c3ce19e",
-      "headline": "Microsoft Fixes Azure API Management Flaw Exploited to Steal Secrets",
-      "summary": "Norway's National Security Authority says an unknown actor has been searching Azure API Management for access tokens and secrets, affecting several Norwegian businesses. Microsoft has released a fix for the classic flaw.",
+      "id": "5cf9b85b8c4f",
+      "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
+      "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
       "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-23T15:47:40+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
+      "importance": 7,
+      "published": "2026-11-24T14:21:56+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-          "published": "2026-11-24T10:44:49+00:00"
-        },
-        {
           "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-          "published": "2026-11-23T19:42:20+00:00"
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+          "published": "2026-11-24T16:15:23+00:00"
         },
         {
           "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-          "published": "2026-11-23T15:47:40+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
-          "published": "2026-11-24T12:04:37+00:00"
+          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+          "published": "2026-11-24T14:21:56+00:00"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-24T14:21:55+00:00",
+  "run_at": "2026-11-24T16:22:33+00:00",
   "mode": "full",
   "sources": [
     {
@@ -54,15 +54,15 @@
     {
       "name": "CISA",
       "ok": true,
-      "items": 1,
+      "items": 4,
       "error": null
     }
   ],
-  "fetched_items": 73,
-  "new_items": 20,
-  "curated_items": 20,
-  "kept_items": 16,
-  "new_stories": 7,
-  "merged_sources": 9,
+  "fetched_items": 76,
+  "new_items": 13,
+  "curated_items": 13,
+  "kept_items": 9,
+  "new_stories": 6,
+  "merged_sources": 3,
   "errors": []
 }

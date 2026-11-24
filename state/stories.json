@@ -1,6 +1,65 @@
 {
-  "updated_at": "2026-11-24T14:21:55+00:00",
+  "updated_at": "2026-11-24T16:22:33+00:00",
   "stories": [
+    {
+      "id": "6bb640861ddc",
+      "story_key": "carnegie-soapbox-engage-donor-leak",
+      "headline": "Carnegie Endowment Donor Data Leaked in Third-Party Vendor Breach",
+      "summary": "Some donors to the Carnegie Endowment for International Peace had their information exposed after a cyberattack on vendor Soapbox Engage.",
+      "category": "data-breach",
+      "importance": 4,
+      "published": "2026-11-24T16:00:00+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/carnegie-endowment-data-breach",
+          "published": "2026-11-24T16:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5b6cf1244bca",
+      "story_key": "european-commission-eu-academy-breach",
+      "headline": "European Commission Finds Breach of EU Academy User Data",
+      "summary": "Attackers who used AI assistance hit the European Commission in October, exposing names and email addresses of EU Academy users.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T14:49:59+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+          "published": "2026-11-24T14:49:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5cf9b85b8c4f",
+      "story_key": "check-point-management-server-campaign",
+      "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
+      "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T14:21:56+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+          "published": "2026-11-24T16:15:23+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+          "published": "2026-11-24T14:21:56+00:00"
+        }
+      ]
+    },
     {
       "id": "df3d58b39efa",
       "story_key": "ncsc-marked-rise-ai-attacks",
@@ -84,10 +143,10 @@
       "headline": "McDonald's Japan Breach Exposes App User Location Data",
       "summary": "McDonald's Japan disclosed that attackers accessed a database holding sensitive information for users of its official smartphone app, exposing customer location details.",
       "category": "data-breach",
-      "importance": 5,
+      "importance": 6,
       "published": "2026-11-24T13:00:00+00:00",
       "first_seen": "2026-11-24T14:21:55+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -98,6 +157,11 @@
           "name": "The Record",
           "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
           "published": "2026-11-24T13:00:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
+          "published": "2026-11-24T15:39:05+00:00"
         }
       ]
     },
@@ -139,6 +203,60 @@
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
           "published": "2026-11-24T12:02:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "74a8a15d26b6",
+      "story_key": "schneider-ecostruxure-rapsody-vulnerability",
+      "headline": "Schneider Electric Warns of Code Execution Flaws in Power Build Rapsody",
+      "summary": "Schneider Electric warns that its EcoStruxure Power Build Rapsody software has memory corruption flaws that local attackers could use to run arbitrary code. Users should apply the listed remediations.",
+      "category": "vulnerability",
+      "importance": 4,
+      "published": "2026-11-24T12:00:00+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+          "published": "2026-11-24T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0d94f4768be7",
+      "story_key": "danfoss-aksm-8xxa-buffer-overflow",
+      "headline": "Danfoss Controllers Hit by Critical Remote Code Execution Flaw",
+      "summary": "A buffer overflow in the Danfoss AK-SM 8xxA controller lets unauthenticated remote attackers send crafted requests to run code with webserver privileges. The flaw has a CVSS score of 9.8.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-24T12:00:00+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+          "published": "2026-11-24T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "619dbc122bff",
+      "story_key": "automationdirect-c-more-ea9-heap-overflow",
+      "headline": "AutomationDirect C-More EA9 Software Has Heap Overflow Flaw",
+      "summary": "CISA has published an advisory on a heap-based buffer overflow in AutomationDirect C-More EA9 Programming Software, versions 6.80 and earlier. If a user is tricked into opening a malicious file, attackers could crash the software or possibly run code, affecting industrial sites.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-24T12:00:00+00:00",
+      "first_seen": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+          "published": "2026-11-24T12:00:00+00:00"
         }
       ]
     },
@@ -741,7 +859,7 @@
       "importance": 8,
       "published": "2026-11-23T12:00:00+00:00",
       "first_seen": "2026-11-24T11:40:39+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T16:22:33+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -762,6 +880,11 @@
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-23T12:00:00+00:00"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
+          "published": "2026-11-24T15:00:00+00:00"
         }
       ]
     },
