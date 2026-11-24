@@ -97,6 +97,7 @@
     document.querySelectorAll('.srn-feed[data-endpoint]').forEach(function (section) {
       var seconds = parseInt(section.dataset.refresh, 10);
       if (!seconds || seconds < 60) return;
+      refresh(section); // the page itself may come from a cache, so fetch fresh stories right away
       setInterval(function () { refresh(section); }, seconds * 1000);
       setInterval(function () { updateTimes(section); }, 60 * 1000);
       document.addEventListener('visibilitychange', function () {

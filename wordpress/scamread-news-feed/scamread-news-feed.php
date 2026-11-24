@@ -3,7 +3,7 @@
  * Plugin Name:       ScamRead News Feed
  * Plugin URI:        https://github.com/bayardkalyan/scamread-cyber-newx-api
  * Description:       Shows the ScamRead cyber news feed: AI-written headlines and summaries with links to the original articles. Use the shortcode [scamread_news].
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            ScamRead
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SRN_VERSION', '1.0.0' );
+define( 'SRN_VERSION', '1.0.1' );
 define( 'SRN_DEFAULT_BASE', 'https://bayardkalyan.github.io/scamread-cyber-newx-api/' );
 define( 'SRN_CACHE_SECONDS', 5 * MINUTE_IN_SECONDS );
 
@@ -137,10 +137,14 @@ add_action( 'rest_api_init', function () {
 					$items[] = $clean;
 				}
 			}
-			return rest_ensure_response( array(
+			$response = rest_ensure_response( array(
 				'updated_at' => isset( $data['updated_at'] ) ? (string) $data['updated_at'] : '',
 				'items'      => $items,
 			) );
+			// Page caches (LiteSpeed and others) must not keep this: it is the live-update source.
+			$response->header( 'Cache-Control', 'no-cache, max-age=0' );
+			$response->header( 'X-LiteSpeed-Cache-Control', 'no-cache' );
+			return $response;
 		},
 	) );
 } );
@@ -252,6 +256,9 @@ function srn_shortcode( $atts ) {
 	if ( $refresh > 0 && $refresh < 60 ) {
 		$refresh = 60;
 	}
+
+	// Keep cached copies of pages with the feed short-lived (LiteSpeed Cache; ignored if not installed).
+	do_action( 'litespeed_control_set_ttl', 300 );
 
 	wp_enqueue_style( 'srn-style', plugins_url( 'assets/scamread-news.css', __FILE__ ), array(), SRN_VERSION );
 	if ( $refresh > 0 ) {
