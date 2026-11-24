@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScamRead Cyber News Feed</title>
+<meta name="description" content="Open-source cybersecurity news feed: AI-written headlines and summaries with links to the original reports.">
+<style>
+  :root { color-scheme: dark; --bg:#0b1117; --card:#111a22; --text:#e6edf3; --muted:#8b9bab; --accent:#22d3ee; --border:#1f2b36; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .lead { color: var(--muted); margin: 0 0 1.5rem; }
+  .api { background: var(--card); border:1px solid var(--border); border-radius:10px; padding: .9rem 1.1rem; margin-bottom: 2rem; font-size:.9rem; }
+  .api code { color: var(--accent); }
+  .api a { color: var(--accent); }
+  article { background: var(--card); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:10px; padding:1rem 1.15rem; margin-bottom:1rem; }
+  .meta { font-size:.8rem; color:var(--muted); display:flex; gap:.6rem; align-items:center; margin-bottom:.35rem; }
+  .cat { color: var(--accent); background: rgba(34,211,238,.12); border-radius:999px; padding:.1rem .55rem; font-weight:600; }
+  h2 { font-size:1.08rem; margin:0 0 .35rem; line-height:1.35; }
+  p { margin: 0 0 .5rem; }
+  .links { font-size:.875rem; color: var(--muted); margin:0; }
+  .links a { color: var(--accent); font-weight:600; text-decoration:none; }
+  .links a:hover { text-decoration: underline; }
+  footer { color: var(--muted); font-size:.8rem; margin-top: 2rem; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ScamRead Cyber News Feed</h1>
+  <p class="lead">Cybersecurity news from trusted sources, summarised by AI, updated about every 30 minutes. <span id="updated"></span></p>
+  <div class="api">
+    JSON endpoints: <a href="feed.json"><code>feed.json</code></a> (latest stories) ·
+    <a href="top.json"><code>top.json</code></a> (top 5, last 24 hours) ·
+    <a href="status.json"><code>status.json</code></a> (last run)
+  </div>
+  <div id="list"><p class="lead">Loading…</p></div>
+  <footer>
+    Headlines and summaries are written by AI (Claude) from the original reports; follow the links for the full articles.
+    Open source: <a href="https://github.com/bayardkalyan/scamread-cyber-newx-api">scamread-cyber-newx-api</a> · <a href="https://scamread.com">scamread.com</a>
+  </footer>
+</main>
+<script>
+(function () {
+  var labels = {"data-breach":"Data breach","scam-phishing":"Scam & phishing","vulnerability":"Vulnerability","ransomware":"Ransomware","malware":"Malware","ai-security":"AI security","privacy-policy":"Privacy & policy","other":"Cyber news"};
+  function ago(iso) {
+    var s = Math.max(0, (Date.now() - Date.parse(iso)) / 1000);
+    if (isNaN(s)) return '';
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + ' min ago';
+    if (s < 86400) return Math.round(s / 3600) + ' h ago';
+    return Math.round(s / 86400) + ' d ago';
+  }
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; }
+  function safe(url) { try { var u = new URL(url); return /^https?:$/.test(u.protocol) ? u.href : null; } catch (e) { return null; } }
+  fetch('feed.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (data) {
+    document.getElementById('updated').textContent = data.updated_at ? 'Last update: ' + ago(data.updated_at) + '.' : '';
+    var list = document.getElementById('list');
+    list.textContent = '';
+    (data.items || []).forEach(function (item) {
+      var a = el('article');
+      var meta = el('div', 'meta');
+      meta.appendChild(el('span', 'cat', labels[item.category] || 'Cyber news'));
+      meta.appendChild(el('span', '', ago(item.published)));
+      a.appendChild(meta);
+      a.appendChild(el('h2', '', item.headline));
+      a.appendChild(el('p', '', item.summary));
+      var links = el('p', 'links', 'Read full article: ');
+      (item.sources || []).forEach(function (s, i) {
+        var href = safe(s.url); if (!href) return;
+        if (i) links.appendChild(document.createTextNode(' · '));
+        var l = el('a', '', s.name); l.href = href; l.target = '_blank'; l.rel = 'noopener nofollow';
+        links.appendChild(l);
+      });
+      a.appendChild(links);
+      list.appendChild(a);
+    });
+    if (!list.children.length) list.appendChild(el('p', 'lead', 'No stories yet. The first update runs within 30 minutes.'));
+  }).catch(function () {
+    document.getElementById('list').textContent = 'No stories yet. The first update runs within 30 minutes.';
+  });
+})();
+</script>
+</body>
+</html>

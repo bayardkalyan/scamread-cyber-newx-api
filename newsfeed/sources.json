@@ -1,0 +1,16 @@
+{
+  "_comment": "News sources the feed reads. Add or remove entries here; each needs a name, an RSS/Atom url and a type (news or reddit).",
+  "sources": [
+    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "type": "news"},
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "type": "news"},
+    {"name": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "type": "news"},
+    {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "type": "news"},
+    {"name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "type": "news"},
+    {"name": "The Record", "url": "https://therecord.media/feed", "type": "news"},
+    {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/feed/", "type": "news"},
+    {"name": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "type": "news"},
+    {"name": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "type": "news"},
+    {"name": "r/netsec", "url": "https://www.reddit.com/r/netsec/top/.rss?t=day", "type": "reddit"},
+    {"name": "r/cybersecurity", "url": "https://www.reddit.com/r/cybersecurity/top/.rss?t=day", "type": "reddit"}
+  ]
+}

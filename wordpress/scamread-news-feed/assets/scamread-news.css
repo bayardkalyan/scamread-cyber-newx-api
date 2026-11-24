@@ -1,0 +1,48 @@
+/* ScamRead News Feed. Inherits the theme's fonts and text colour; override --srn-accent to restyle. */
+.srn-feed {
+  --srn-accent: #22d3ee;
+  --srn-border: rgba(127, 127, 127, 0.25);
+  --srn-muted: rgba(127, 127, 127, 0.95);
+  margin: 1.5em 0;
+}
+.srn-title { margin: 0 0 0.75em; }
+.srn-list { display: grid; gap: 1rem; }
+.srn-item {
+  border: 1px solid var(--srn-border);
+  border-left: 3px solid var(--srn-accent);
+  border-radius: 10px;
+  padding: 1rem 1.15rem;
+}
+.srn-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--srn-muted);
+  margin-bottom: 0.4rem;
+}
+.srn-cat {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.12);
+  color: var(--srn-accent);
+  color: color-mix(in srgb, var(--srn-accent) 65%, currentColor);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.srn-cat-ransomware, .srn-cat-data-breach { background: rgba(244, 63, 94, 0.12); color: #e11d48; color: color-mix(in srgb, #f43f5e 70%, currentColor); }
+.srn-cat-scam-phishing { background: rgba(245, 158, 11, 0.14); color: #d97706; color: color-mix(in srgb, #f59e0b 70%, currentColor); }
+.srn-headline { font-size: 1.1rem; line-height: 1.35; margin: 0 0 0.35rem; }
+.srn-summary { margin: 0 0 0.5rem; line-height: 1.55; }
+.srn-links { margin: 0; font-size: 0.875rem; }
+.srn-links a {
+  color: inherit; /* theme text colour keeps links readable on light and dark sites */
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--srn-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.srn-links a:hover, .srn-links a:focus { color: var(--srn-accent); }
+.srn-footer, .srn-empty { font-size: 0.8rem; color: var(--srn-muted); margin-top: 0.9rem; }

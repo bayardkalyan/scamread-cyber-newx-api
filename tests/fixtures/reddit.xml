@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>top scoring links : netsec</title>
+  <entry>
+    <title>Optimizely supply-chain attack hit 178 organisations</title>
+    <link href="https://www.reddit.com/r/netsec/comments/abc123/optimizely/"/>
+    <updated>2026-11-24T06:00:00+00:00</updated>
+    <published>2026-11-24T06:00:00+00:00</published>
+    <content type="html">&lt;table&gt;&lt;tr&gt;&lt;td&gt; submitted by &lt;a href="https://www.reddit.com/user/someone"&gt; /u/someone &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href="https://research.example.org/optimizely-writeup"&gt;[link]&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a href="https://www.reddit.com/r/netsec/comments/abc123/optimizely/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+  </entry>
+  <entry>
+    <title>What certs should I get?</title>
+    <link href="https://www.reddit.com/r/netsec/comments/def456/certs/"/>
+    <updated>2026-11-24T03:00:00+00:00</updated>
+    <published>2026-11-24T03:00:00+00:00</published>
+    <content type="html">&lt;p&gt;Asking for advice&lt;/p&gt; submitted by /u/learner &lt;a href="https://www.reddit.com/r/netsec/comments/def456/certs/"&gt;[link]&lt;/a&gt;</content>
+  </entry>
+</feed>
