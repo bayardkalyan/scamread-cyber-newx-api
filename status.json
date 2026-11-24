@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-24T11:32:05+00:00",
-  "mode": "fetch-only",
+  "run_at": "2026-11-24T11:36:06+00:00",
+  "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
@@ -65,6 +65,10 @@
   "new_stories": 0,
   "merged_sources": 0,
   "errors": [
-    "ANTHROPIC_API_KEY is not set: fetched sources but did not curate."
+    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgeVhNGXJaFVTQyXuwE'}",
+    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgeW3iEWqhHQgvYf6kG'}",
+    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgeWNJa1uzPDSGdDMix'}",
+    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgeWfAash9ms5bZDdHD'}",
+    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgeWy22D4imJFXr3sKp'}"
   ]
 }
