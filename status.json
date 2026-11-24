@@ -1,18 +1,18 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-24T11:48:45+00:00",
+  "run_at": "2026-11-24T14:21:55+00:00",
   "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
       "ok": true,
-      "items": 12,
+      "items": 17,
       "error": null
     },
     {
       "name": "BleepingComputer",
       "ok": true,
-      "items": 13,
+      "items": 15,
       "error": null
     },
     {
@@ -58,11 +58,11 @@
       "error": null
     }
   ],
-  "fetched_items": 66,
-  "new_items": 0,
-  "curated_items": 0,
-  "kept_items": 0,
-  "new_stories": 0,
-  "merged_sources": 0,
+  "fetched_items": 73,
+  "new_items": 20,
+  "curated_items": 20,
+  "kept_items": 16,
+  "new_stories": 7,
+  "merged_sources": 9,
   "errors": []
 }

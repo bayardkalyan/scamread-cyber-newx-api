@@ -1,6 +1,147 @@
 {
-  "updated_at": "2026-11-24T11:48:45+00:00",
+  "updated_at": "2026-11-24T14:21:55+00:00",
   "stories": [
+    {
+      "id": "df3d58b39efa",
+      "story_key": "ncsc-marked-rise-ai-attacks",
+      "headline": "UK Cyber Agency Sees Marked Rise in AI-Assisted Attacks",
+      "summary": "Britain's National Cyber Security Centre says it has seen a marked rise since September in cyberattacks assisted by AI, which is boosting attackers' speed, scale and persistence.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-24T13:45:00+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+          "published": "2026-11-24T13:45:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f5ae27d9a34e",
+      "story_key": "zqagent-linux-backdoor",
+      "headline": "New ZQAgent Linux Backdoor Gives Attackers Long-Term Server Access",
+      "summary": "A new Linux backdoor called ZQAgent lets attackers run commands, read files and open network tunnels while disguising itself as a normal process. Analysts linked it to the AI-driven ARTEX framework in a Belgian incident.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-24T13:35:26+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
+          "published": "2026-11-24T13:35:26+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9679b0bf91aa",
+      "story_key": "anthropic-enterprise-misuse-detection",
+      "headline": "Anthropic Expands Enterprise Tools for Spotting Claude Misuse",
+      "summary": "Anthropic's expanded enterprise safeguards help customers with zero data retention detect Claude misuse spread across many requests. Conversation data stays in the customer's own cloud.",
+      "category": "ai-security",
+      "importance": 3,
+      "published": "2026-11-24T13:30:23+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+          "published": "2026-11-24T13:30:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "88b982e416d9",
+      "story_key": "broadcom-vmware-23-flaws-november-2026",
+      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
+      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T13:28:26+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
+          "published": "2026-11-24T14:11:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "published": "2026-11-24T13:28:26+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5e000706662e",
+      "story_key": "mcdonalds-japan-app-data-breach",
+      "headline": "McDonald's Japan Breach Exposes App User Location Data",
+      "summary": "McDonald's Japan disclosed that attackers accessed a database holding sensitive information for users of its official smartphone app, exposing customer location details.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-24T13:00:00+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+          "published": "2026-11-24T14:09:37+00:00"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
+          "published": "2026-11-24T13:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "94962b98d642",
+      "story_key": "okta-o-unc-053-inception-leak-site",
+      "headline": "Okta Links ShinyHunters-Linked Vishing Crew to New INCEPTION Leak Site",
+      "summary": "Okta says a cluster once tied to the ShinyHunters extortion crew appears to have rebranded as INCEPTION, using voice phishing to steal credentials and approvals. Targets span many industries.",
+      "category": "scam-phishing",
+      "importance": 6,
+      "published": "2026-11-24T12:47:07+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+          "published": "2026-11-24T13:28:21+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
+          "published": "2026-11-24T12:47:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "57d72c25186e",
+      "story_key": "dotnet-bit-change-code-integrity-bypass",
+      "headline": "Single Bit Change in .NET Files Bypassed Windows Code Integrity Protections",
+      "summary": "A Google Project Zero researcher showed a .NET file loading quirk let local attackers run untrusted code past Windows protections. The same behavior also bypassed Oracle VirtualBox hardening on Windows hosts.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-24T12:02:00+00:00",
+      "first_seen": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+          "published": "2026-11-24T12:02:00+00:00"
+        }
+      ]
+    },
     {
       "id": "00384e2e683a",
       "story_key": "eviltokens-phishing-continues",
@@ -226,7 +367,7 @@
       "importance": 5,
       "published": "2026-11-24T06:00:50+00:00",
       "first_seen": "2026-11-24T11:40:39+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -237,6 +378,16 @@
           "name": "Help Net Security",
           "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
           "published": "2026-11-24T06:00:50+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+          "published": "2026-11-24T13:34:23+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+          "published": "2026-11-24T12:20:41+00:00"
         }
       ]
     },
@@ -267,12 +418,17 @@
       "importance": 5,
       "published": "2026-11-24T00:00:00+00:00",
       "first_seen": "2026-11-24T11:43:48+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "The Record",
           "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
           "published": "2026-11-24T00:00:00+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
+          "published": "2026-11-24T13:35:37+00:00"
         }
       ]
     },
@@ -303,12 +459,17 @@
       "importance": 6,
       "published": "2026-11-23T20:54:51+00:00",
       "first_seen": "2026-11-24T11:40:39+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
           "published": "2026-11-23T20:54:51+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
+          "published": "2026-11-24T11:50:21+00:00"
         }
       ]
     },
@@ -454,10 +615,10 @@
       "headline": "Microsoft Fixes Azure API Management Flaw Exploited to Steal Secrets",
       "summary": "Norway's National Security Authority says an unknown actor has been searching Azure API Management for access tokens and secrets, affecting several Norwegian businesses. Microsoft has released a fix for the classic flaw.",
       "category": "vulnerability",
-      "importance": 7,
+      "importance": 8,
       "published": "2026-11-23T15:47:40+00:00",
       "first_seen": "2026-11-24T11:40:39+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -473,6 +634,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
           "published": "2026-11-23T15:47:40+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
+          "published": "2026-11-24T12:04:37+00:00"
         }
       ]
     },
@@ -626,12 +792,17 @@
       "importance": 7,
       "published": "2026-11-23T09:11:56+00:00",
       "first_seen": "2026-11-24T11:40:39+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
           "published": "2026-11-23T09:11:56+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/",
+          "published": "2026-11-24T12:55:28+00:00"
         }
       ]
     },

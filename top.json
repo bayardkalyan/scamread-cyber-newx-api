@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T11:48:45+00:00",
+  "updated_at": "2026-11-24T14:21:55+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -16,60 +16,13 @@
   "count": 5,
   "items": [
     {
-      "id": "4b0215ad1f98",
-      "headline": "Critical N-able MailAssure Flaw Lets Attackers Reach Internal Systems",
-      "summary": "N-able patched a critical flaw in MailAssure, formerly SpamExperts, that lets an attacker with privileged API access reach internal network services. Customers should update to build 20261121.1943 or later.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-23T12:00:00+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/",
-          "published": "2026-11-24T08:16:15+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-          "published": "2026-11-24T06:02:45+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-          "published": "2026-11-23T15:06:49+00:00"
-        },
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-          "published": "2026-11-23T12:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "532d34f2950f",
-      "headline": "Hackers Exploit ScreenConnect Flaw to Hijack MSP Technician PCs",
-      "summary": "Attackers are exploiting a patched ScreenConnect client flaw to target managed service provider servers. A guest can push a malicious payload onto connecting technicians' computers.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-23T12:41:04+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-          "published": "2026-11-23T12:41:04+00:00"
-        }
-      ]
-    },
-    {
       "id": "f5dd8c3ce19e",
       "headline": "Microsoft Fixes Azure API Management Flaw Exploited to Steal Secrets",
       "summary": "Norway's National Security Authority says an unknown actor has been searching Azure API Management for access tokens and secrets, affecting several Norwegian businesses. Microsoft has released a fix for the classic flaw.",
       "category": "vulnerability",
-      "importance": 7,
+      "importance": 8,
       "published": "2026-11-23T15:47:40+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -85,6 +38,32 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
           "published": "2026-11-23T15:47:40+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
+          "published": "2026-11-24T12:04:37+00:00"
+        }
+      ]
+    },
+    {
+      "id": "88b982e416d9",
+      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
+      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T13:28:26+00:00",
+      "updated": "2026-11-24T14:21:55+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
+          "published": "2026-11-24T14:11:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "published": "2026-11-24T13:28:26+00:00"
         }
       ]
     },
@@ -117,6 +96,22 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
           "published": "2026-11-24T10:00:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b85e913e4ec0",
+      "headline": "WHMCS Flaw Lets Anyone Pull Customer Records and Admin Password Hashes",
+      "summary": "A SQL injection flaw in the WHMCS billing platform, used by many web hosts, can be exploited without logging in. It could expose customer records and administrator password hashes.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T08:34:20+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+          "published": "2026-11-24T08:34:20+00:00"
         }
       ]
     }
