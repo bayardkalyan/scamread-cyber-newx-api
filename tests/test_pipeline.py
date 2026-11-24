@@ -188,10 +188,12 @@ def test_disabled_sources_are_skipped(tmp_path, monkeypatch):
 
 
 def test_api_key_cleanup_and_description():
-    raw = '  "sk-ant-api03-abc\n'
-    assert pipeline.clean_api_key(raw) == "sk-ant-api03-abc"
+    fake = "sk-ant-usr-1_" + "x" * 60
+    raw = f'  "{fake}\n'
+    assert pipeline.clean_api_key(raw) == fake
     desc = pipeline.describe_api_key(raw)
-    assert "abc" not in desc and "looks like a Claude API key: True" in desc
+    assert "xxxx" not in desc and "looks like a Claude API key: True" in desc
+    assert "looks like a Claude API key: False" in pipeline.describe_api_key("scamre")
     assert "had extra spaces or line breaks: True" in desc
 
 
