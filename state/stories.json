@@ -1,4 +1,703 @@
 {
-  "updated_at": "2026-11-24T11:37:10+00:00",
-  "stories": []
+  "updated_at": "2026-11-24T11:40:39+00:00",
+  "stories": [
+    {
+      "id": "00384e2e683a",
+      "story_key": "eviltokens-phishing-continues",
+      "headline": "Hackers Keep Running EvilTokens Phishing After Microsoft Takedown",
+      "summary": "Attackers are still using the EvilTokens phishing kit to take over Microsoft 365 accounts despite Microsoft shutting the service down. New phishing hosts kept appearing in October and November after two arrests in London.",
+      "category": "scam-phishing",
+      "importance": 7,
+      "published": "2026-11-24T11:36:09+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/eviltokens-phishing/",
+          "published": "2026-11-24T11:36:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4092dc0bd687",
+      "story_key": "alpine-linux-openssh-sshole-flaw",
+      "headline": "OpenSSH Flaw Lets Attackers Log Into Unpatched Alpine Linux Servers",
+      "summary": "A flaw in OpenSSH, tracked as CVE-2026-123158, can let remote attackers sign in to certain Alpine Linux accounts without a valid password. Affected servers use musl, lack PAM, and allow SSH password logins; patches were released in early November.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-24T11:25:20+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-bypass-alpine-linux-ssh-authentication/",
+          "published": "2026-11-24T11:25:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "def3e58e2b61",
+      "story_key": "vishing-microsoft-365-mfa-bypass",
+      "headline": "Phone Scammers Bypass MFA to Reach Microsoft 365 Data",
+      "summary": "Criminals posing as IT support phone employees and direct them to fake sign-in pages to get Microsoft 365 access, even with MFA enabled. They then steal email and files from OneDrive and SharePoint and demand payment.",
+      "category": "scam-phishing",
+      "importance": 6,
+      "published": "2026-11-24T10:48:04+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/bypass-mfa-through-phone-scams/",
+          "published": "2026-11-24T10:48:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3ef7beb4837a",
+      "story_key": "elecbrakes-bluetooth-vulnerabilities",
+      "headline": "Bluetooth Flaws in Elecbrakes Controllers Could Force Trailer Braking",
+      "summary": "Critical Bluetooth vulnerabilities in Elecbrakes trailer brake controllers could let nearby attackers trigger braking. The flaws could potentially cause accidents.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-24T10:44:44+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+          "published": "2026-11-24T10:44:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5118f678428f",
+      "story_key": "peninsula-energy-cyber-incident",
+      "headline": "Peninsula Energy Halts Trading After Cyber Incident at Wyoming Uranium Project",
+      "summary": "Peninsula Energy told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations, and trading in its shares has been halted.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-24T10:35:04+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+          "published": "2026-11-24T10:35:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2b544b0580ff",
+      "story_key": "cisa-kev-vcenter-sap-cisco-apache-exploited",
+      "headline": "CISA Adds Four Exploited Flaws in VMware, SAP, Cisco and Apache Products",
+      "summary": "CISA added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its exploited catalog. Federal agencies were given until November 23 to patch them.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T10:00:33+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
+          "published": "2026-11-24T10:00:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "27d2c2409079",
+      "story_key": "chrome-cve-2026-134401-update",
+      "headline": "Google Patches Critical Chrome Flaw Allowing Escape From Browser Sandbox",
+      "summary": "Google released a Chrome desktop update to fix CVE-2026-134401, a critical flaw that could let remote attackers run code outside the browser sandbox. Users on earlier versions should install the update as rollout continues.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-24T09:37:46+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-google-chrome-flaw/",
+          "published": "2026-11-24T09:37:46+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bd9a9d08a15c",
+      "story_key": "suzlon-energy-cyber-incident",
+      "headline": "Suzlon Energy Discloses Cyber Incident but Says Critical Systems Are Running",
+      "summary": "Indian wind turbine maker Suzlon Energy disclosed a cyber incident and said its business-critical applications were not affected at the time. It notified CERT-In and did not say what systems or data were involved.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-24T09:28:06+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/suzlon-energy-cyberattack/",
+          "published": "2026-11-24T09:28:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ef65ba5b3ce4",
+      "story_key": "windows-remote-access-api-system-privilege-flaw",
+      "headline": "Windows Remote Access API Flaw Allows SYSTEM Privilege Escalation",
+      "summary": "Microsoft fixed CVE-2026-119853 in its November Patch Tuesday updates. The flaw lets an attacker with limited local access run code with SYSTEM privileges on Windows 10, Windows 11, and Windows Server.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-24T09:12:12+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/windows-remote-access-api-flaw/",
+          "published": "2026-11-24T09:12:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b85e913e4ec0",
+      "story_key": "whmcs-sql-injection-flaw",
+      "headline": "WHMCS Flaw Lets Anyone Pull Customer Records and Admin Password Hashes",
+      "summary": "A SQL injection flaw in the WHMCS billing platform, used by many web hosts, can be exploited without logging in. It could expose customer records and administrator password hashes.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T08:34:20+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+          "published": "2026-11-24T08:34:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9df5864a960d",
+      "story_key": "microsoft-365-copilot-cve-2026-50691",
+      "headline": "Critical Microsoft 365 Copilot Flaw Allows Network Privilege Escalation",
+      "summary": "Microsoft disclosed a critical Copilot flaw, CVE-2026-50691, letting a low-privileged attacker gain higher permissions over a network without user interaction. Customers need no action, according to Microsoft.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T08:28:18+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/microsoft-365-copilot-flaw/",
+          "published": "2026-11-24T08:28:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "fa56c30f1782",
+      "story_key": "ransomware-q3-2026-record-victims",
+      "headline": "Ransomware Victims on Leak Sites Hit Record in Q3 2026",
+      "summary": "Check Point Research counted 2,830 victims listed on ransomware leak sites in the third quarter of 2026, the highest quarterly total on record. The report also notes a growing number of active groups, while fewer victims are paying.",
+      "category": "ransomware",
+      "importance": 5,
+      "published": "2026-11-24T06:30:26+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/",
+          "published": "2026-11-24T06:30:26+00:00"
+        }
+      ]
+    },
+    {
+      "id": "21dbad23e1ee",
+      "story_key": "openai-cisco-shirudo-linux-shield",
+      "headline": "OpenAI and Cisco Release Open-Source Tool to Shield Linux Before Patches",
+      "summary": "OpenAI and Cisco released Shirudo, an open-source Linux runtime that lets AI agents write eBPF controls blocking exploits. The aim is to give defenders more time to test and roll out patches.",
+      "category": "ai-security",
+      "importance": 5,
+      "published": "2026-11-24T06:00:50+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+          "published": "2026-11-24T06:02:57+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
+          "published": "2026-11-24T06:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c36acd20c8ff",
+      "story_key": "gta-vi-hacker-sentenced",
+      "headline": "Британ hacker Sentenced for Leaking Grand Theft Auto VI Footage",
+      "summary": "A British hacker who breached Rockstar Games and leaked Grand Theft Auto VI footage received seven years in prison, then was released on license for time served.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-24T00:00:00+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+          "published": "2026-11-24T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "34459c424cda",
+      "story_key": "austria-foreign-ministry-website-breach",
+      "headline": "Austrian Foreign Ministry Website Breached, Diplomats' Contacts Accessed",
+      "summary": "Hackers breached one of Austria's Foreign Ministry websites and reached names and official contact details of staff in Vienna and at diplomatic missions abroad.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-24T00:00:00+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+          "published": "2026-11-24T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a070682a3784",
+      "story_key": "industrial-serial-gateways-unauthenticated",
+      "headline": "Industrial Serial Gateways Expose Whether They Lack Authentication",
+      "summary": "Research indicates many critical industrial access devices broadcast their authentication status, revealing to anyone that they are left unprotected.",
+      "category": "vulnerability",
+      "importance": 4,
+      "published": "2026-11-23T22:02:46+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+          "published": "2026-11-23T22:02:46+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17e73b0c925c",
+      "story_key": "kepco-data-breach",
+      "headline": "South Korea's KEPCO Confirms Data Breach Affecting 1.5 Million People",
+      "summary": "Korea Electric Power Corporation confirmed a threat actor breached its internal network and accessed two systems holding customer, employee and contractor data.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-23T20:54:51+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+          "published": "2026-11-23T20:54:51+00:00"
+        }
+      ]
+    },
+    {
+      "id": "088def95a724",
+      "story_key": "kirsten-davies-acting-national-cyber-director",
+      "headline": "Trump Names Kirsten Davies Acting National Cyber Director",
+      "summary": "The White House picked Kirsten Davies as acting national cyber director, a move that brings more industry experience to the role amid recent outages and geopolitical tensions.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-23T20:13:48+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+          "published": "2026-11-23T20:13:48+00:00"
+        }
+      ]
+    },
+    {
+      "id": "730285d7900e",
+      "story_key": "openrouter-drops-ai-providers-data-exposure",
+      "headline": "OpenRouter Removes Three AI Providers Over Data Exposure",
+      "summary": "OpenRouter dropped three AI providers after finding they violated their data-handling policies and exposed sensitive prompts and secrets.",
+      "category": "ai-security",
+      "importance": 5,
+      "published": "2026-11-23T20:00:20+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+          "published": "2026-11-23T20:00:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "aa61a094f001",
+      "story_key": "laliga-fan-data-breach",
+      "headline": "LaLiga Confirms Hackers Stole Fans' Personal Data",
+      "summary": "Spain's top football league said attackers took personal information of fans using its digital services and those of several Spanish clubs.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-23T18:38:40+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+          "published": "2026-11-24T00:00:00+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+          "published": "2026-11-23T18:38:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0b57b61d141",
+      "story_key": "signal-blocks-screenshots-ai-agents",
+      "headline": "Signal Blocks Screenshots on Apple and Google Systems Over AI Agents",
+      "summary": "Signal says AI features in Google Gemini and Apple Siri make the environment hostile to privacy, so it is blocking screenshots to protect messages from AI agents.",
+      "category": "ai-security",
+      "importance": 4,
+      "published": "2026-11-23T18:37:00+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+          "published": "2026-11-23T18:37:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bc8876a63b73",
+      "story_key": "fbi-ncic-data-breach",
+      "headline": "FBI Reportedly Investigating Second Breach Involving Crime Database",
+      "summary": "The FBI is reportedly looking into a data breach affecting the National Crime Information Center, a database US law enforcement uses to track criminals, fugitives and missing people.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-23T18:30:00+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/fbi-cyberattack-data-breach",
+          "published": "2026-11-23T18:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "656354607975",
+      "story_key": "webworm-modified-softether-vpn",
+      "headline": "Webworm Suspected of Modifying SoftEther VPN to Hide Access",
+      "summary": "China-aligned group Webworm is suspected of using a customized SoftEther VPN Bridge disguised as network-monitoring software to maintain covert remote access while evading security tools.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-23T17:45:15+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+          "published": "2026-11-23T17:45:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f2bcb698b8ec",
+      "story_key": "globetopper-gift-card-breach",
+      "headline": "GlobeTopper Breach Exposes API Credentials and Drains $70,000 in Gift Cards",
+      "summary": "Hackers breached GlobeTopper, a B2B gift card platform, and stole API credentials from some business customers. About $70,000 in gift cards were redeemed without authorization, according to parent company iQSTEL's SEC filing.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-23T16:50:01+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/",
+          "published": "2026-11-24T09:33:33+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+          "published": "2026-11-23T16:50:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "57a0692806d6",
+      "story_key": "cairn-tool-east-asian-universities-zero-day",
+      "headline": "China-Linked Actor Used Cairn Pentest Tool in Attacks on Universities",
+      "summary": "A China-nexus threat actor used the Cairn penetration testing tool against East Asian universities, exploiting a zero-day in a medical imaging application. Reports say AI agents can move from flaw discovery to root access in 11 minutes.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-23T16:17:21+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+          "published": "2026-11-23T16:17:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f5dd8c3ce19e",
+      "story_key": "azure-apim-secrets-exploitation",
+      "headline": "Microsoft Fixes Azure API Management Flaw Exploited to Steal Secrets",
+      "summary": "Norway's National Security Authority says an unknown actor has been searching Azure API Management for access tokens and secrets, affecting several Norwegian businesses. Microsoft has released a fix for the classic flaw.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-23T15:47:40+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+          "published": "2026-11-24T10:44:49+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+          "published": "2026-11-23T19:42:20+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+          "published": "2026-11-23T15:47:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "20929c10eb51",
+      "story_key": "phpaftershell-vulnerability",
+      "headline": "phpAfterShell Flaw Revives Attack Path Seen in PHP2Shell",
+      "summary": "A phpAfterShell vulnerability lets an attacker controlling fresh session data trigger deserialization and remote code execution if a session overwrite is interrupted.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-23T13:58:07+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+          "published": "2026-11-23T13:58:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eeea310354d3",
+      "story_key": "gl-inet-goodcloud-compromise",
+      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
+      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-23T13:26:22+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+          "published": "2026-11-23T15:05:50+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+          "published": "2026-11-23T13:26:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "19f16091a624",
+      "story_key": "binary-parser-code-injection-flaw",
+      "headline": "Critical binary-parser Flaw Enables Code Injection via Parser Definitions",
+      "summary": "A critical code injection flaw in the binary-parser JavaScript library, affecting versions before 2.3.1, could let an attacker who controls parser definitions run arbitrary code.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-23T13:22:20+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+          "published": "2026-11-23T13:22:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "532d34f2950f",
+      "story_key": "screenconnect-cve-2026-84869-exploited",
+      "headline": "Hackers Exploit ScreenConnect Flaw to Hijack MSP Technician PCs",
+      "summary": "Attackers are exploiting a patched ScreenConnect client flaw to target managed service provider servers. A guest can push a malicious payload onto connecting technicians' computers.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-23T12:41:04+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+          "published": "2026-11-23T12:41:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "74b9b8b8bd34",
+      "story_key": "dragos-ai-inference-providers-intrusions",
+      "headline": "Dragos Finds Undetected Intrusions at Three AI Inference Providers",
+      "summary": "Dragos found intrusions at three AI inference providers that went undetected, using analysis of nearly two million prompts sent to AI services. Prompt theft was also involved.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-23T12:16:20+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+          "published": "2026-11-23T12:16:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "43b32e5b9657",
+      "story_key": "peruvian-callcenter-government-impersonation-sentenced",
+      "headline": "Call Center Operator Sentenced to Eight Years for Government Impersonation Scam",
+      "summary": "A Peruvian call center operator received an eight-year prison sentence for helping defraud over 30,000 Spanish-speaking US residents through a government impersonation scheme.",
+      "category": "scam-phishing",
+      "importance": 5,
+      "published": "2026-11-23T12:02:23+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+          "published": "2026-11-23T12:02:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4b0215ad1f98",
+      "story_key": "n-able-mailassure-ssrf-exploited",
+      "headline": "Critical N-able MailAssure Flaw Lets Attackers Reach Internal Systems",
+      "summary": "N-able patched a critical flaw in MailAssure, formerly SpamExperts, that lets an attacker with privileged API access reach internal network services. Customers should update to build 20261121.1943 or later.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-23T12:00:00+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/",
+          "published": "2026-11-24T08:16:15+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+          "published": "2026-11-24T06:02:45+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+          "published": "2026-11-23T15:06:49+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+          "published": "2026-11-23T12:28:09+00:00"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-23T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "75db031c6c99",
+      "story_key": "badbox-3-0-ad-fraud-disrupted",
+      "headline": "BadBox 3.0 Ad Fraud Operation Disrupted Across Consumer Devices",
+      "summary": "The BadBox 3.0 operation, which used backdoors on low-cost consumer devices to deliver ad fraud and residential proxy modules, has been disrupted. It was generating around 40 billion bid requests daily.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-23T11:44:18+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+          "published": "2026-11-23T11:44:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "62d30d2d286b",
+      "story_key": "sap-netweaver-cisco-expressway-exploited",
+      "headline": "SAP NetWeaver and Cisco Expressway Flaws Exploited in Attacks",
+      "summary": "Attackers are exploiting flaws in SAP NetWeaver and Cisco Expressway to leak or modify server information and run commands with root privileges.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-23T11:35:15+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+          "published": "2026-11-23T11:35:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6955905970d3",
+      "story_key": "idunno-anticsrf-rce-exploited",
+      "headline": "Hackers Exploit Critical Legacy ASP.NET Anti-CSRF Library Flaw",
+      "summary": "Attackers are exploiting a critical flaw in the legacy Idunno.AntiCsrf ASP.NET library, prompting researchers to urge users to stop using it. Affected versions include 0.9.1.0 and 0.9.1 Beta.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-23T09:11:56+00:00",
+      "first_seen": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+          "published": "2026-11-23T09:11:56+00:00"
+        }
+      ]
+    }
+  ]
 }

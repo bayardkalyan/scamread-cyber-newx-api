@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-24T11:37:10+00:00",
+  "run_at": "2026-11-24T11:40:39+00:00",
   "mode": "full",
   "sources": [
     {
@@ -60,12 +60,9 @@
   ],
   "fetched_items": 66,
   "new_items": 66,
-  "curated_items": 0,
-  "kept_items": 0,
-  "new_stories": 0,
-  "merged_sources": 0,
-  "errors": [
-    "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011ChMgjFWycAZC6foLX485w'}",
-    "The Claude API key was rejected. Create a new key at platform.claude.com/settings/keys and replace the ANTHROPIC_API_KEY secret in this repo."
-  ]
+  "curated_items": 60,
+  "kept_items": 46,
+  "new_stories": 36,
+  "merged_sources": 10,
+  "errors": []
 }

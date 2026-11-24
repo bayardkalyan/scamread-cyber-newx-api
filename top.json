@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T11:37:10+00:00",
+  "updated_at": "2026-11-24T11:40:39+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -13,6 +13,122 @@
     "other"
   ],
   "window_hours": 24,
-  "count": 0,
-  "items": []
+  "count": 5,
+  "items": [
+    {
+      "id": "4b0215ad1f98",
+      "headline": "Critical N-able MailAssure Flaw Lets Attackers Reach Internal Systems",
+      "summary": "N-able patched a critical flaw in MailAssure, formerly SpamExperts, that lets an attacker with privileged API access reach internal network services. Customers should update to build 20261121.1943 or later.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-23T12:00:00+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/",
+          "published": "2026-11-24T08:16:15+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+          "published": "2026-11-24T06:02:45+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+          "published": "2026-11-23T15:06:49+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+          "published": "2026-11-23T12:28:09+00:00"
+        },
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-23T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "532d34f2950f",
+      "headline": "Hackers Exploit ScreenConnect Flaw to Hijack MSP Technician PCs",
+      "summary": "Attackers are exploiting a patched ScreenConnect client flaw to target managed service provider servers. A guest can push a malicious payload onto connecting technicians' computers.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-23T12:41:04+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+          "published": "2026-11-23T12:41:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f5dd8c3ce19e",
+      "headline": "Microsoft Fixes Azure API Management Flaw Exploited to Steal Secrets",
+      "summary": "Norway's National Security Authority says an unknown actor has been searching Azure API Management for access tokens and secrets, affecting several Norwegian businesses. Microsoft has released a fix for the classic flaw.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-23T15:47:40+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+          "published": "2026-11-24T10:44:49+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+          "published": "2026-11-23T19:42:20+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+          "published": "2026-11-23T15:47:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eeea310354d3",
+      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
+      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-23T13:26:22+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+          "published": "2026-11-23T15:05:50+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+          "published": "2026-11-23T13:26:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "00384e2e683a",
+      "headline": "Hackers Keep Running EvilTokens Phishing After Microsoft Takedown",
+      "summary": "Attackers are still using the EvilTokens phishing kit to take over Microsoft 365 accounts despite Microsoft shutting the service down. New phishing hosts kept appearing in October and November after two arrests in London.",
+      "category": "scam-phishing",
+      "importance": 7,
+      "published": "2026-11-24T11:36:09+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/eviltokens-phishing/",
+          "published": "2026-11-24T11:36:09+00:00"
+        }
+      ]
+    }
+  ]
 }
