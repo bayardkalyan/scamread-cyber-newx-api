@@ -47,7 +47,7 @@ def clean_api_key(raw: str) -> str:
 def describe_api_key(raw: str) -> str:
     """Describe the key's shape without revealing any of it (Actions logs are public)."""
     key = clean_api_key(raw)
-    return (f"length {len(key)}, looks like a Claude API key: {key.startswith('sk-ant-api')}, "
+    return (f"length {len(key)}, looks like a Claude API key: {key.startswith('sk-ant-') and len(key) > 40}, "
             f"had extra spaces or line breaks: {key != raw}")
 
 
