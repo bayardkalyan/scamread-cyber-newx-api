@@ -1,10 +1,15 @@
 /* ScamRead News Feed. Inherits the theme's fonts and text colour; override --srn-accent to restyle. */
-.srn-feed {
+/* Defaults live on :root so a wrapper can override them (e.g. style="--srn-accent:#40E2D6"). */
+:root {
   --srn-accent: #22d3ee;
+  --srn-red: #f43f5e;
   --srn-border: rgba(127, 127, 127, 0.25);
   --srn-muted: rgba(127, 127, 127, 0.95);
-  margin: 1.5em 0;
+  --srn-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
+.srn-feed { margin: 1.5em 0; }
+/* Themes often force a heading colour; follow the surrounding text colour instead. */
+.srn-feed .srn-headline { color: var(--srn-heading, inherit); }
 .srn-title { margin: 0 0 0.75em; }
 .srn-list { display: grid; gap: 1rem; }
 .srn-item {
@@ -48,10 +53,6 @@
 .srn-footer, .srn-empty { font-size: 0.8rem; color: var(--srn-muted); margin-top: 0.9rem; }
 
 /* ---------- Live style: [scamread_news style="live"] ---------- */
-.srn-live {
-  --srn-red: #f43f5e;
-  --srn-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
-}
 .srn-live-head { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
 .srn-live-head .srn-title { margin: 0; }
 .srn-live-badge {

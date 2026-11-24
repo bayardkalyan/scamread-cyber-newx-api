@@ -3,7 +3,7 @@
  * Plugin Name:       ScamRead News Feed
  * Plugin URI:        https://github.com/bayardkalyan/scamread-cyber-newx-api
  * Description:       Shows the ScamRead cyber news feed: AI-written headlines and summaries with links to the original articles. Use the shortcode [scamread_news].
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            ScamRead
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SRN_VERSION', '1.1.0' );
+define( 'SRN_VERSION', '1.1.1' );
 define( 'SRN_DEFAULT_BASE', 'https://bayardkalyan.github.io/scamread-cyber-newx-api/' );
 define( 'SRN_CACHE_SECONDS', 5 * MINUTE_IN_SECONDS );
 
