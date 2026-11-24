@@ -48,7 +48,7 @@ Categories: `data-breach`, `scam-phishing`, `vulnerability`, `ransomware`, `malw
 
 1. **Add your Claude API key.** In this repo: Settings → Secrets and variables → Actions → New repository secret. Name: `ANTHROPIC_API_KEY`. Value: your key from [platform.claude.com](https://platform.claude.com). Never paste the key anywhere else.
 2. **Run it once.** Actions tab → "Update news feed" → Run workflow. After about a minute, open the base URL above. From then on it runs by itself every 30 minutes.
-3. **Install the WordPress plugin.** Download `scamread-news-feed.zip` (or zip the `wordpress/scamread-news-feed` folder), then in WordPress: Plugins → Add New → Upload Plugin → Activate. Add a Shortcode block with `[scamread_news]` to any page.
+3. **Install the WordPress plugin.** Download [`dist/scamread-news-feed.zip`](dist/scamread-news-feed.zip), then in WordPress: Plugins → Add New → Upload Plugin → Activate. Add a Shortcode block with `[scamread_news]` to any page.
 
 Without the API key, runs still fetch the sources and write `status.json` (handy for checking sources), but don't publish stories.
 
