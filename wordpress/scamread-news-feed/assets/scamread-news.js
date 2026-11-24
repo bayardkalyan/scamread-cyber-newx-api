@@ -1,4 +1,5 @@
-/* ScamRead News Feed: keeps the list fresh while the page is open. */
+/* ScamRead News Feed: keeps the list fresh while the page is open.
+   Live style: stories pop in on load, and new ones slide in at the top with a NEW tag. */
 (function () {
   'use strict';
 
@@ -33,7 +34,7 @@
 
   function link(source, text) {
     var a = el('a', '', text);
-    a.href = source.url;
+    a.href = safeUrl(source.url);
     a.target = '_blank';
     a.rel = 'noopener nofollow';
     return a;
@@ -44,6 +45,7 @@
     if (!item.headline || !sources.length) return null;
 
     var article = el('article', 'srn-item');
+    article.dataset.id = String(item.id || '');
     var meta = el('div', 'srn-meta');
     meta.appendChild(el('span', 'srn-cat srn-cat-' + String(item.category).replace(/[^a-z0-9-]/g, ''), item.label || 'Cyber news'));
     if (item.published) {
@@ -69,22 +71,38 @@
     return article;
   }
 
-  function refresh(section) {
-    if (document.hidden) return;
-    fetch(section.dataset.endpoint, { headers: { Accept: 'application/json' } })
-      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-      .then(function (data) {
-        var limit = parseInt(section.dataset.limit, 10) || 20;
-        var category = section.dataset.category;
-        var items = (data.items || []).filter(function (i) { return !category || i.category === category; });
-        var nodes = items.map(renderItem).filter(Boolean).slice(0, limit);
-        if (!nodes.length) return; // keep what is on screen rather than blanking it
-        var list = section.querySelector('.srn-list');
-        list.replaceChildren.apply(list, nodes);
-        var updated = section.querySelector('.srn-updated');
-        if (updated && data.updated_at) updated.textContent = timeAgo(data.updated_at);
-      })
-      .catch(function () { /* network hiccup: try again next tick */ });
+  function markNew(node) {
+    node.classList.add('srn-new');
+    var meta = node.querySelector('.srn-meta');
+    if (meta && !meta.querySelector('.srn-new-badge')) {
+      meta.insertBefore(el('span', 'srn-new-badge', 'NEW'), meta.firstChild);
+    }
+  }
+
+  /* Bring the list in line with the latest items without rebuilding it, so existing
+     cards stay put and only genuinely new stories animate in. */
+  function reconcile(section, items) {
+    var list = section.querySelector('.srn-list');
+    var live = section.classList.contains('srn-live');
+    var existing = {};
+    list.querySelectorAll('.srn-item[data-id]').forEach(function (n) { existing[n.dataset.id] = n; });
+    var hadItems = Object.keys(existing).length > 0;
+
+    var wanted = [];
+    items.forEach(function (item) {
+      var node = existing[String(item.id)];
+      if (!node) {
+        node = renderItem(item);
+        if (node && live && hadItems) markNew(node);
+      }
+      if (node) wanted.push(node);
+    });
+    if (!wanted.length) return; // keep what is on screen rather than blanking it
+
+    wanted.forEach(function (node, i) {
+      if (list.children[i] !== node) list.insertBefore(node, list.children[i] || null);
+    });
+    Array.prototype.slice.call(list.children, wanted.length).forEach(function (n) { n.remove(); });
   }
 
   function updateTimes(section) {
@@ -93,11 +111,33 @@
     });
   }
 
+  function refresh(section) {
+    if (document.hidden) return;
+    fetch(section.dataset.endpoint, { headers: { Accept: 'application/json' }, cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (data) {
+        var limit = parseInt(section.dataset.limit, 10) || 20;
+        var category = section.dataset.category;
+        var items = (data.items || []).filter(function (i) { return !category || i.category === category; }).slice(0, limit);
+        reconcile(section, items);
+        updateTimes(section);
+        var updated = section.querySelector('.srn-updated');
+        if (updated && data.updated_at) updated.textContent = timeAgo(data.updated_at);
+      })
+      .catch(function () { /* network hiccup: try again next tick */ });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.srn-feed[data-endpoint]').forEach(function (section) {
+      var intro = section.classList.contains('srn-intro');
+      if (intro) {
+        // CSS staggers the pop-in; drop the class once it has played so later changes don't replay it.
+        setTimeout(function () { section.classList.remove('srn-intro'); }, 2500);
+      }
       var seconds = parseInt(section.dataset.refresh, 10);
       if (!seconds || seconds < 60) return;
-      refresh(section); // the page itself may come from a cache, so fetch fresh stories right away
+      // The page may come from a cache, so fetch fresh stories soon after it opens.
+      setTimeout(function () { refresh(section); }, intro ? 2600 : 0);
       setInterval(function () { refresh(section); }, seconds * 1000);
       setInterval(function () { updateTimes(section); }, 60 * 1000);
       document.addEventListener('visibilitychange', function () {

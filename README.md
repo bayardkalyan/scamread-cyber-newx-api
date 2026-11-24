@@ -59,6 +59,7 @@ Without the API key, runs still fetch the sources and write `status.json` (handy
 | `[scamread_news]` | Latest 20 stories |
 | `[scamread_news view="top" limit="5" title="Today's top 5"]` | Top stories of the last 24 hours |
 | `[scamread_news category="scam-phishing" limit="10"]` | One category only |
+| `[scamread_news style="live" limit="6" title="Happening right now" refresh="120" more="/cyber-news/"]` | Live feed: pulsing LIVE badge, timeline, stories pop in on load, new ones slide in with a NEW tag |
 | `refresh="300"` | How often (seconds) the list refreshes itself while the page is open; `0` turns it off |
 
 The plugin fetches the feed on the server, caches it for 5 minutes and keeps the last working copy if GitHub is ever unreachable. Visitors' browsers only talk to your WordPress site. Settings → ScamRead News shows whether the feed is working.

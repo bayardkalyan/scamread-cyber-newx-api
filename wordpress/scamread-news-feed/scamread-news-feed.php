@@ -3,7 +3,7 @@
  * Plugin Name:       ScamRead News Feed
  * Plugin URI:        https://github.com/bayardkalyan/scamread-cyber-newx-api
  * Description:       Shows the ScamRead cyber news feed: AI-written headlines and summaries with links to the original articles. Use the shortcode [scamread_news].
- * Version:           1.0.1
+ * Version:           1.1.0
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            ScamRead
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SRN_VERSION', '1.0.1' );
+define( 'SRN_VERSION', '1.1.0' );
 define( 'SRN_DEFAULT_BASE', 'https://bayardkalyan.github.io/scamread-cyber-newx-api/' );
 define( 'SRN_CACHE_SECONDS', 5 * MINUTE_IN_SECONDS );
 
@@ -79,6 +79,7 @@ function srn_settings_page() {
 		<p><code>[scamread_news view="top" limit="5" title="Today's top 5"]</code> most important stories of the last 24 hours</p>
 		<p><code>[scamread_news category="scam-phishing" limit="10"]</code> one category only. Categories:
 			<?php echo esc_html( implode( ', ', array_keys( srn_category_labels() ) ) ); ?></p>
+		<p><code>[scamread_news style="live" limit="6" title="Cyber news, as it happens" refresh="120" more="/cyber-news/"]</code> live feed: pulsing LIVE badge, stories pop in on load, new ones slide in with a NEW tag</p>
 		<p><code>refresh="300"</code> sets how often (in seconds) the list updates itself while a visitor has the page open. Use <code>refresh="0"</code> to turn it off.</p>
 	</div>
 	<?php
@@ -210,7 +211,7 @@ function srn_clean_item( $item ) {
 function srn_render_item( $item ) {
 	ob_start();
 	?>
-	<article class="srn-item">
+	<article class="srn-item" data-id="<?php echo esc_attr( $item['id'] ); ?>">
 		<div class="srn-meta">
 			<span class="srn-cat srn-cat-<?php echo esc_attr( $item['category'] ); ?>"><?php echo esc_html( $item['label'] ); ?></span>
 			<?php if ( $item['published'] ) : ?>
@@ -247,7 +248,11 @@ function srn_shortcode( $atts ) {
 		'category' => '',
 		'refresh'  => 300,
 		'title'    => '',
+		'style'    => 'cards',
+		'more'     => '',
+		'more_label' => 'See all cyber news',
 	), $atts, 'scamread_news' );
+	$live = ( 'live' === $a['style'] );
 
 	$view     = ( 'top' === $a['view'] ) ? 'top' : 'feed';
 	$limit    = max( 1, min( 60, (int) $a['limit'] ) );
@@ -281,15 +286,22 @@ function srn_shortcode( $atts ) {
 
 	ob_start();
 	?>
-	<section class="srn-feed"
+	<section class="srn-feed<?php echo $live ? ' srn-live srn-intro' : ''; ?>"
 		data-endpoint="<?php echo esc_url( rest_url( 'scamread-news/v1/' . $view ) ); ?>"
 		data-limit="<?php echo esc_attr( $limit ); ?>"
 		data-category="<?php echo esc_attr( $category ); ?>"
 		data-refresh="<?php echo esc_attr( $refresh ); ?>">
-		<?php if ( $a['title'] ) : ?>
+		<?php if ( $live ) : ?>
+			<div class="srn-live-head">
+				<span class="srn-live-badge" aria-label="Live feed"><span class="srn-live-dot" aria-hidden="true"></span>LIVE</span>
+				<?php if ( $a['title'] ) : ?>
+					<h2 class="srn-title"><?php echo esc_html( $a['title'] ); ?></h2>
+				<?php endif; ?>
+			</div>
+		<?php elseif ( $a['title'] ) : ?>
 			<h2 class="srn-title"><?php echo esc_html( $a['title'] ); ?></h2>
 		<?php endif; ?>
-		<div class="srn-list">
+		<div class="srn-list" aria-live="polite">
 			<?php
 			if ( $items ) {
 				foreach ( $items as $item ) {
@@ -305,6 +317,9 @@ function srn_shortcode( $atts ) {
 				Updated <span class="srn-updated"><?php echo esc_html( srn_time_ago( $data['updated_at'] ) ); ?></span>.
 			<?php endif; ?>
 		</p>
+		<?php if ( $a['more'] ) : ?>
+			<a class="srn-more" href="<?php echo esc_url( $a['more'] ); ?>"><?php echo esc_html( $a['more_label'] ); ?> &rarr;</a>
+		<?php endif; ?>
 	</section>
 	<?php
 	return ob_get_clean();
