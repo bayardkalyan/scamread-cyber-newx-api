@@ -2,7 +2,7 @@ name: Update news feed
 
 on:
   schedule:
-    - cron: "7,37 * * * *"   # every 30 minutes (off the hour, when GitHub is less busy)
+    - cron: "5,35 * * * *"   # every 30 minutes (off the hour, when GitHub is less busy)
   workflow_dispatch:          # lets you run it by hand from the Actions tab
 
 permissions:
@@ -43,7 +43,7 @@ jobs:
       - name: Publish
         working-directory: site
         run: |
-          git config user.name "scamread-news-bot"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           touch .nojekyll
           git add -A
