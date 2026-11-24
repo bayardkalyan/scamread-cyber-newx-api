@@ -15,6 +15,7 @@ SOURCES = [
     {"name": "Example News", "url": "https://news.example.com/feed", "type": "news"},
     {"name": "r/netsec", "url": "https://www.reddit.com/r/netsec/top/.rss", "type": "reddit"},
     {"name": "Broken Source", "url": "https://broken.example.com/feed", "type": "news"},
+    {"name": "Switched Off", "url": "https://off.example.com/feed", "type": "news", "enabled": False},
 ]
 
 
@@ -178,3 +179,9 @@ def test_curator_raises_on_truncated_output():
 
     with pytest.raises(CurationError):
         Curator(client=SimpleNamespace(messages=FakeMessages())).curate([item], [])
+
+
+def test_disabled_sources_are_skipped(tmp_path, monkeypatch):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    status = pipeline.run(tmp_path / "site", sources_file=write_sources(tmp_path), fetch=fake_fetch, now=NOW)
+    assert "Switched Off" not in [s["name"] for s in status["sources"]]

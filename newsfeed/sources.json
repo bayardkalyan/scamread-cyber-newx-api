@@ -1,5 +1,5 @@
 {
-  "_comment": "News sources the feed reads. Add or remove entries here; each needs a name, an RSS/Atom url and a type (news or reddit).",
+  "_comment": "News sources the feed reads. Each needs a name, an RSS/Atom url and a type (news or reddit). Set enabled to false to switch one off. Reddit is off because it blocks requests from GitHub's servers.",
   "sources": [
     {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "type": "news"},
     {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "type": "news"},
@@ -10,7 +10,7 @@
     {"name": "Help Net Security", "url": "https://www.helpnetsecurity.com/feed/", "type": "news"},
     {"name": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "type": "news"},
     {"name": "CISA", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "type": "news"},
-    {"name": "r/netsec", "url": "https://www.reddit.com/r/netsec/top/.rss?t=day", "type": "reddit"},
-    {"name": "r/cybersecurity", "url": "https://www.reddit.com/r/cybersecurity/top/.rss?t=day", "type": "reddit"}
+    {"name": "r/netsec", "url": "https://www.reddit.com/r/netsec/top/.rss?t=day", "type": "reddit", "enabled": false},
+    {"name": "r/cybersecurity", "url": "https://www.reddit.com/r/cybersecurity/top/.rss?t=day", "type": "reddit", "enabled": false}
   ]
 }

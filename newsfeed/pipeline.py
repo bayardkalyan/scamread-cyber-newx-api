@@ -101,7 +101,7 @@ def run(out_dir: Path,
 
     seen: dict[str, str] = load_json(state_dir / "seen.json", {})
     stories: dict[str, dict] = {s["story_key"]: s for s in load_json(state_dir / "stories.json", {"stories": []})["stories"]}
-    sources = load_json(Path(sources_file), {"sources": []})["sources"]
+    sources = [s for s in load_json(Path(sources_file), {"sources": []})["sources"] if s.get("enabled", True)]
 
     items, source_results = fetch_all(sources, now=now, fetch=fetch)
     new_items = sorted((i for i in items if i.id not in seen), key=lambda i: i.published, reverse=True)

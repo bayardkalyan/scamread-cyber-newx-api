@@ -65,7 +65,9 @@ The plugin fetches the feed on the server, caches it for 5 minutes and keeps the
 
 ## Sources
 
-Listed in [`newsfeed/sources.json`](newsfeed/sources.json): The Hacker News, BleepingComputer, SecurityWeek, Krebs on Security, Dark Reading, The Record, Help Net Security, Cyber Security News, CISA, r/netsec and r/cybersecurity. Add any site with an RSS or Atom feed by adding a line. A source that fails is skipped and reported in `status.json`; the others carry on.
+Listed in [`newsfeed/sources.json`](newsfeed/sources.json): The Hacker News, BleepingComputer, SecurityWeek, Krebs on Security, Dark Reading, The Record, Help Net Security, Cyber Security News and CISA. Add any site with an RSS or Atom feed by adding a line. A source that fails is skipped and reported in `status.json`; the others carry on.
+
+**Reddit** (r/netsec, r/cybersecurity) is in the list but switched off (`"enabled": false`): Reddit blocks requests from GitHub's servers. It can be switched on if the feed ever runs from a different server.
 
 **X (Twitter)** is not included. Its API charges per post read, so following accounts adds a running cost; it can be added later as a paid option.
 
