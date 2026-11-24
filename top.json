@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T11:40:39+00:00",
+  "updated_at": "2026-11-24T11:43:48+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -38,11 +38,6 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
           "published": "2026-11-23T15:06:49+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-          "published": "2026-11-23T12:28:09+00:00"
         },
         {
           "name": "CISA",
@@ -94,27 +89,6 @@
       ]
     },
     {
-      "id": "eeea310354d3",
-      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
-      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
-      "category": "malware",
-      "importance": 7,
-      "published": "2026-11-23T13:26:22+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
-          "published": "2026-11-23T15:05:50+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-          "published": "2026-11-23T13:26:22+00:00"
-        }
-      ]
-    },
-    {
       "id": "00384e2e683a",
       "headline": "Hackers Keep Running EvilTokens Phishing After Microsoft Takedown",
       "summary": "Attackers are still using the EvilTokens phishing kit to take over Microsoft 365 accounts despite Microsoft shutting the service down. New phishing hosts kept appearing in October and November after two arrests in London.",
@@ -127,6 +101,22 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/eviltokens-phishing/",
           "published": "2026-11-24T11:36:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2b544b0580ff",
+      "headline": "CISA Adds Four Exploited Flaws in VMware, SAP, Cisco and Apache Products",
+      "summary": "CISA added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its exploited catalog. Federal agencies were given until November 23 to patch them.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-24T10:00:33+00:00",
+      "updated": "2026-11-24T11:40:39+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
+          "published": "2026-11-24T10:00:33+00:00"
         }
       ]
     }

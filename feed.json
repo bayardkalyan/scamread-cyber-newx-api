@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T11:40:39+00:00",
+  "updated_at": "2026-11-24T11:43:48+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -12,7 +12,7 @@
     "privacy-policy",
     "other"
   ],
-  "count": 36,
+  "count": 38,
   "items": [
     {
       "id": "00384e2e683a",
@@ -228,22 +228,6 @@
       ]
     },
     {
-      "id": "c36acd20c8ff",
-      "headline": "Британ hacker Sentenced for Leaking Grand Theft Auto VI Footage",
-      "summary": "A British hacker who breached Rockstar Games and leaked Grand Theft Auto VI footage received seven years in prison, then was released on license for time served.",
-      "category": "other",
-      "importance": 4,
-      "published": "2026-11-24T00:00:00+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
-          "published": "2026-11-24T00:00:00+00:00"
-        }
-      ]
-    },
-    {
       "id": "34459c424cda",
       "headline": "Austrian Foreign Ministry Website Breached, Diplomats' Contacts Accessed",
       "summary": "Hackers breached one of Austria's Foreign Ministry websites and reached names and official contact details of staff in Vienna and at diplomatic missions abroad.",
@@ -255,6 +239,22 @@
         {
           "name": "The Record",
           "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+          "published": "2026-11-24T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c36acd20c8ff",
+      "headline": "British Hacker Sentenced to Seven Years for Grand Theft Auto VI Leak",
+      "summary": "A UK man who breached Rockstar Games and leaked Grand Theft Auto VI footage received a seven-year prison term but was freed on license because he had already served that time.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-24T00:00:00+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
           "published": "2026-11-24T00:00:00+00:00"
         }
       ]
@@ -341,22 +341,6 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
           "published": "2026-11-23T18:38:40+00:00"
-        }
-      ]
-    },
-    {
-      "id": "c0b57b61d141",
-      "headline": "Signal Blocks Screenshots on Apple and Google Systems Over AI Agents",
-      "summary": "Signal says AI features in Google Gemini and Apple Siri make the environment hostile to privacy, so it is blocking screenshots to protect messages from AI agents.",
-      "category": "ai-security",
-      "importance": 4,
-      "published": "2026-11-23T18:37:00+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-          "published": "2026-11-23T18:37:00+00:00"
         }
       ]
     },
@@ -472,27 +456,6 @@
       ]
     },
     {
-      "id": "eeea310354d3",
-      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
-      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
-      "category": "malware",
-      "importance": 7,
-      "published": "2026-11-23T13:26:22+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
-          "published": "2026-11-23T15:05:50+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-          "published": "2026-11-23T13:26:22+00:00"
-        }
-      ]
-    },
-    {
       "id": "19f16091a624",
       "headline": "Critical binary-parser Flaw Enables Code Injection via Parser Definitions",
       "summary": "A critical code injection flaw in the binary-parser JavaScript library, affecting versions before 2.3.1, could let an attacker who controls parser definitions run arbitrary code.",
@@ -581,11 +544,6 @@
           "published": "2026-11-23T15:06:49+00:00"
         },
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-          "published": "2026-11-23T12:28:09+00:00"
-        },
-        {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-23T12:00:00+00:00"
@@ -609,22 +567,6 @@
       ]
     },
     {
-      "id": "62d30d2d286b",
-      "headline": "SAP NetWeaver and Cisco Expressway Flaws Exploited in Attacks",
-      "summary": "Attackers are exploiting flaws in SAP NetWeaver and Cisco Expressway to leak or modify server information and run commands with root privileges.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-23T11:35:15+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-          "published": "2026-11-23T11:35:15+00:00"
-        }
-      ]
-    },
-    {
       "id": "6955905970d3",
       "headline": "Hackers Exploit Critical Legacy ASP.NET Anti-CSRF Library Flaw",
       "summary": "Attackers are exploiting a critical flaw in the legacy Idunno.AntiCsrf ASP.NET library, prompting researchers to urge users to stop using it. Affected versions include 0.9.1.0 and 0.9.1 Beta.",
@@ -637,6 +579,111 @@
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
           "published": "2026-11-23T09:11:56+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e6e4b153fd43",
+      "headline": "India's CERT-In Warns of AI-Assisted Attacks Causing Bank Payment Fraud",
+      "summary": "India's national cyber agency warned that criminals are using AI to attack technology assets, leading to unauthorized transactions at banks, fintechs and technology service providers.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-23T08:24:15+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+          "published": "2026-11-23T08:24:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "62d30d2d286b",
+      "headline": "SAP NetWeaver and Cisco Expressway Flaws Exploited in Attacks",
+      "summary": "Attackers are exploiting flaws in SAP NetWeaver and Cisco Expressway to leak or modify server information and run commands with root privileges.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-23T07:44:19+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+          "published": "2026-11-23T11:35:15+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+          "published": "2026-11-23T07:44:19+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eeea310354d3",
+      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
+      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-22T18:45:37+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+          "published": "2026-11-23T15:05:50+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+          "published": "2026-11-23T13:26:22+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+          "published": "2026-11-23T09:04:08+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+          "published": "2026-11-22T18:45:37+00:00"
+        }
+      ]
+    },
+    {
+      "id": "80c649264115",
+      "headline": "Cleverbridge Breach Exposes Customer Credit Card Numbers and CVVs",
+      "summary": "E-commerce platform Cleverbridge warned that hackers breached its systems and stole customers' payment card details, including card numbers and security codes.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-22T15:43:04+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+          "published": "2026-11-22T15:43:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0b57b61d141",
+      "headline": "Signal Blocks Screenshots on Apple and Google Systems Over AI Agents",
+      "summary": "Signal says AI features in Google Gemini and Apple Siri make the environment hostile to privacy, so it is blocking screenshots to protect messages from AI agents.",
+      "category": "ai-security",
+      "importance": 4,
+      "published": "2026-11-22T15:15:25+00:00",
+      "updated": "2026-11-24T11:43:48+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+          "published": "2026-11-23T18:37:00+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+          "published": "2026-11-22T15:15:25+00:00"
         }
       ]
     }
