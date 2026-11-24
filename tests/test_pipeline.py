@@ -212,3 +212,31 @@ def test_rejected_key_stops_after_first_batch(tmp_path, monkeypatch):
                           fetch=fake_fetch, now=NOW)
     assert Rejecting.calls == 1
     assert any("rejected" in e for e in status["errors"])
+
+
+def test_foreign_script_headline_falls_back_to_source_title():
+    from newsfeed.fetcher import RawItem
+    item = RawItem("abc", "The Record", "news", "GTA VI hacker released on licence", "https://x.com",
+                   NOW.isoformat(), "The hacker who leaked footage has been released.")
+    cleaned = validate_results([{"id": "abc", "keep": True, "headline": "\u0411\u0440\u0438\u0442\u0430\u043d hacker released",
+                                 "summary": "The hacker was released.", "category": "other",
+                                 "importance": 4, "story_key": "gta"}], [item])
+    assert cleaned[0]["headline"] == "GTA VI hacker released on licence"
+    assert cleaned[0]["keep"] is True
+
+
+def test_accented_latin_names_are_fine():
+    from newsfeed.curator import has_foreign_script
+    assert not has_foreign_script("Société Générale hit by breach", "bank breach")
+    assert has_foreign_script("\u4e2d\u6587 breach", "breach")
+
+
+def test_one_source_link_per_outlet():
+    from newsfeed.fetcher import RawItem
+    stories = {}
+    a = RawItem("a", "The Hacker News", "news", "T1", "https://thn.com/1", NOW.isoformat(), "s")
+    b = RawItem("b", "The Hacker News", "news", "T2", "https://thn.com/2", NOW.isoformat(), "s")
+    r = lambda i: {"id": i.id, "keep": True, "headline": "H", "summary": "S", "category": "other",
+                   "importance": 5, "story_key": "same"}
+    pipeline.merge_results(stories, [r(a), r(b)], [a, b], NOW)
+    assert len(stories["same"]["sources"]) == 1

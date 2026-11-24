@@ -75,7 +75,7 @@ def merge_results(stories: dict[str, dict], results: list[dict], items: list[Raw
                 "sources": [source],
             }
             new_count += 1
-        elif all(s["url"] != item.url for s in story["sources"]):
+        elif all(s["url"] != item.url and s["name"] != item.source for s in story["sources"]):
             story["sources"].append(source)
             story["importance"] = max(story["importance"], r["importance"])
             if _parse(item.published) < _parse(story["published"]):
@@ -113,6 +113,11 @@ def run(out_dir: Path,
 
     seen: dict[str, str] = load_json(state_dir / "seen.json", {})
     stories: dict[str, dict] = {s["story_key"]: s for s in load_json(state_dir / "stories.json", {"stories": []})["stories"]}
+    for story in stories.values():  # one link per outlet
+        unique: dict[str, dict] = {}
+        for src in story["sources"]:
+            unique.setdefault(src["name"], src)
+        story["sources"] = list(unique.values())
     sources = [s for s in load_json(Path(sources_file), {"sources": []})["sources"] if s.get("enabled", True)]
 
     items, source_results = fetch_all(sources, now=now, fetch=fetch)

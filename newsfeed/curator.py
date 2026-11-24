@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+import unicodedata
 from typing import Any, Optional
 
 from . import config
@@ -29,8 +30,10 @@ You receive a batch of raw items from security news sites and Reddit. For each i
 
 Keep an item only if it reports real cybersecurity news: an attack, breach, scam or phishing campaign, exploited or important vulnerability, malware, ransomware, AI security development, arrest, or law and policy change. Drop job listings, webinars, sponsored posts, product promotions, opinion pieces with no news, Reddit questions or discussions with no news, and anything you cannot understand from the text given.
 
+Write every headline and summary in plain English only.
+
 When keeping an item:
-- headline: plain, factual, at most 12 words. No clickbait, no question marks, no emojis.
+- headline: plain, factual, at most 12 words. It must describe exactly the event the item's title describes (for example, do not turn "released" into "sentenced", or "patched" into "exploited"). No clickbait, no question marks, no emojis.
 - summary: one or two sentences, at most 45 words, in your own words. Say what happened and who it affects. Use only facts present in the item's title and snippet. Never invent numbers, names or dates. Never copy sentences from the snippet.
 - category: the single best fit from the allowed list.
 - importance: 1 to 10. 9-10 = massive impact or actively exploited at scale; 6-8 = notable incident or widely used product affected; 3-5 = niche; 1-2 = minor.
@@ -77,6 +80,20 @@ def slugify(value: str, limit: int = 60) -> str:
     return slug[:limit].strip("-")
 
 
+def _scripts(text: str) -> set[str]:
+    """Writing systems used by the letters in text, beyond basic and extended Latin."""
+    scripts = set()
+    for ch in text:
+        if ord(ch) > 0x24F and unicodedata.category(ch).startswith("L"):
+            scripts.add(unicodedata.name(ch, "UNKNOWN").split()[0])
+    return scripts
+
+
+def has_foreign_script(text: str, reference: str) -> bool:
+    """True if text uses a writing system (Cyrillic, CJK...) that the source text doesn't."""
+    return bool(_scripts(text) - _scripts(reference))
+
+
 def build_user_message(items: list[RawItem], recent_stories: list[dict]) -> str:
     payload_items = [
         {"id": i.id, "source": i.source, "title": i.title, "published": i.published, "snippet": i.snippet}
@@ -92,7 +109,8 @@ def build_user_message(items: list[RawItem], recent_stories: list[dict]) -> str:
 
 def validate_results(results: list[dict], items: list[RawItem]) -> list[dict]:
     """Clean up Claude's output: known ids only, sane lengths and values."""
-    known = {i.id for i in items}
+    by_id = {i.id: i for i in items}
+    known = set(by_id)
     cleaned: list[dict] = []
     used: set[str] = set()
     for r in results:
@@ -110,6 +128,12 @@ def validate_results(results: list[dict], items: list[RawItem]) -> list[dict]:
         except (TypeError, ValueError):
             importance = 1
         importance = max(1, min(10, importance))
+        source = by_id[rid]
+        reference = f"{source.title} {source.snippet}"
+        if has_foreign_script(headline, reference):
+            headline = source.title[:140]  # fall back to the outlet's own headline
+        if has_foreign_script(summary, reference):
+            summary = ""  # drops the card; a garbled summary is worse than none
         keep = bool(r.get("keep")) and bool(headline) and bool(summary)
         story_key = slugify(str(r.get("story_key", ""))) or slugify(headline) or rid
         cleaned.append({
