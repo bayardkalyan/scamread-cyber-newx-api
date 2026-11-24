@@ -2,7 +2,7 @@ name: Update news feed
 
 on:
   schedule:
-    - cron: "5,35 * * * *"   # every 30 minutes (off the hour, when GitHub is less busy)
+    - cron: "7,37 * * * *"   # every 30 minutes (off the busy :00/:05 slots)
   workflow_dispatch:          # lets you run it by hand from the Actions tab
 
 permissions:
