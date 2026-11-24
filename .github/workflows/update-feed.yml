@@ -53,3 +53,9 @@ jobs:
           fi
           git commit -m "Update feed $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      - name: Check the Claude API key (manual runs only)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m newsfeed check-key
