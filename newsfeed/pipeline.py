@@ -39,6 +39,18 @@ def _chunks(items: list, size: int):
         yield items[start:start + size]
 
 
+def clean_api_key(raw: str) -> str:
+    """Remove spaces, line breaks and stray quotes that sneak in when a key is copied."""
+    return "".join(raw.split()).strip("'\"")
+
+
+def describe_api_key(raw: str) -> str:
+    """Describe the key's shape without revealing any of it (Actions logs are public)."""
+    key = clean_api_key(raw)
+    return (f"length {len(key)}, looks like a Claude API key: {key.startswith('sk-ant-api')}, "
+            f"had extra spaces or line breaks: {key != raw}")
+
+
 def merge_results(stories: dict[str, dict], results: list[dict], items: list[RawItem], now: datetime) -> tuple[int, int]:
     """Add curated results to the story store. Returns (new_stories, merged_sources)."""
     by_id = {i.id: i for i in items}
@@ -122,8 +134,10 @@ def run(out_dir: Path,
         "errors": [],
     }
 
-    if curator is None and os.environ.get("ANTHROPIC_API_KEY"):
-        curator = Curator()
+    api_key = clean_api_key(os.environ.get("ANTHROPIC_API_KEY", ""))
+    if curator is None and api_key:
+        log.info("API key check: %s", describe_api_key(os.environ.get("ANTHROPIC_API_KEY", "")))
+        curator = Curator(api_key=api_key)
     if curator is None:
         status["mode"] = "fetch-only"
         status["errors"].append("ANTHROPIC_API_KEY is not set: fetched sources but did not curate.")
@@ -140,6 +154,11 @@ def run(out_dir: Path,
         except Exception as exc:  # leave these items unseen so the next run retries them
             log.error("curation failed for a batch of %d: %s", len(batch), exc)
             status["errors"].append(f"{type(exc).__name__}: {str(exc)[:300]}")
+            if getattr(exc, "status_code", None) in (401, 403):
+                status["errors"].append(
+                    "The Claude API key was rejected. Create a new key at platform.claude.com/settings/keys "
+                    "and replace the ANTHROPIC_API_KEY secret in this repo.")
+                break  # same key for every batch, so stop instead of failing each one
             continue
         new_count, merged = merge_results(stories, results, batch, now)
         status["curated_items"] += len(batch)

@@ -126,11 +126,11 @@ def validate_results(results: list[dict], items: list[RawItem]) -> list[dict]:
 
 class Curator:
     def __init__(self, client: Optional[Any] = None, model: str = config.MODEL,
-                 max_tokens: int = config.MAX_TOKENS):
+                 max_tokens: int = config.MAX_TOKENS, api_key: Optional[str] = None):
         if client is None:
             import anthropic  # imported lazily so tests and fetch-only runs don't need a key
 
-            client = anthropic.Anthropic(timeout=180.0, max_retries=3)
+            client = anthropic.Anthropic(api_key=api_key or None, timeout=180.0, max_retries=3)
         self.client = client
         self.model = model
         self.max_tokens = max_tokens

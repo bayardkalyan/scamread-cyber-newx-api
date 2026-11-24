@@ -185,3 +185,28 @@ def test_disabled_sources_are_skipped(tmp_path, monkeypatch):
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
     status = pipeline.run(tmp_path / "site", sources_file=write_sources(tmp_path), fetch=fake_fetch, now=NOW)
     assert "Switched Off" not in [s["name"] for s in status["sources"]]
+
+
+def test_api_key_cleanup_and_description():
+    raw = '  "sk-ant-api03-abc\n'
+    assert pipeline.clean_api_key(raw) == "sk-ant-api03-abc"
+    desc = pipeline.describe_api_key(raw)
+    assert "abc" not in desc and "looks like a Claude API key: True" in desc
+    assert "had extra spaces or line breaks: True" in desc
+
+
+def test_rejected_key_stops_after_first_batch(tmp_path, monkeypatch):
+    class AuthError(Exception):
+        status_code = 401
+
+    class Rejecting:
+        calls = 0
+        def curate(self, items, recent):
+            Rejecting.calls += 1
+            raise AuthError("Invalid bearer token")
+
+    monkeypatch.setattr(pipeline.config, "BATCH_SIZE", 1)
+    status = pipeline.run(tmp_path / "site", sources_file=write_sources(tmp_path), curator=Rejecting(),
+                          fetch=fake_fetch, now=NOW)
+    assert Rejecting.calls == 1
+    assert any("rejected" in e for e in status["errors"])
