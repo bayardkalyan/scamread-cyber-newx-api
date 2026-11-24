@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "run_at": "2026-11-24T11:29:31+00:00",
+  "mode": "fetch-only",
+  "sources": [
+    {
+      "name": "The Hacker News",
+      "ok": true,
+      "items": 12,
+      "error": null
+    },
+    {
+      "name": "BleepingComputer",
+      "ok": true,
+      "items": 13,
+      "error": null
+    },
+    {
+      "name": "SecurityWeek",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "name": "Krebs on Security",
+      "ok": true,
+      "items": 0,
+      "error": null
+    },
+    {
+      "name": "Dark Reading",
+      "ok": true,
+      "items": 5,
+      "error": null
+    },
+    {
+      "name": "The Record",
+      "ok": true,
+      "items": 5,
+      "error": null
+    },
+    {
+      "name": "Help Net Security",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "name": "Cyber Security News",
+      "ok": true,
+      "items": 10,
+      "error": null
+    },
+    {
+      "name": "CISA",
+      "ok": true,
+      "items": 1,
+      "error": null
+    },
+    {
+      "name": "r/netsec",
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/netsec/top/.rss?t=day"
+    },
+    {
+      "name": "r/cybersecurity",
+      "ok": false,
+      "items": 0,
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.reddit.com/r/cybersecurity/top/.rss?t=day"
+    }
+  ],
+  "fetched_items": 66,
+  "new_items": 66,
+  "curated_items": 0,
+  "kept_items": 0,
+  "new_stories": 0,
+  "merged_sources": 0,
+  "errors": [
+    "ANTHROPIC_API_KEY is not set: fetched sources but did not curate."
+  ]
+}
