@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T05:43:02+00:00",
+  "updated_at": "2026-11-25T05:46:26+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -155,7 +155,15 @@
           "url": "https://cybersecuritynews.com/eviltokens-phishing/",
           "published": "2026-11-24T11:36:09+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a phishing kit?",
+        "points": [
+          "A phishing kit is a ready-made set of fake login pages that criminals can buy or copy to trick people into giving away passwords.",
+          "The victim gets a message with a link to a fake Microsoft sign-in page, types in their login details, and the attacker receives them.",
+          "Never enter your password after clicking a link in an unexpected email, and go to the website directly instead."
+        ]
+      }
     }
   ]
 }

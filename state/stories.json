@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T05:43:02+00:00",
+  "updated_at": "2026-11-25T05:46:26+00:00",
   "stories": [
     {
       "id": "7c0520f2a82d",
@@ -703,7 +703,16 @@
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-24T12:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a known exploited vulnerability?",
+        "points": [
+          "A vulnerability is a weak spot in software that someone could misuse, like a broken lock on a door.",
+          "Attackers scan the internet for this weak spot and use it to break into systems before many owners have fixed it.",
+          "Organizations can protect themselves by installing software updates (fixes from the maker) as soon as they are released."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "00384e2e683a",
@@ -721,7 +730,16 @@
           "url": "https://cybersecuritynews.com/eviltokens-phishing/",
           "published": "2026-11-24T11:36:09+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a phishing kit?",
+        "points": [
+          "A phishing kit is a ready-made set of fake login pages that criminals can buy or copy to trick people into giving away passwords.",
+          "The victim gets a message with a link to a fake Microsoft sign-in page, types in their login details, and the attacker receives them.",
+          "Never enter your password after clicking a link in an unexpected email, and go to the website directly instead."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "4092dc0bd687",
@@ -739,7 +757,16 @@
           "url": "https://cybersecuritynews.com/hackers-bypass-alpine-linux-ssh-authentication/",
           "published": "2026-11-24T11:25:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a remote login vulnerability?",
+        "points": [
+          "A remote login vulnerability is a flaw that lets a stranger on the internet sign into a computer without knowing the correct password.",
+          "Attackers send special requests to a server running the weak software and may gain access to accounts they should not reach.",
+          "Keeping servers updated with the latest patches (fixes from the maker) is the best way to close this kind of gap."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "def3e58e2b61",
@@ -757,7 +784,16 @@
           "url": "https://cybersecuritynews.com/bypass-mfa-through-phone-scams/",
           "published": "2026-11-24T10:48:04+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is vishing and how does it bypass MFA?",
+        "points": [
+          "Vishing is voice phishing, where a criminal uses a phone call to pretend to be someone trustworthy, such as IT support.",
+          "The caller guides the victim to a fake sign-in page, and the victim may give away a login code, which lets the attacker get past MFA (a second check, like a code sent to your phone).",
+          "Never share a login code over the phone, and hang up and call your company's real IT number to check any request."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "3ef7beb4837a",
@@ -775,7 +811,16 @@
           "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
           "published": "2026-11-24T10:44:44+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a Bluetooth vulnerability?",
+        "points": [
+          "Bluetooth is a short-range wireless connection, like the one used to link headphones to a phone.",
+          "A weakness in the Bluetooth code of a device can let a nearby attacker send it commands that it should not accept.",
+          "Makers can reduce this risk by releasing firmware updates (fixes for a device's built-in software) and owners should install them."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "5118f678428f",
@@ -793,7 +838,9 @@
           "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
           "published": "2026-11-24T10:35:04+00:00"
         }
-      ]
+      ],
+      "concept": null,
+      "concept_checked": true
     },
     {
       "id": "2b544b0580ff",
@@ -811,7 +858,16 @@
           "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
           "published": "2026-11-24T10:00:33+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a known exploited vulnerability?",
+        "points": [
+          "A vulnerability is a weak spot in software that someone could misuse, like a broken lock on a door.",
+          "Attackers scan the internet for this weak spot and use it to break into systems before many owners have fixed it.",
+          "Organizations can protect themselves by installing software updates (fixes from the maker) as soon as they are released."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "27d2c2409079",
@@ -829,7 +885,16 @@
           "url": "https://cybersecuritynews.com/critical-google-chrome-flaw/",
           "published": "2026-11-24T09:37:46+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a browser sandbox escape?",
+        "points": [
+          "A browser sandbox is a safe room inside the browser that keeps websites away from the rest of your computer.",
+          "A flaw that lets code escape this room could let a harmful website reach files and programs on the device.",
+          "Keep your browser set to update automatically and restart it when an update is installed."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "bd9a9d08a15c",
@@ -847,7 +912,16 @@
           "url": "https://cybersecuritynews.com/suzlon-energy-cyberattack/",
           "published": "2026-11-24T09:28:06+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a cyber incident?",
+        "points": [
+          "A cyber incident is when hackers or software problems break into a company's computers or data without permission, similar to a thief getting into a building.",
+          "After an incident, a company checks which systems were opened, what was taken, and whether anything still needs protecting.",
+          "Companies often respond by separating affected systems from the rest of the network and telling the government's security team what happened."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "ef65ba5b3ce4",
@@ -865,7 +939,16 @@
           "url": "https://cybersecuritynews.com/windows-remote-access-api-flaw/",
           "published": "2026-11-24T09:12:12+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a privilege escalation flaw?",
+        "points": [
+          "A privilege escalation flaw is a bug that lets a user with a small amount of access gain full control, like a visitor who sneaks into the manager's office.",
+          "The attacker first gets limited access to a computer, then uses the bug to run their own code with SYSTEM rights, the highest level of control on Windows.",
+          "Installing the monthly security update from Microsoft closes the gap, so people should keep automatic updates turned on."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "b85e913e4ec0",
@@ -883,7 +966,16 @@
           "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
           "published": "2026-11-24T08:34:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a SQL injection attack?",
+        "points": [
+          "SQL injection is a trick where an attacker types special commands into a website's form, like a login box, so that the site's database runs them.",
+          "A website that does not check input carefully may hand over private data, such as customer lists or password hashes (scrambled versions of passwords).",
+          "Website owners protect against this by checking all user input carefully and applying updates from the software maker quickly."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "9df5864a960d",
@@ -901,7 +993,16 @@
           "url": "https://cybersecuritynews.com/microsoft-365-copilot-flaw/",
           "published": "2026-11-24T08:28:18+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a network privilege escalation flaw?",
+        "points": [
+          "A network privilege escalation flaw lets an attacker on a computer network gain higher permissions than they should have, like a guest getting a staff key.",
+          "The attacker starts with a low-level account and uses a software bug to reach more powerful access without the user clicking anything.",
+          "Keeping software updated and giving each account only the access it needs reduces the damage a flaw like this can do."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "fa56c30f1782",
@@ -919,7 +1020,16 @@
           "url": "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/",
           "published": "2026-11-24T06:30:26+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is ransomware?",
+        "points": [
+          "Ransomware is malicious software that locks a victim's files or systems, and the attackers then demand money to unlock them or stop them leaking data.",
+          "Criminals often steal data first, then threaten to publish it on leak sites, which are websites where stolen data is posted.",
+          "Regular offline backups, which are copies kept separate from the network, and good staff training help organisations recover without paying criminals."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "21dbad23e1ee",
@@ -952,7 +1062,16 @@
           "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
           "published": "2026-11-24T12:20:41+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "How can AI help block attacks before patches?",
+        "points": [
+          "A patch is a fix from a software maker, but companies need time to test it before installing it, and attackers may strike during that gap.",
+          "Shirudo is a tool that lets AI agents, which are programs that act on their own, write eBPF rules (small safety rules inside Linux, a common server system) that block known attack methods.",
+          "The goal is to give defenders more time, so they can test and install proper fixes safely."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "34459c424cda",
@@ -970,7 +1089,16 @@
           "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
           "published": "2026-11-24T00:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a system holding personal information without permission and can read or copy it.",
+          "Attackers often find a weak point in a website, then use it to reach the database behind it, where names and contact details are stored.",
+          "Organisations can reduce this risk by keeping software updated, limiting what each account can see, and watching for unusual access."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "c36acd20c8ff",
@@ -993,7 +1121,9 @@
           "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
           "published": "2026-11-24T13:35:37+00:00"
         }
-      ]
+      ],
+      "concept": null,
+      "concept_checked": true
     },
     {
       "id": "a070682a3784",
@@ -1011,7 +1141,16 @@
           "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
           "published": "2026-11-23T22:02:46+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What does it mean to lack authentication?",
+        "points": [
+          "Authentication is a check that proves who you are, like asking for a password before opening a door.",
+          "If a device has no such check, anyone who finds it on a network can connect and control it without permission.",
+          "Companies can stay safe by turning on login checks and keeping these devices hidden from the open internet."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "17e73b0c925c",
@@ -1034,7 +1173,16 @@
           "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
           "published": "2026-11-24T11:50:21+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a system and takes information that should have stayed private, like a stranger opening a locked filing cabinet.",
+          "Attackers often find a weak password or an unpatched flaw (a known bug that has not been fixed yet), then move through the network to reach stored records.",
+          "Organizations reduce risk by limiting who can see data and by encrypting it (scrambling it so only someone with the right key can read it)."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "088def95a724",
@@ -1052,7 +1200,9 @@
           "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
           "published": "2026-11-23T20:13:48+00:00"
         }
-      ]
+      ],
+      "concept": null,
+      "concept_checked": true
     },
     {
       "id": "730285d7900e",
@@ -1070,7 +1220,16 @@
           "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
           "published": "2026-11-23T20:00:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What does it mean when data is exposed?",
+        "points": [
+          "Data exposure means private information is left visible to people who should not see it, like a note left open on a shared desk.",
+          "AI services handle prompts (the questions or instructions people type) and sometimes secrets like passwords or access keys, so mistakes in storing or sharing them can leak these details.",
+          "Users can protect themselves by not typing passwords or private keys into AI tools and by checking how a provider says it handles data."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "aa61a094f001",
@@ -1093,7 +1252,16 @@
           "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
           "published": "2026-11-23T18:38:40+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "How do hackers steal personal data?",
+        "points": [
+          "Hackers steal personal data by getting into a system that stores it, much like a thief entering a records room to take folders.",
+          "They often use stolen logins, phishing emails (fake messages that look real) or unpatched software to get inside, then copy names, emails or other details.",
+          "People can protect themselves by using a unique password for each account and turning on two-step verification (a second code sent to your phone)."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "bc8876a63b73",
@@ -1111,7 +1279,16 @@
           "url": "https://therecord.media/fbi-cyberattack-data-breach",
           "published": "2026-11-23T18:30:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a database breach?",
+        "points": [
+          "A database is a large organized store of records, and a breach happens when someone gets in without permission and copies or exposes those records.",
+          "Attackers usually look for weak logins, stolen staff accounts or unpatched software (software with known flaws not yet fixed) to reach the stored files.",
+          "Agencies and companies reduce this risk by limiting access to people who need it and by watching for unusual activity."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "656354607975",
@@ -1134,7 +1311,16 @@
           "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
           "published": "2026-11-24T21:48:06+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a backdoor disguised as software?",
+        "points": [
+          "A backdoor is a hidden way into a computer or network that lets someone return later without the owner noticing, like a spare key hidden under a doormat.",
+          "Attackers can disguise the tool as a harmless program, such as network-monitoring software, so security tools and staff may overlook it.",
+          "Security teams look for unfamiliar programs and unusual remote connections, and they remove or block any tool they cannot explain."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "f2bcb698b8ec",
@@ -1157,7 +1343,16 @@
           "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
           "published": "2026-11-23T16:50:01+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What are API credentials?",
+        "points": [
+          "API credentials are secret keys or passwords that let one program securely talk to another, such as a store's ordering system (an API is a way for programs to exchange information).",
+          "If an attacker steals these credentials, they can act like a trusted business customer, placing orders or using gift cards without the owner's approval.",
+          "Businesses can limit the risk by storing these keys in secure places, changing them regularly, and watching for unusual activity."
+        ]
+      },
+      "concept_checked": true
     },
     {
       "id": "57a0692806d6",
