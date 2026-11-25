@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T09:44:58+00:00",
+  "updated_at": "2026-11-25T15:40:16+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -16,36 +16,31 @@
   "count": 5,
   "items": [
     {
-      "id": "5cf9b85b8c4f",
-      "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
-      "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
+      "id": "72f47c4e3262",
+      "headline": "Critical Drupal Fail2Install Flaw Added to CISA Exploited List",
+      "summary": "CISA added a critical remote code execution flaw in Drupal core, tracked as CVE-2026-132165, to its exploited vulnerabilities catalog. Federal agencies must apply fixes by November 27, 2026.",
       "category": "vulnerability",
       "importance": 8,
-      "published": "2026-11-24T14:21:56+00:00",
-      "updated": "2026-11-25T08:21:13+00:00",
+      "published": "2026-11-25T10:10:20+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-          "published": "2026-11-24T16:15:23+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-          "published": "2026-11-24T14:21:56+00:00"
-        },
-        {
           "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-          "published": "2026-11-25T06:50:19+00:00"
+          "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+          "published": "2026-11-25T11:23:26+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+          "published": "2026-11-25T10:10:20+00:00"
         }
       ],
       "concept": {
-        "title": "What is a vulnerability and an exploit?",
+        "title": "What is a remote code execution flaw?",
         "points": [
-          "A vulnerability is a weak spot in software, like a faulty lock, that could let someone enter without permission.",
-          "An exploit is a method that uses that weak spot. Attackers scan for systems that have not been fixed, then use the exploit to get in, often before the owner knows.",
-          "Companies stay safe by installing security updates (fixes from the maker) quickly and by checking their management systems for unusual access."
+          "A software flaw is a mistake in a program's code that attackers can use to cause harm. A remote code execution flaw lets an attacker run their own commands on a computer from far away over the internet.",
+          "Attackers scan for unpatched systems and use the flaw to take control of the website or server without needing a password.",
+          "Software makers release patches (fixes for known flaws), so installing updates quickly is one of the simplest ways to stay protected."
         ]
       }
     },
@@ -75,6 +70,30 @@
           "A security flaw is a mistake in software that lets someone do things the makers did not intend, like a crack in a door lock.",
           "Attackers look for flaws, chain several together, and use them to gain root access, which means full control of the device.",
           "Makers release a patch, a fix that closes the flaw, so installing updates quickly is one of the best defenses."
+        ]
+      }
+    },
+    {
+      "id": "488fba3625cf",
+      "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
+      "summary": "US authorities are investigating whether Iran was behind attacks on Fortinet FortiGate devices that may have compromised up to 50 commercial ships. The count is an intelligence estimate and attribution is unconfirmed.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T15:22:40+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/",
+          "published": "2026-11-25T15:22:40+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What does it mean to exploit a security flaw?",
+        "points": [
+          "A security flaw is a mistake in software that works like a hidden gap in a lock.",
+          "Attackers scan the internet for devices with the flaw, then send special messages that let them enter without permission.",
+          "Installing the maker's fix (called a patch) as soon as it is released closes the gap before attackers can use it."
         ]
       }
     },
@@ -113,70 +132,31 @@
       }
     },
     {
-      "id": "88b982e416d9",
-      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
-      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
+      "id": "43818f9f943c",
+      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
+      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
       "category": "vulnerability",
       "importance": 7,
-      "published": "2026-11-24T13:28:26+00:00",
-      "updated": "2026-11-24T17:50:57+00:00",
+      "published": "2026-11-25T12:48:54+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
-          "published": "2026-11-24T14:11:04+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-          "published": "2026-11-24T13:28:26+00:00"
-        },
         {
           "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-          "published": "2026-11-24T16:32:56+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a software vulnerability?",
-        "points": [
-          "A vulnerability is a weakness in software, like a door that does not lock properly, that someone could use to get in where they should not.",
-          "Attackers send specially prepared input to the weak spot, which can trick the software into running their own commands on the server.",
-          "Administrators should check which versions they run and install the maker's updates (called patches) as soon as they are available."
-        ]
-      }
-    },
-    {
-      "id": "94962b98d642",
-      "headline": "Okta Links ShinyHunters-Linked Vishing Crew to New INCEPTION Leak Site",
-      "summary": "Okta says a cluster once tied to the ShinyHunters extortion crew appears to have rebranded as INCEPTION, using voice phishing to steal credentials and approvals. Targets span many industries.",
-      "category": "scam-phishing",
-      "importance": 7,
-      "published": "2026-11-24T12:47:07+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
+          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+          "published": "2026-11-25T15:27:36+00:00"
+        },
         {
           "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-          "published": "2026-11-24T13:28:21+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
-          "published": "2026-11-24T12:47:07+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-          "published": "2026-11-24T20:21:20+00:00"
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+          "published": "2026-11-25T12:48:54+00:00"
         }
       ],
       "concept": {
-        "title": "What is voice phishing, or vishing?",
+        "title": "How do attackers use a newly found software flaw?",
         "points": [
-          "Voice phishing is a scam phone call where a criminal pretends to be a bank, a company, or IT staff to get private login details or approvals.",
-          "The caller creates urgency, saying there is a problem, and asks the victim to read out a code or approve a login request on their phone.",
-          "If a call seems urgent or strange, hang up and call the company back using the official number from its website, never a number the caller gave."
+          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
+          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
+          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
         ]
       }
     }

@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T09:44:58+00:00",
+  "updated_at": "2026-11-25T15:40:16+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,18 +15,347 @@
   "count": 60,
   "items": [
     {
+      "id": "488fba3625cf",
+      "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
+      "summary": "US authorities are investigating whether Iran was behind attacks on Fortinet FortiGate devices that may have compromised up to 50 commercial ships. The count is an intelligence estimate and attribution is unconfirmed.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T15:22:40+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/",
+          "published": "2026-11-25T15:22:40+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What does it mean to exploit a security flaw?",
+        "points": [
+          "A security flaw is a mistake in software that works like a hidden gap in a lock.",
+          "Attackers scan the internet for devices with the flaw, then send special messages that let them enter without permission.",
+          "Installing the maker's fix (called a patch) as soon as it is released closes the gap before attackers can use it."
+        ]
+      }
+    },
+    {
+      "id": "2c664471f766",
+      "headline": "Exploited Supply Chain Flaws Found in Network Appliance Advisories",
+      "summary": "A monthly infrastructure report found that most recent advisories for exploited vulnerabilities involve third-party software bundled into network appliances rather than vendor-written code.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-25T15:00:00+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+          "published": "2026-11-25T15:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a supply-chain attack?",
+        "points": [
+          "A supply-chain attack is like a thief hiding inside a box of parts that a trusted shop delivers to you.",
+          "Attackers hide harmful code in a third-party program that other companies include in their products, so the harm spreads to every customer.",
+          "Companies can reduce the risk by checking where their software parts come from and installing updates promptly."
+        ]
+      }
+    },
+    {
+      "id": "a3b1cb515c14",
+      "headline": "Adobe Patches Critical Flaws in Experience Manager and Campaign Classic",
+      "summary": "Adobe released security updates for Experience Manager and Campaign Classic to fix critical flaws that could let attackers run code on servers. Adobe said it knew of no attacks using them yet.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-25T14:28:30+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-adobe-vulnerabilities/",
+          "published": "2026-11-25T14:28:30+00:00"
+        }
+      ],
+      "concept": {
+        "title": "Why do security patches matter?",
+        "points": [
+          "A security patch is a free update from the software maker that fixes a flaw before criminals can use it.",
+          "When a flaw is serious, attackers may be able to run their own commands on a company's server, which is like giving a stranger a key.",
+          "Installing updates quickly after they are released is one of the simplest ways to protect a website or business."
+        ]
+      }
+    },
+    {
+      "id": "0e060521889c",
+      "headline": "Hackers Abuse Hugging Face AI Builder to Host Fake Big-Brand Login Pages",
+      "summary": "Attackers used Hugging Face's DeepSite builder to create fake sign-in pages impersonating 28 brands, including Microsoft, Google and PayPal. Researchers found 42 such pages and reported them, and all were paused or unreachable by October 29.",
+      "category": "scam-phishing",
+      "importance": 6,
+      "published": "2026-11-25T14:13:33+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hugging-face-ai-phishing-pages/",
+          "published": "2026-11-25T14:13:33+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a phishing page?",
+        "points": [
+          "A phishing page is a fake sign-in page that looks like a real one from a trusted brand, such as a bank or email provider.",
+          "The attacker sends a link to the fake page, and when a person types their password, the attacker receives it.",
+          "Before typing a password, check the web address carefully and go to the official site yourself instead of using a link."
+        ]
+      }
+    },
+    {
+      "id": "ef8ff3a13a84",
+      "headline": "Cyberattacks Increasingly Hit Industrial Systems Across Latin America",
+      "summary": "Cyberattacks are increasingly affecting industrial systems across Latin America, including a port in Brazil and a pipeline in Argentina. The report covers ports, pipelines and manufacturing operations in the region.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-25T14:00:00+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+          "published": "2026-11-25T14:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a cyberattack on industrial systems?",
+        "points": [
+          "Industrial systems are the computers that control large machines, such as those at ports, pipelines and factories.",
+          "Attackers try to get into these computers through weak passwords, old software or harmful emails, and then disrupt the work they control.",
+          "Companies can protect these systems by separating them from the internet and keeping their software up to date."
+        ]
+      }
+    },
+    {
+      "id": "f1f0d87a0470",
+      "headline": "Suspected Ransomware Disrupts Surgeries at Guadeloupe University Hospital",
+      "summary": "France's national cybersecurity agency is investigating a suspected ransomware attack on the University Hospital of Guadeloupe. Doctors postponed surgeries, suspended some cancer treatments and switched to paper records.",
+      "category": "ransomware",
+      "importance": 7,
+      "published": "2026-11-25T13:30:00+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+          "published": "2026-11-25T13:30:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is ransomware?",
+        "points": [
+          "Ransomware is harmful software that locks a victim's files or computers so they cannot be used until a payment is made.",
+          "The attacker usually gets in through a phishing email or a weak password, then spreads the lock across the network and demands money.",
+          "Keeping regular backups of important files that are stored separately lets an organization recover without paying."
+        ]
+      }
+    },
+    {
+      "id": "43818f9f943c",
+      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
+      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-25T12:48:54+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+          "published": "2026-11-25T15:27:36+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+          "published": "2026-11-25T12:48:54+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How do attackers use a newly found software flaw?",
+        "points": [
+          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
+          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
+          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
+        ]
+      }
+    },
+    {
+      "id": "51ab454efabf",
+      "headline": "Fake WordPress Plugin Lets Attackers Skip 2FA and Run Scripts",
+      "summary": "A disguised WordPress plugin lets attackers sign in without completing two-factor authentication and runs malicious JavaScript for logged-out site visitors. The plugin hides from the dashboard, so administrators may miss the infection.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-25T12:14:08+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fake-wordpress-plugin/",
+          "published": "2026-11-25T12:14:08+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How can attackers skip two-factor login checks?",
+        "points": [
+          "Two-factor login is a safety step that asks for a second code, like a key card, after the password is typed.",
+          "A fake plugin (an add-on program for a website) can let attackers sign in without that second step and run a small script (a set of code instructions) in visitors' browsers.",
+          "Site owners should download add-ons only from trusted sources and review the list of installed plugins regularly."
+        ]
+      }
+    },
+    {
+      "id": "5318a356da21",
+      "headline": "Hackers Use Autonomous AI Agents to Steal Credentials and Move Across Networks",
+      "summary": "Researchers tracked more than 10 campaigns from July to September 2026 in which attackers used autonomous AI agents to steal credentials and move between corporate servers. Targets included government, logistics and education organizations.",
+      "category": "ai-security",
+      "importance": 7,
+      "published": "2026-11-25T12:11:01+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-use-autonomous-ai-agents-2/",
+          "published": "2026-11-25T12:11:01+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What are autonomous AI agent attacks?",
+        "points": [
+          "An autonomous AI agent (a computer program that works on its own) can carry out a series of tasks with little human help. Attackers can misuse these programs to break into systems.",
+          "Think of an agent as a tireless helper that tries many doors at once. After stealing a password, it can use that password to log in to other computers on the same network.",
+          "Organizations can reduce this risk by using strong, unique passwords and multi-factor login (a second check, such as a code sent to your phone)."
+        ]
+      }
+    },
+    {
+      "id": "b05430fe8051",
+      "headline": "Bots Use Leaked AWS Key in Docker Image Within Eight Seconds",
+      "summary": "Researchers at Stony Brook University planted 300 decoy images on public container registries and found bots used a cloud access key left inside one in under eight seconds. Developers publishing images publicly face fast exposure of stored credentials.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-25T11:22:32+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+          "published": "2026-11-25T11:22:32+00:00"
+        }
+      ],
+      "concept": {
+        "title": "Why do leaked cloud keys get found so fast?",
+        "points": [
+          "A cloud access key is a secret code that lets a program control online cloud services. If a developer puts this key inside a public container image (a packaged copy of an app), anyone can see it.",
+          "Automated bots constantly scan public image sites for secret keys. They can find and copy a key within seconds, then use it to access the owner's cloud account.",
+          "Developers should keep secret keys out of shared files and store them in a secrets manager (a tool that keeps passwords safe)."
+        ]
+      }
+    },
+    {
+      "id": "79aaf7f9a76d",
+      "headline": "Ex-OpenAI Employee Granted $1 Million Bail Over Office Bugging",
+      "summary": "A former OpenAI employee accused of hiding a covert recording device at the company's San Francisco offices was ordered released on a $1 million bond. He was arrested in October 2026.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-25T10:43:07+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+          "published": "2026-11-25T10:43:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5023a2f3e4b9",
+      "headline": "US Treasury's FinCEN Disconnects Systems After Cyber Incident",
+      "summary": "The US Treasury's Financial Crimes Enforcement Network took some systems offline while investigating a cyber incident. It extended filing deadlines for affected filers during the disruption.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-25T10:15:00+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+          "published": "2026-11-25T13:39:21+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+          "published": "2026-11-25T12:30:08+00:00"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+          "published": "2026-11-25T10:15:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a cyber incident?",
+        "points": [
+          "A cyber incident is an unwanted event that harms or disrupts computer systems or data. Attackers often cause these events, but they can also come from serious technical faults.",
+          "When an organization finds a problem, it may disconnect some systems from the internet. This stops the problem from spreading while investigators examine the damage.",
+          "Regular backups (saved copies of important data) and a tested response plan help organizations keep working during such disruptions."
+        ]
+      }
+    },
+    {
+      "id": "72f47c4e3262",
+      "headline": "Critical Drupal Fail2Install Flaw Added to CISA Exploited List",
+      "summary": "CISA added a critical remote code execution flaw in Drupal core, tracked as CVE-2026-132165, to its exploited vulnerabilities catalog. Federal agencies must apply fixes by November 27, 2026.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T10:10:20+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+          "published": "2026-11-25T11:23:26+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+          "published": "2026-11-25T10:10:20+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a remote code execution flaw?",
+        "points": [
+          "A software flaw is a mistake in a program's code that attackers can use to cause harm. A remote code execution flaw lets an attacker run their own commands on a computer from far away over the internet.",
+          "Attackers scan for unpatched systems and use the flaw to take control of the website or server without needing a password.",
+          "Software makers release patches (fixes for known flaws), so installing updates quickly is one of the simplest ways to stay protected."
+        ]
+      }
+    },
+    {
       "id": "10e0d3da49e6",
       "headline": "Hackers Exploit CVSS 10.0 Flaw to Breach Hex.pm Package Registry Servers",
       "summary": "Attackers ran commands on six production servers of Hex.pm, the registry Elixir and Erlang developers use for dependencies. The flaw had existed since 2016, and the servers were patched within about 15 minutes.",
       "category": "vulnerability",
       "importance": 7,
       "published": "2026-11-25T09:06:59+00:00",
-      "updated": "2026-11-25T09:44:58+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
           "published": "2026-11-25T09:06:59+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-exploit-critical-hex-pm-vulnerability/",
+          "published": "2026-11-25T14:05:27+00:00"
         }
       ],
       "concept": {
@@ -452,12 +781,17 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-24T18:59:52+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
           "published": "2026-11-24T18:59:52+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+          "published": "2026-11-25T10:40:07+00:00"
         }
       ],
       "concept": {
@@ -524,12 +858,17 @@
       "category": "malware",
       "importance": 6,
       "published": "2026-11-24T16:54:07+00:00",
-      "updated": "2026-11-24T17:50:57+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
           "published": "2026-11-24T16:54:07+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/",
+          "published": "2026-11-25T11:54:28+00:00"
         }
       ],
       "concept": {
@@ -548,12 +887,17 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-24T16:30:19+00:00",
-      "updated": "2026-11-24T17:50:57+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
           "published": "2026-11-24T16:30:19+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+          "published": "2026-11-25T14:15:25+00:00"
         }
       ],
       "concept": {
@@ -932,9 +1276,9 @@
       "headline": "CISA Adds Three Exploited Flaws in Idunno, Drupal and Optimizely",
       "summary": "CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation, affecting Idunno AntiCsrf, Drupal Core and Optimizely Web Experimentation.",
       "category": "vulnerability",
-      "importance": 7,
+      "importance": 8,
       "published": "2026-11-24T12:00:00+00:00",
-      "updated": "2026-11-25T08:21:13+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
       "sources": [
         {
           "name": "CISA",
@@ -945,6 +1289,16 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
           "published": "2026-11-25T08:01:06+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/drupal-critical-security-flaw/",
+          "published": "2026-11-25T14:51:54+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
+          "published": "2026-11-25T13:37:28+00:00"
         }
       ],
       "concept": {
@@ -1185,342 +1539,6 @@
           "SQL injection is a trick where an attacker types special commands into a website's form, like a login box, so that the site's database runs them.",
           "A website that does not check input carefully may hand over private data, such as customer lists or password hashes (scrambled versions of passwords).",
           "Website owners protect against this by checking all user input carefully and applying updates from the software maker quickly."
-        ]
-      }
-    },
-    {
-      "id": "9df5864a960d",
-      "headline": "Critical Microsoft 365 Copilot Flaw Allows Network Privilege Escalation",
-      "summary": "Microsoft disclosed a critical Copilot flaw, CVE-2026-50691, letting a low-privileged attacker gain higher permissions over a network without user interaction. Customers need no action, according to Microsoft.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T08:28:18+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/microsoft-365-copilot-flaw/",
-          "published": "2026-11-24T08:28:18+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a network privilege escalation flaw?",
-        "points": [
-          "A network privilege escalation flaw lets an attacker on a computer network gain higher permissions than they should have, like a guest getting a staff key.",
-          "The attacker starts with a low-level account and uses a software bug to reach more powerful access without the user clicking anything.",
-          "Keeping software updated and giving each account only the access it needs reduces the damage a flaw like this can do."
-        ]
-      }
-    },
-    {
-      "id": "fa56c30f1782",
-      "headline": "Ransomware Victims on Leak Sites Hit Record in Q3 2026",
-      "summary": "Check Point Research counted 2,830 victims listed on ransomware leak sites in the third quarter of 2026, the highest quarterly total on record. The report also notes a growing number of active groups, while fewer victims are paying.",
-      "category": "ransomware",
-      "importance": 5,
-      "published": "2026-11-24T06:30:26+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/check-point-ransomware-attacks-q3-2026-report/",
-          "published": "2026-11-24T06:30:26+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is ransomware?",
-        "points": [
-          "Ransomware is malicious software that locks a victim's files or systems, and the attackers then demand money to unlock them or stop them leaking data.",
-          "Criminals often steal data first, then threaten to publish it on leak sites, which are websites where stolen data is posted.",
-          "Regular offline backups, which are copies kept separate from the network, and good staff training help organisations recover without paying criminals."
-        ]
-      }
-    },
-    {
-      "id": "21dbad23e1ee",
-      "headline": "OpenAI and Cisco Release Open-Source Tool to Shield Linux Before Patches",
-      "summary": "OpenAI and Cisco released Shirudo, an open-source Linux runtime that lets AI agents write eBPF controls blocking exploits. The aim is to give defenders more time to test and roll out patches.",
-      "category": "ai-security",
-      "importance": 5,
-      "published": "2026-11-24T06:00:50+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-          "published": "2026-11-24T06:02:57+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/",
-          "published": "2026-11-24T06:00:50+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-          "published": "2026-11-24T13:34:23+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-          "published": "2026-11-24T12:20:41+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How can AI help block attacks before patches?",
-        "points": [
-          "A patch is a fix from a software maker, but companies need time to test it before installing it, and attackers may strike during that gap.",
-          "Shirudo is a tool that lets AI agents, which are programs that act on their own, write eBPF rules (small safety rules inside Linux, a common server system) that block known attack methods.",
-          "The goal is to give defenders more time, so they can test and install proper fixes safely."
-        ]
-      }
-    },
-    {
-      "id": "34459c424cda",
-      "headline": "Austrian Foreign Ministry Website Breached, Diplomats' Contacts Accessed",
-      "summary": "Hackers breached one of Austria's Foreign Ministry websites and reached names and official contact details of staff in Vienna and at diplomatic missions abroad.",
-      "category": "data-breach",
-      "importance": 5,
-      "published": "2026-11-24T00:00:00+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
-          "published": "2026-11-24T00:00:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach is when someone gets into a system holding personal information without permission and can read or copy it.",
-          "Attackers often find a weak point in a website, then use it to reach the database behind it, where names and contact details are stored.",
-          "Organisations can reduce this risk by keeping software updated, limiting what each account can see, and watching for unusual access."
-        ]
-      }
-    },
-    {
-      "id": "c36acd20c8ff",
-      "headline": "British Hacker Sentenced to Seven Years for Grand Theft Auto VI Leak",
-      "summary": "A UK man who breached Rockstar Games and leaked Grand Theft Auto VI footage received a seven-year prison term but was freed on license because he had already served that time.",
-      "category": "other",
-      "importance": 5,
-      "published": "2026-11-24T00:00:00+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
-          "published": "2026-11-24T00:00:00+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/",
-          "published": "2026-11-24T13:35:37+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a070682a3784",
-      "headline": "Industrial Serial Gateways Expose Whether They Lack Authentication",
-      "summary": "Research indicates many critical industrial access devices broadcast their authentication status, revealing to anyone that they are left unprotected.",
-      "category": "vulnerability",
-      "importance": 4,
-      "published": "2026-11-23T22:02:46+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
-          "published": "2026-11-23T22:02:46+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What does it mean to lack authentication?",
-        "points": [
-          "Authentication is a check that proves who you are, like asking for a password before opening a door.",
-          "If a device has no such check, anyone who finds it on a network can connect and control it without permission.",
-          "Companies can stay safe by turning on login checks and keeping these devices hidden from the open internet."
-        ]
-      }
-    },
-    {
-      "id": "17e73b0c925c",
-      "headline": "South Korea's KEPCO Confirms Data Breach Affecting 1.5 Million People",
-      "summary": "Korea Electric Power Corporation confirmed a threat actor breached its internal network and accessed two systems holding customer, employee and contractor data.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-23T20:54:51+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-          "published": "2026-11-23T20:54:51+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-          "published": "2026-11-24T11:50:21+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach is when someone gets into a system and takes information that should have stayed private, like a stranger opening a locked filing cabinet.",
-          "Attackers often find a weak password or an unpatched flaw (a known bug that has not been fixed yet), then move through the network to reach stored records.",
-          "Organizations reduce risk by limiting who can see data and by encrypting it (scrambling it so only someone with the right key can read it)."
-        ]
-      }
-    },
-    {
-      "id": "088def95a724",
-      "headline": "Trump Names Kirsten Davies Acting National Cyber Director",
-      "summary": "The White House picked Kirsten Davies as acting national cyber director, a move that brings more industry experience to the role amid recent outages and geopolitical tensions.",
-      "category": "other",
-      "importance": 4,
-      "published": "2026-11-23T20:13:48+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
-          "published": "2026-11-23T20:13:48+00:00"
-        }
-      ]
-    },
-    {
-      "id": "730285d7900e",
-      "headline": "OpenRouter Removes Three AI Providers Over Data Exposure",
-      "summary": "OpenRouter dropped three AI providers after finding they violated their data-handling policies and exposed sensitive prompts and secrets.",
-      "category": "ai-security",
-      "importance": 5,
-      "published": "2026-11-23T20:00:20+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-          "published": "2026-11-23T20:00:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What does it mean when data is exposed?",
-        "points": [
-          "Data exposure means private information is left visible to people who should not see it, like a note left open on a shared desk.",
-          "AI services handle prompts (the questions or instructions people type) and sometimes secrets like passwords or access keys, so mistakes in storing or sharing them can leak these details.",
-          "Users can protect themselves by not typing passwords or private keys into AI tools and by checking how a provider says it handles data."
-        ]
-      }
-    },
-    {
-      "id": "aa61a094f001",
-      "headline": "LaLiga Confirms Hackers Stole Fans' Personal Data",
-      "summary": "Spain's top football league said attackers took personal information of fans using its digital services and those of several Spanish clubs.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-23T18:38:40+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
-          "published": "2026-11-24T00:00:00+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-          "published": "2026-11-23T18:38:40+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How do hackers steal personal data?",
-        "points": [
-          "Hackers steal personal data by getting into a system that stores it, much like a thief entering a records room to take folders.",
-          "They often use stolen logins, phishing emails (fake messages that look real) or unpatched software to get inside, then copy names, emails or other details.",
-          "People can protect themselves by using a unique password for each account and turning on two-step verification (a second code sent to your phone)."
-        ]
-      }
-    },
-    {
-      "id": "bc8876a63b73",
-      "headline": "FBI Reportedly Investigating Second Breach Involving Crime Database",
-      "summary": "The FBI is reportedly looking into a data breach affecting the National Crime Information Center, a database US law enforcement uses to track criminals, fugitives and missing people.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-23T18:30:00+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/fbi-cyberattack-data-breach",
-          "published": "2026-11-23T18:30:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a database breach?",
-        "points": [
-          "A database is a large organized store of records, and a breach happens when someone gets in without permission and copies or exposes those records.",
-          "Attackers usually look for weak logins, stolen staff accounts or unpatched software (software with known flaws not yet fixed) to reach the stored files.",
-          "Agencies and companies reduce this risk by limiting access to people who need it and by watching for unusual activity."
-        ]
-      }
-    },
-    {
-      "id": "656354607975",
-      "headline": "Webworm Suspected of Modifying SoftEther VPN to Hide Access",
-      "summary": "China-aligned group Webworm is suspected of using a customized SoftEther VPN Bridge disguised as network-monitoring software to maintain covert remote access while evading security tools.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-23T17:45:15+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-          "published": "2026-11-23T17:45:15+00:00"
-        },
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
-          "published": "2026-11-24T21:48:06+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a backdoor disguised as software?",
-        "points": [
-          "A backdoor is a hidden way into a computer or network that lets someone return later without the owner noticing, like a spare key hidden under a doormat.",
-          "Attackers can disguise the tool as a harmless program, such as network-monitoring software, so security tools and staff may overlook it.",
-          "Security teams look for unfamiliar programs and unusual remote connections, and they remove or block any tool they cannot explain."
-        ]
-      }
-    },
-    {
-      "id": "f2bcb698b8ec",
-      "headline": "GlobeTopper Breach Exposes API Credentials and Drains $70,000 in Gift Cards",
-      "summary": "Hackers breached GlobeTopper, a B2B gift card platform, and stole API credentials from some business customers. About $70,000 in gift cards were redeemed without authorization, according to parent company iQSTEL's SEC filing.",
-      "category": "data-breach",
-      "importance": 5,
-      "published": "2026-11-23T16:50:01+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/",
-          "published": "2026-11-24T09:33:33+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-          "published": "2026-11-23T16:50:01+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What are API credentials?",
-        "points": [
-          "API credentials are secret keys or passwords that let one program securely talk to another, such as a store's ordering system (an API is a way for programs to exchange information).",
-          "If an attacker steals these credentials, they can act like a trusted business customer, placing orders or using gift cards without the owner's approval.",
-          "Businesses can limit the risk by storing these keys in secure places, changing them regularly, and watching for unusual activity."
         ]
       }
     }

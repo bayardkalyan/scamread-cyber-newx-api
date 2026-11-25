@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-25T09:44:58+00:00",
+  "run_at": "2026-11-25T15:40:16+00:00",
   "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
       "ok": true,
-      "items": 19,
+      "items": 20,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 8,
+      "items": 12,
       "error": null
     },
     {
@@ -54,16 +54,16 @@
     {
       "name": "CISA",
       "ok": true,
-      "items": 5,
+      "items": 4,
       "error": null
     }
   ],
-  "fetched_items": 82,
-  "new_items": 6,
-  "curated_items": 6,
-  "kept_items": 6,
-  "new_stories": 5,
-  "merged_sources": 1,
-  "explained_stories": 4,
+  "fetched_items": 86,
+  "new_items": 33,
+  "curated_items": 33,
+  "kept_items": 23,
+  "new_stories": 13,
+  "merged_sources": 10,
+  "explained_stories": 12,
   "errors": []
 }
