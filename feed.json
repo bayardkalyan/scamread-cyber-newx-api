@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T15:40:16+00:00",
+  "updated_at": "2026-11-25T16:40:10+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,78 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "430ceacab685",
+      "headline": "Todoist Breach Exposes Account Records for About 6% of Users",
+      "summary": "Task app Todoist said an attacker breached its production systems and downloaded account records for about 6% of users, including email addresses and older password hashes. It also obtained integration tokens and accessed some connected Outlook mailbox data. Affected users are being notified.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-25T16:39:28+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/todoist-production-system-breach/",
+          "published": "2026-11-25T16:39:28+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a company's computer system without permission and copies private information, like a locked filing cabinet that was opened and emptied.",
+          "The attacker often finds a weak password or an unfixed flaw, enters the system, and then downloads customer records such as email addresses.",
+          "People can protect themselves by using a unique password for each account, turning on two-step login, and being careful with emails that ask for login details."
+        ]
+      }
+    },
+    {
+      "id": "5d87ea02ff9c",
+      "headline": "Swiss Agency Confirms AI-Agent Cyberattacks Compromised Victims' IT Systems",
+      "summary": "Switzerland's National Cyber Security Centre confirmed its first AI-assisted attacks on organisations, affecting companies and critical infrastructure in at least two sectors. In every known case, the AI agents successfully compromised the victims' IT systems.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-25T16:02:38+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/",
+          "published": "2026-11-25T16:02:38+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How are AI agents used in cyberattacks?",
+        "points": [
+          "An AI agent is a computer program that can plan and carry out a series of tasks by itself, like a very fast assistant that works without rest.",
+          "Attackers can use AI agents to search for weak points, try many break-in methods, and move through a network step by step, faster than a human could.",
+          "Organisations can reduce this risk by keeping their software updated, limiting what each account can access, and watching for unusual activity."
+        ]
+      }
+    },
+    {
+      "id": "e96a79cde462",
+      "headline": "Fake Recruitment Campaign Spreads Malware Through 13 NuGet Packages",
+      "summary": "Researchers found 13 malicious NuGet packages used in a fake recruitment campaign aimed at .NET developers. The packages spread malware and give attackers access to developers' machines.",
+      "category": "malware",
+      "importance": 5,
+      "published": "2026-11-25T15:48:04+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+          "published": "2026-11-25T15:48:04+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a poisoned software package?",
+        "points": [
+          "A software package is ready-made code that programmers download from an online store, like a box of ready parts they can add to their own project.",
+          "Attackers upload packages with hidden harmful code, often disguised as useful tools or sent during a fake job interview, so the code runs when a developer installs it.",
+          "Developers can stay safe by downloading packages only from trusted sources, checking who published them, and running new code in a separate test environment first."
+        ]
+      }
+    },
     {
       "id": "488fba3625cf",
       "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
@@ -1230,12 +1302,17 @@
       "category": "vulnerability",
       "importance": 6,
       "published": "2026-11-24T12:00:00+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
           "published": "2026-11-24T12:00:00+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+          "published": "2026-11-25T16:13:40+00:00"
         }
       ],
       "concept": {
@@ -1467,78 +1544,6 @@
           "A browser sandbox is a safe room inside the browser that keeps websites away from the rest of your computer.",
           "A flaw that lets code escape this room could let a harmful website reach files and programs on the device.",
           "Keep your browser set to update automatically and restart it when an update is installed."
-        ]
-      }
-    },
-    {
-      "id": "bd9a9d08a15c",
-      "headline": "Suzlon Energy Discloses Cyber Incident but Says Critical Systems Are Running",
-      "summary": "Indian wind turbine maker Suzlon Energy disclosed a cyber incident and said its business-critical applications were not affected at the time. It notified CERT-In and did not say what systems or data were involved.",
-      "category": "other",
-      "importance": 4,
-      "published": "2026-11-24T09:28:06+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/suzlon-energy-cyberattack/",
-          "published": "2026-11-24T09:28:06+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a cyber incident?",
-        "points": [
-          "A cyber incident is when hackers or software problems break into a company's computers or data without permission, similar to a thief getting into a building.",
-          "After an incident, a company checks which systems were opened, what was taken, and whether anything still needs protecting.",
-          "Companies often respond by separating affected systems from the rest of the network and telling the government's security team what happened."
-        ]
-      }
-    },
-    {
-      "id": "ef65ba5b3ce4",
-      "headline": "Windows Remote Access API Flaw Allows SYSTEM Privilege Escalation",
-      "summary": "Microsoft fixed CVE-2026-119853 in its November Patch Tuesday updates. The flaw lets an attacker with limited local access run code with SYSTEM privileges on Windows 10, Windows 11, and Windows Server.",
-      "category": "vulnerability",
-      "importance": 5,
-      "published": "2026-11-24T09:12:12+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/windows-remote-access-api-flaw/",
-          "published": "2026-11-24T09:12:12+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a privilege escalation flaw?",
-        "points": [
-          "A privilege escalation flaw is a bug that lets a user with a small amount of access gain full control, like a visitor who sneaks into the manager's office.",
-          "The attacker first gets limited access to a computer, then uses the bug to run their own code with SYSTEM rights, the highest level of control on Windows.",
-          "Installing the monthly security update from Microsoft closes the gap, so people should keep automatic updates turned on."
-        ]
-      }
-    },
-    {
-      "id": "b85e913e4ec0",
-      "headline": "WHMCS Flaw Lets Anyone Pull Customer Records and Admin Password Hashes",
-      "summary": "A SQL injection flaw in the WHMCS billing platform, used by many web hosts, can be exploited without logging in. It could expose customer records and administrator password hashes.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T08:34:20+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-          "published": "2026-11-24T08:34:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a SQL injection attack?",
-        "points": [
-          "SQL injection is a trick where an attacker types special commands into a website's form, like a login box, so that the site's database runs them.",
-          "A website that does not check input carefully may hand over private data, such as customer lists or password hashes (scrambled versions of passwords).",
-          "Website owners protect against this by checking all user input carefully and applying updates from the software maker quickly."
         ]
       }
     }

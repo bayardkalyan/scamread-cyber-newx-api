@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-11-25T15:40:16+00:00",
+  "updated_at": "2026-11-25T16:40:10+00:00",
   "stories": [
+    {
+      "id": "430ceacab685",
+      "story_key": "todoist-production-systems-breach",
+      "headline": "Todoist Breach Exposes Account Records for About 6% of Users",
+      "summary": "Task app Todoist said an attacker breached its production systems and downloaded account records for about 6% of users, including email addresses and older password hashes. It also obtained integration tokens and accessed some connected Outlook mailbox data. Affected users are being notified.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-25T16:39:28+00:00",
+      "first_seen": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/todoist-production-system-breach/",
+          "published": "2026-11-25T16:39:28+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a company's computer system without permission and copies private information, like a locked filing cabinet that was opened and emptied.",
+          "The attacker often finds a weak password or an unfixed flaw, enters the system, and then downloads customer records such as email addresses.",
+          "People can protect themselves by using a unique password for each account, turning on two-step login, and being careful with emails that ask for login details."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "5d87ea02ff9c",
+      "story_key": "swiss-ncsc-ai-agent-compromises",
+      "headline": "Swiss Agency Confirms AI-Agent Cyberattacks Compromised Victims' IT Systems",
+      "summary": "Switzerland's National Cyber Security Centre confirmed its first AI-assisted attacks on organisations, affecting companies and critical infrastructure in at least two sectors. In every known case, the AI agents successfully compromised the victims' IT systems.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-25T16:02:38+00:00",
+      "first_seen": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/",
+          "published": "2026-11-25T16:02:38+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How are AI agents used in cyberattacks?",
+        "points": [
+          "An AI agent is a computer program that can plan and carry out a series of tasks by itself, like a very fast assistant that works without rest.",
+          "Attackers can use AI agents to search for weak points, try many break-in methods, and move through a network step by step, faster than a human could.",
+          "Organisations can reduce this risk by keeping their software updated, limiting what each account can access, and watching for unusual activity."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "e96a79cde462",
+      "story_key": "fake-recruitment-nuget-malware",
+      "headline": "Fake Recruitment Campaign Spreads Malware Through 13 NuGet Packages",
+      "summary": "Researchers found 13 malicious NuGet packages used in a fake recruitment campaign aimed at .NET developers. The packages spread malware and give attackers access to developers' machines.",
+      "category": "malware",
+      "importance": 5,
+      "published": "2026-11-25T15:48:04+00:00",
+      "first_seen": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+          "published": "2026-11-25T15:48:04+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a poisoned software package?",
+        "points": [
+          "A software package is ready-made code that programmers download from an online store, like a box of ready parts they can add to their own project.",
+          "Attackers upload packages with hidden harmful code, often disguised as useful tools or sent during a fake job interview, so the code runs when a developer installs it.",
+          "Developers can stay safe by downloading packages only from trusted sources, checking who published them, and running new code in a separate test environment first."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "488fba3625cf",
       "story_key": "fortinet-commercial-ships-breach",
@@ -1363,12 +1444,17 @@
       "importance": 6,
       "published": "2026-11-24T12:00:00+00:00",
       "first_seen": "2026-11-24T16:22:33+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-25T16:40:10+00:00",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
           "published": "2026-11-24T12:00:00+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+          "published": "2026-11-25T16:13:40+00:00"
         }
       ],
       "concept": {
