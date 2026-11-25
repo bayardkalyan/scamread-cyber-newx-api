@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T05:46:26+00:00",
+  "updated_at": "2026-11-25T08:21:13+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,6 +15,103 @@
   "window_hours": 24,
   "count": 5,
   "items": [
+    {
+      "id": "5cf9b85b8c4f",
+      "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
+      "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-24T14:21:56+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+          "published": "2026-11-24T16:15:23+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+          "published": "2026-11-24T14:21:56+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+          "published": "2026-11-25T06:50:19+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a vulnerability and an exploit?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a faulty lock, that could let someone enter without permission.",
+          "An exploit is a method that uses that weak spot. Attackers scan for systems that have not been fixed, then use the exploit to get in, often before the owner knows.",
+          "Companies stay safe by installing security updates (fixes from the maker) quickly and by checking their management systems for unusual access."
+        ]
+      }
+    },
+    {
+      "id": "b10d385f372b",
+      "headline": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "summary": "Palo Alto Networks released fixes for Fragnesia, a flaw a China-linked group chained with PHP2Shell in AI-assisted attacks on 25 servers. The flaw was used to gain root access to firewalls.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T08:08:43+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+          "published": "2026-11-25T08:12:24+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/",
+          "published": "2026-11-25T08:08:43+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a security flaw?",
+        "points": [
+          "A security flaw is a mistake in software that lets someone do things the makers did not intend, like a crack in a door lock.",
+          "Attackers look for flaws, chain several together, and use them to gain root access, which means full control of the device.",
+          "Makers release a patch, a fix that closes the flaw, so installing updates quickly is one of the best defenses."
+        ]
+      }
+    },
+    {
+      "id": "395590d718a3",
+      "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
+      "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-24T22:41:58+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+          "published": "2026-11-24T22:41:58+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
+          "published": "2026-11-25T02:32:38+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+          "published": "2026-11-25T07:45:03+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
+          "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
+          "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
+        ]
+      }
+    },
     {
       "id": "88b982e416d9",
       "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
@@ -80,88 +177,6 @@
           "Voice phishing is a scam phone call where a criminal pretends to be a bank, a company, or IT staff to get private login details or approvals.",
           "The caller creates urgency, saying there is a problem, and asks the victim to read out a code or approve a login request on their phone.",
           "If a call seems urgent or strange, hang up and call the company back using the official number from its website, never a number the caller gave."
-        ]
-      }
-    },
-    {
-      "id": "395590d718a3",
-      "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
-      "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-24T22:41:58+00:00",
-      "updated": "2026-11-25T05:30:31+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-          "published": "2026-11-24T22:41:58+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
-          "published": "2026-11-25T02:32:38+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
-          "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
-          "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
-        ]
-      }
-    },
-    {
-      "id": "5cf9b85b8c4f",
-      "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
-      "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T14:21:56+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-          "published": "2026-11-24T16:15:23+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-          "published": "2026-11-24T14:21:56+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a vulnerability and an exploit?",
-        "points": [
-          "A vulnerability is a weak spot in software, like a faulty lock, that could let someone enter without permission.",
-          "An exploit is a method that uses that weak spot. Attackers scan for systems that have not been fixed, then use the exploit to get in, often before the owner knows.",
-          "Companies stay safe by installing security updates (fixes from the maker) quickly and by checking their management systems for unusual access."
-        ]
-      }
-    },
-    {
-      "id": "00384e2e683a",
-      "headline": "Hackers Keep Running EvilTokens Phishing After Microsoft Takedown",
-      "summary": "Attackers are still using the EvilTokens phishing kit to take over Microsoft 365 accounts despite Microsoft shutting the service down. New phishing hosts kept appearing in October and November after two arrests in London.",
-      "category": "scam-phishing",
-      "importance": 7,
-      "published": "2026-11-24T11:36:09+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/eviltokens-phishing/",
-          "published": "2026-11-24T11:36:09+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a phishing kit?",
-        "points": [
-          "A phishing kit is a ready-made set of fake login pages that criminals can buy or copy to trick people into giving away passwords.",
-          "The victim gets a message with a link to a fake Microsoft sign-in page, types in their login details, and the attacker receives them.",
-          "Never enter your password after clicking a link in an unexpected email, and go to the website directly instead."
         ]
       }
     }

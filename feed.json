@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T05:46:26+00:00",
+  "updated_at": "2026-11-25T08:21:13+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,179 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "b10d385f372b",
+      "headline": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "summary": "Palo Alto Networks released fixes for Fragnesia, a flaw a China-linked group chained with PHP2Shell in AI-assisted attacks on 25 servers. The flaw was used to gain root access to firewalls.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T08:08:43+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+          "published": "2026-11-25T08:12:24+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/",
+          "published": "2026-11-25T08:08:43+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a security flaw?",
+        "points": [
+          "A security flaw is a mistake in software that lets someone do things the makers did not intend, like a crack in a door lock.",
+          "Attackers look for flaws, chain several together, and use them to gain root access, which means full control of the device.",
+          "Makers release a patch, a fix that closes the flaw, so installing updates quickly is one of the best defenses."
+        ]
+      }
+    },
+    {
+      "id": "3f5805006ef5",
+      "headline": "Hackers Use AWS Keys Taken From AI Prompts to Probe Cloud Storage",
+      "summary": "Attackers used Amazon Web Services keys taken from AI prompts to list cloud storage and search secret services. Dragos said the keys belonged to empty, monitored accounts, so no production data was confirmed stolen.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-25T07:46:19+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/stolen-ai-prompt-data/",
+          "published": "2026-11-25T07:46:19+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What are leaked cloud access keys?",
+        "points": [
+          "Cloud access keys are secret codes that let a program or person use a cloud account, like a spare key to a storage room.",
+          "If a key is copied, for example from a shared AI prompt, an attacker can sign in as that account and look inside its storage.",
+          "Companies keep keys out of prompts, chat logs and public code, and replace them with new ones often."
+        ]
+      }
+    },
+    {
+      "id": "3ecdfff97757",
+      "headline": "Remus Stealer Installs Fake Google Sheets Extension to Steal Gmail",
+      "summary": "The Remus Stealer malware secretly installs a fake Google Sheets extension in Chrome on infected Windows PCs to read signed-in users' Gmail messages. Researchers found no Gmail zero-day; the attack relies on victims already being signed in.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-25T06:48:13+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/remus-stealer/",
+          "published": "2026-11-25T06:48:13+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an infostealer malware?",
+        "points": [
+          "Infostealer malware is a harmful program that secretly copies passwords, sessions and messages from a computer, like a thief copying keys in secret.",
+          "In this case, a fake browser add-on pretends to be a spreadsheet tool, and it reads Gmail while the user is still signed in.",
+          "Only add browser extensions from trusted stores, and sign out of email on shared or unfamiliar computers."
+        ]
+      }
+    },
+    {
+      "id": "efec1ec98723",
+      "headline": "Com-Affiliated Hackers Use Vishing to Hijack Cloud Accounts",
+      "summary": "Palo Alto Networks Unit 42 says Com-affiliated threat actors have run repeated voice phishing waves since August, hijacking cloud accounts for data theft and extortion. Targets include financial, healthcare and legal firms in the US, UK and Australia.",
+      "category": "scam-phishing",
+      "importance": 6,
+      "published": "2026-11-25T06:37:06+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+          "published": "2026-11-25T06:37:06+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is vishing, or voice phishing?",
+        "points": [
+          "Vishing is a scam phone call where a criminal pretends to be a bank, company or helpdesk to trick someone into sharing a code or password.",
+          "The attacker builds trust, asks for a one-time code or a login, and then uses it to take over the cloud account and copy data.",
+          "Never give codes to callers, and hang up and call the company back using a number you already trust."
+        ]
+      }
+    },
+    {
+      "id": "cfbabcb66e6b",
+      "headline": "Credential Harvesting Becomes Major Share of Exploitation Attempts",
+      "summary": "VulnCheck data shows credential-theft requests made up 13% of recorded exploitation in 2026, with their monthly share reaching 25% to 35% in September and October. Attackers targeted database passwords, cloud keys and SSH keys.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-25T06:30:47+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/25/vulncheck-credential-harvesting-exploitat-records/",
+          "published": "2026-11-25T06:30:47+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is credential harvesting?",
+        "points": [
+          "Credential harvesting means attackers try to collect usernames, passwords and secret keys that unlock computers, databases and online services.",
+          "They send many requests to weak systems, gather any login details they find, and then reuse them to enter accounts.",
+          "Using long unique passwords, turning on two-step checks, and replacing exposed keys reduces the damage from stolen logins."
+        ]
+      }
+    },
+    {
+      "id": "efb43b11134c",
+      "headline": "Vinci RAT Delivered Through Real Microsoft Store App Listing",
+      "summary": "Victims searching for a screenshot tool were sent to a fake download site and a Microsoft-signed installer that opened a Microsoft Store app called Setup Assistant. The app installed Vinci RAT, a remote access trojan that lets attackers run commands on Windows PCs.",
+      "category": "malware",
+      "importance": 5,
+      "published": "2026-11-25T06:30:10+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/vinci-rat-linked-to-microsoft-store/",
+          "published": "2026-11-25T06:30:10+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a remote access trojan?",
+        "points": [
+          "A remote access trojan is hidden software that lets a stranger control a computer from far away, like a secret spare key.",
+          "Attackers hide it in a download that looks real, such as a screenshot tool, and then run commands once it is installed.",
+          "Download apps only from official stores and check the publisher name before installing anything from a web link."
+        ]
+      }
+    },
+    {
+      "id": "b70f624e117e",
+      "headline": "WordPress Removes Six Backdoored WP Connect Plugins Before Release",
+      "summary": "WordPress removed six WP Connect plugins that were backdoored on November 22 after a suspected compromise of the developer's account, which could allow arbitrary code execution on sites. The plugins team blocked them before official release.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-25T06:21:12+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+          "published": "2026-11-25T06:21:12+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a backdoor in software?",
+        "points": [
+          "A backdoor is a hidden entrance in software that lets someone skip the normal locks and run code without permission.",
+          "Here, attackers may have taken over a developer's account and added hidden code to plugins that websites install to add features.",
+          "Website owners should update plugins, remove unused ones, and install only plugins from trusted sources."
+        ]
+      }
+    },
     {
       "id": "7c0520f2a82d",
       "headline": "Holiday Shopping Scam Victims Nearly Double, McAfee Survey Finds",
@@ -45,7 +218,7 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-24T22:41:58+00:00",
-      "updated": "2026-11-25T05:30:31+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
@@ -56,6 +229,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
           "published": "2026-11-25T02:32:38+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+          "published": "2026-11-25T07:45:03+00:00"
         }
       ],
       "concept": {
@@ -333,9 +511,9 @@
       "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
       "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
       "category": "vulnerability",
-      "importance": 7,
+      "importance": 8,
       "published": "2026-11-24T14:21:56+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -346,6 +524,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
           "published": "2026-11-24T14:21:56+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+          "published": "2026-11-25T06:50:19+00:00"
         }
       ],
       "concept": {
@@ -632,14 +815,19 @@
       "headline": "CISA Adds Three Exploited Flaws in Idunno, Drupal and Optimizely",
       "summary": "CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation, affecting Idunno AntiCsrf, Drupal Core and Optimizely Web Experimentation.",
       "category": "vulnerability",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-24T12:00:00+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
+      "updated": "2026-11-25T08:21:13+00:00",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-24T12:00:00+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+          "published": "2026-11-25T08:01:06+00:00"
         }
       ],
       "concept": {
@@ -1233,7 +1421,15 @@
           "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
           "published": "2026-11-23T16:17:21+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a zero-day attack?",
+        "points": [
+          "A zero-day is a security flaw that the software maker does not know about yet, so no fix exists when attackers first use it.",
+          "Attackers find such a flaw and use it to break in, and some reports say AI tools can speed this process up sharply.",
+          "Keeping software updated and using monitoring tools helps defenders spot strange activity early."
+        ]
+      }
     },
     {
       "id": "f5dd8c3ce19e",
@@ -1264,7 +1460,15 @@
           "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/",
           "published": "2026-11-24T12:04:37+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a flaw that exposes secrets?",
+        "points": [
+          "A vulnerability is a weak spot in software that attackers can use, like a broken lock on a door.",
+          "Here, an attacker searches a cloud service for access tokens (digital keys that prove who you are) and secrets (hidden passwords) that the service should protect.",
+          "Companies stay safe by installing the maker's fix quickly and changing any keys or passwords that may have been exposed."
+        ]
+      }
     },
     {
       "id": "20929c10eb51",
@@ -1280,7 +1484,15 @@
           "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
           "published": "2026-11-23T13:58:07+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a session overwrite attack?",
+        "points": [
+          "A session is the short memory a website keeps about you after you log in, like a numbered ticket at a coat check.",
+          "If an attacker controls that stored data and interrupts the update, the website may read it as instructions and run the attacker's commands.",
+          "Website owners reduce this risk by installing software updates and checking how their programs handle stored data."
+        ]
+      }
     },
     {
       "id": "19f16091a624",
@@ -1296,7 +1508,15 @@
           "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
           "published": "2026-11-23T13:22:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is code injection in a software library?",
+        "points": [
+          "Code injection is when an attacker sneaks their own instructions into a program, like hiding a secret note inside a form someone fills in.",
+          "Here, the library reads parser definitions (recipes that describe how to read data), so a person who writes a harmful recipe can make the program run their commands.",
+          "Developers protect their projects by updating to a fixed version and checking outside definitions before trusting them."
+        ]
+      }
     },
     {
       "id": "532d34f2950f",
@@ -1312,149 +1532,15 @@
           "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
           "published": "2026-11-23T12:41:04+00:00"
         }
-      ]
-    },
-    {
-      "id": "74b9b8b8bd34",
-      "headline": "Dragos Finds Undetected Intrusions at Three AI Inference Providers",
-      "summary": "Dragos found intrusions at three AI inference providers that went undetected, using analysis of nearly two million prompts sent to AI services. Prompt theft was also involved.",
-      "category": "ai-security",
-      "importance": 6,
-      "published": "2026-11-23T12:16:20+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
-          "published": "2026-11-23T12:16:20+00:00"
-        }
-      ]
-    },
-    {
-      "id": "43b32e5b9657",
-      "headline": "Call Center Operator Sentenced to Eight Years for Government Impersonation Scam",
-      "summary": "A Peruvian call center operator received an eight-year prison sentence for helping defraud over 30,000 Spanish-speaking US residents through a government impersonation scheme.",
-      "category": "scam-phishing",
-      "importance": 5,
-      "published": "2026-11-23T12:02:23+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
-          "published": "2026-11-23T12:02:23+00:00"
-        }
-      ]
-    },
-    {
-      "id": "4b0215ad1f98",
-      "headline": "Critical N-able MailAssure Flaw Lets Attackers Reach Internal Systems",
-      "summary": "N-able patched a critical flaw in MailAssure, formerly SpamExperts, that lets an attacker with privileged API access reach internal network services. Customers should update to build 20261121.1943 or later.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-23T12:00:00+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/critical-n-able-mail-assure-ssrf-vulnerability/",
-          "published": "2026-11-24T08:16:15+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-          "published": "2026-11-24T06:02:45+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-          "published": "2026-11-23T15:06:49+00:00"
-        },
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-          "published": "2026-11-23T12:00:00+00:00"
-        },
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/cisa-nable-cybersecurity-bug",
-          "published": "2026-11-24T15:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "75db031c6c99",
-      "headline": "BadBox 3.0 Ad Fraud Operation Disrupted Across Consumer Devices",
-      "summary": "The BadBox 3.0 operation, which used backdoors on low-cost consumer devices to deliver ad fraud and residential proxy modules, has been disrupted. It was generating around 40 billion bid requests daily.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-23T11:44:18+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
-          "published": "2026-11-23T11:44:18+00:00"
-        }
-      ]
-    },
-    {
-      "id": "6955905970d3",
-      "headline": "Hackers Exploit Critical Legacy ASP.NET Anti-CSRF Library Flaw",
-      "summary": "Attackers are exploiting a critical flaw in the legacy Idunno.AntiCsrf ASP.NET library, prompting researchers to urge users to stop using it. Affected versions include 0.9.1.0 and 0.9.1 Beta.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-23T09:11:56+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-          "published": "2026-11-23T09:11:56+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/",
-          "published": "2026-11-24T12:55:28+00:00"
-        }
-      ]
-    },
-    {
-      "id": "e6e4b153fd43",
-      "headline": "India's CERT-In Warns of AI-Assisted Attacks Causing Bank Payment Fraud",
-      "summary": "India's national cyber agency warned that criminals are using AI to attack technology assets, leading to unauthorized transactions at banks, fintechs and technology service providers.",
-      "category": "ai-security",
-      "importance": 6,
-      "published": "2026-11-23T08:24:15+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-          "published": "2026-11-23T08:24:15+00:00"
-        }
-      ]
-    },
-    {
-      "id": "62d30d2d286b",
-      "headline": "SAP NetWeaver and Cisco Expressway Flaws Exploited in Attacks",
-      "summary": "Attackers are exploiting flaws in SAP NetWeaver and Cisco Expressway to leak or modify server information and run commands with root privileges.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-23T07:44:19+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-          "published": "2026-11-23T11:35:15+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-          "published": "2026-11-23T07:44:19+00:00"
-        }
-      ]
+      ],
+      "concept": {
+        "title": "How does a remote-access tool attack work?",
+        "points": [
+          "Remote-access software lets a technician control another computer over the internet, like handing someone a spare key to your house.",
+          "Attackers are using a flaw that already has a fix, so copies that were not updated are at risk, and a guest can push a harmful file onto technicians' computers.",
+          "Companies stay safe by installing the latest update on every remote-access tool and limiting who is allowed to connect to them."
+        ]
+      }
     }
   ]
 }
