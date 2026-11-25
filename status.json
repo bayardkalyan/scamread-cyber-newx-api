@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-25T17:40:01+00:00",
+  "run_at": "2026-11-25T18:40:15+00:00",
   "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 12,
+      "items": 11,
       "error": null
     },
     {
@@ -58,12 +58,12 @@
       "error": null
     }
   ],
-  "fetched_items": 86,
-  "new_items": 5,
-  "curated_items": 5,
-  "kept_items": 5,
-  "new_stories": 3,
-  "merged_sources": 1,
-  "explained_stories": 2,
+  "fetched_items": 84,
+  "new_items": 0,
+  "curated_items": 0,
+  "kept_items": 0,
+  "new_stories": 0,
+  "merged_sources": 0,
+  "explained_stories": 0,
   "errors": []
 }
