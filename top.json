@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T01:02:08+00:00",
+  "updated_at": "2026-11-25T05:30:31+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -68,6 +68,27 @@
       ]
     },
     {
+      "id": "395590d718a3",
+      "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
+      "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-24T22:41:58+00:00",
+      "updated": "2026-11-25T05:30:31+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+          "published": "2026-11-24T22:41:58+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
+          "published": "2026-11-25T02:32:38+00:00"
+        }
+      ]
+    },
+    {
       "id": "5cf9b85b8c4f",
       "headline": "Hackers Compromise 22 Organizations Via Check Point Security Servers",
       "summary": "Attackers exploited several vulnerabilities to breach two dozen Check Point security management servers in an ongoing campaign against 22 organizations.",
@@ -101,22 +122,6 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/eviltokens-phishing/",
           "published": "2026-11-24T11:36:09+00:00"
-        }
-      ]
-    },
-    {
-      "id": "2b544b0580ff",
-      "headline": "CISA Adds Four Exploited Flaws in VMware, SAP, Cisco and Apache Products",
-      "summary": "CISA added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its exploited catalog. Federal agencies were given until November 23 to patch them.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T10:00:33+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
-          "published": "2026-11-24T10:00:33+00:00"
         }
       ]
     }

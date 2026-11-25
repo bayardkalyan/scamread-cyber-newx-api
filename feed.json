@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T01:02:08+00:00",
+  "updated_at": "2026-11-25T05:30:31+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,18 +15,39 @@
   "count": 60,
   "items": [
     {
+      "id": "7c0520f2a82d",
+      "headline": "Holiday Shopping Scam Victims Nearly Double, McAfee Survey Finds",
+      "summary": "A McAfee survey found 42% of Americans say they fell for a holiday shopping scam, up from 22% last year. Confidence in spotting online scams has also fallen sharply.",
+      "category": "scam-phishing",
+      "importance": 4,
+      "published": "2026-11-25T05:00:00+00:00",
+      "updated": "2026-11-25T05:30:31+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/",
+          "published": "2026-11-25T05:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "395590d718a3",
       "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
       "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
       "category": "data-breach",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-24T22:41:58+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
+      "updated": "2026-11-25T05:30:31+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
           "published": "2026-11-24T22:41:58+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
+          "published": "2026-11-25T02:32:38+00:00"
         }
       ]
     },
@@ -1080,37 +1101,6 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
           "published": "2026-11-23T07:44:19+00:00"
-        }
-      ]
-    },
-    {
-      "id": "eeea310354d3",
-      "headline": "GL.iNet Cloud Compromise Used to Infect Routers and KVM Devices",
-      "summary": "Attackers compromised GL.iNet's GoodCloud remote management service and installed malware on connected routers and KVM devices. The number of affected devices is not yet known.",
-      "category": "malware",
-      "importance": 7,
-      "published": "2026-11-22T18:45:37+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
-          "published": "2026-11-23T15:05:50+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-          "published": "2026-11-23T13:26:22+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-          "published": "2026-11-23T09:04:08+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-          "published": "2026-11-22T18:45:37+00:00"
         }
       ]
     }
