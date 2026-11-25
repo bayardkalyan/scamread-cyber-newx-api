@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T05:30:31+00:00",
+  "updated_at": "2026-11-25T05:43:02+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -28,7 +28,15 @@
           "url": "https://www.helpnetsecurity.com/2026/11/25/mcafee-holiday-shopping-scams-report/",
           "published": "2026-11-25T05:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a holiday shopping scam?",
+        "points": [
+          "A holiday shopping scam is a fake deal that tricks you into paying for something that does not arrive, like a fake online shop with prices that are too good to be true.",
+          "Scammers copy real shop websites or send fake ads and messages, then ask you to pay in a way that is hard to undo, such as gift cards or bank transfers.",
+          "Check the web address carefully, buy only from shops you know, and pay with a credit card or payment service that offers buyer protection."
+        ]
+      }
     },
     {
       "id": "395590d718a3",
@@ -49,7 +57,15 @@
           "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
           "published": "2026-11-25T02:32:38+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
+          "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
+          "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
+        ]
+      }
     },
     {
       "id": "2a1f05ab0644",
@@ -65,7 +81,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
           "published": "2026-11-24T21:37:30+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a cloud platform breach?",
+        "points": [
+          "A cloud platform is a service that runs computer systems and stores data for businesses over the internet, like renting storage space in a large shared building.",
+          "When a cloud platform is breached, attackers can get into the accounts and secret keys that customers use to log in and control their systems.",
+          "Businesses protect themselves by keeping secret keys private, changing them often, and making regular backup copies of important data."
+        ]
+      }
     },
     {
       "id": "b89dc1eefaaf",
@@ -81,7 +105,15 @@
           "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
           "published": "2026-11-24T21:36:11+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a software vulnerability?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a door that was left unlocked by mistake, that someone could use to get into a system they should not control.",
+          "An attacker finds the weak spot and uses a tool to exploit it, which can make the system show wrong information, stop working, or let them change records.",
+          "Software makers release fixes called patches, and users should install these updates quickly to close the weak spot."
+        ]
+      }
     },
     {
       "id": "602b8f0083e1",
@@ -97,7 +129,15 @@
           "url": "https://therecord.media/mycolorado-app-down-data-breach",
           "published": "2026-11-24T20:52:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a cyberattack on a government app?",
+        "points": [
+          "A cyberattack is an attempt by criminals to break into a computer system to steal, damage or lock information, much like a burglar trying doors in a building.",
+          "Attackers may gain access through stolen passwords or weak security, then copy personal records or shut the service down so people cannot use it.",
+          "People can protect themselves by using unique passwords for government accounts, turning on two-step login, and being careful about messages that ask for personal details."
+        ]
+      }
     },
     {
       "id": "5d2a2ec43868",
@@ -129,7 +169,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
           "published": "2026-11-24T18:59:52+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a cyberattack?",
+        "points": [
+          "A cyberattack is an attempt by criminals to break into a computer system to steal, damage or lock information, much like a burglar trying doors in a building.",
+          "Attackers often look for stolen login details or weak spots in software, then move through systems to find data they can take or misuse.",
+          "Organizations defend against this by limiting who can access systems, watching for unusual activity, and updating software quickly."
+        ]
+      }
     },
     {
       "id": "367e93123f70",
@@ -145,7 +193,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
           "published": "2026-11-24T17:49:05+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is an exposed API?",
+        "points": [
+          "An API is a behind-the-scenes connection that lets one computer program talk to another, like a service window where staff pass requests back and forth.",
+          "If this connection is left open to the internet without protection, anyone who finds it can send requests and see information they should not access.",
+          "Companies prevent this by keeping internal connections behind a login check, limiting access to trusted users, and regularly testing their systems for open gaps."
+        ]
+      }
     },
     {
       "id": "9fa0fecef642",
@@ -161,7 +217,15 @@
           "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
           "published": "2026-11-24T17:49:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when someone gets into a company's computer system and takes or sees personal information, like names, birth dates or ID numbers.",
+          "Attackers often steal a password or find a weak spot in the system, then copy the stored records and may sell them or use them for scams.",
+          "People can protect themselves by using unique passwords, turning on two-step login, and watching for strange messages about their data."
+        ]
+      }
     },
     {
       "id": "21126c75eb99",
@@ -177,7 +241,15 @@
           "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
           "published": "2026-11-24T16:54:07+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a backdoor in malware?",
+        "points": [
+          "Malware is harmful software, and a backdoor is a hidden secret entrance that lets an attacker control a computer without the owner knowing.",
+          "Some backdoors hide their commands in public file-sharing networks, so the traffic looks ordinary and is harder to block.",
+          "Companies protect themselves with security updates, strict access controls, and tools that watch for unusual network activity."
+        ]
+      }
     },
     {
       "id": "665f85d067d2",
@@ -193,7 +265,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
           "published": "2026-11-24T16:30:19+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is data extortion?",
+        "points": [
+          "Data extortion is when criminals steal private data and then threaten to leak it unless the victim pays money.",
+          "Gangs post stolen data on public leak sites to pressure victims, and may show old PGP keys (secret codes used to lock messages) as proof.",
+          "Victims can protect themselves by keeping software updated, using strong unique passwords, and checking any unknown demand carefully before replying."
+        ]
+      }
     },
     {
       "id": "6bb640861ddc",
@@ -209,7 +289,15 @@
           "url": "https://therecord.media/carnegie-endowment-data-breach",
           "published": "2026-11-24T16:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a third-party vendor breach?",
+        "points": [
+          "A vendor is an outside company that a group hires to handle tasks like email, forms or donations, so it holds some of that group's data.",
+          "If attackers break into the vendor's systems, they can reach the data of every organization that uses it, even when the main group's own systems stay safe.",
+          "Groups can reduce this risk by asking vendors how they protect data and by sharing only the personal information they really need."
+        ]
+      }
     },
     {
       "id": "5b6cf1244bca",
@@ -230,7 +318,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
           "published": "2026-11-24T16:22:44+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a user data leak?",
+        "points": [
+          "A user data leak happens when names and email addresses that should stay private become visible to people who should not see them.",
+          "AI tools (computer programs that can write and reason like people) can help attackers write convincing messages and search for weak spots faster.",
+          "Users can protect themselves by being careful with emails that ask for logins and by using a different password for each website."
+        ]
+      }
     },
     {
       "id": "5cf9b85b8c4f",
@@ -251,7 +347,15 @@
           "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
           "published": "2026-11-24T14:21:56+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a vulnerability and an exploit?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a faulty lock, that could let someone enter without permission.",
+          "An exploit is a method that uses that weak spot. Attackers scan for systems that have not been fixed, then use the exploit to get in, often before the owner knows.",
+          "Companies stay safe by installing security updates (fixes from the maker) quickly and by checking their management systems for unusual access."
+        ]
+      }
     },
     {
       "id": "df3d58b39efa",
@@ -267,7 +371,15 @@
           "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
           "published": "2026-11-24T13:45:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "How are attackers using AI?",
+        "points": [
+          "Attackers now use AI tools (computer programs that can write and reason like people) to make their attacks faster, larger and harder to stop.",
+          "AI can write believable scam emails in any language, test many passwords quickly, and keep changing its methods so that an attack keeps going for longer.",
+          "Defenders also use AI to spot unusual activity, but people should still check unexpected requests carefully before acting on them."
+        ]
+      }
     },
     {
       "id": "f5ae27d9a34e",
@@ -283,7 +395,15 @@
           "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
           "published": "2026-11-24T13:35:26+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a server backdoor?",
+        "points": [
+          "A backdoor is a hidden program that gives an attacker a secret way back into a computer, even after the first break-in is found.",
+          "Once installed, it can run commands, read files and open hidden network tunnels (secret paths for data), while pretending to be an ordinary running program.",
+          "Companies can watch for programs they do not recognize and limit who can install software on their servers (computers that host websites and data)."
+        ]
+      }
     },
     {
       "id": "9679b0bf91aa",
@@ -299,7 +419,15 @@
           "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
           "published": "2026-11-24T13:30:23+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "How do tools spot AI misuse across many requests?",
+        "points": [
+          "An AI tool can be misused when one person sends many small requests that together serve a harmful goal, like pieces of a puzzle hidden across many messages.",
+          "Detection tools watch patterns across all of a company's requests over time, similar to a bank noticing many small transfers that together look like theft.",
+          "Companies can use these tools and keep clear records of how AI systems are used, so unusual activity is found early."
+        ]
+      }
     },
     {
       "id": "88b982e416d9",
@@ -325,7 +453,15 @@
           "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
           "published": "2026-11-24T16:32:56+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a software vulnerability?",
+        "points": [
+          "A vulnerability is a weakness in software, like a door that does not lock properly, that someone could use to get in where they should not.",
+          "Attackers send specially prepared input to the weak spot, which can trick the software into running their own commands on the server.",
+          "Administrators should check which versions they run and install the maker's updates (called patches) as soon as they are available."
+        ]
+      }
     },
     {
       "id": "5e000706662e",
@@ -351,7 +487,15 @@
           "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
           "published": "2026-11-24T15:39:05+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when someone gets into a company's computer storage without permission and takes personal information, like a thief copying private files from a filing cabinet.",
+          "Attackers often find an entry point such as a weak password or outdated software, then search the stored records and copy the ones they want.",
+          "Users can protect themselves by using a unique password for each app and watching for unexpected messages about their account."
+        ]
+      }
     },
     {
       "id": "94962b98d642",
@@ -377,7 +521,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
           "published": "2026-11-24T20:21:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is voice phishing, or vishing?",
+        "points": [
+          "Voice phishing is a scam phone call where a criminal pretends to be a bank, a company, or IT staff to get private login details or approvals.",
+          "The caller creates urgency, saying there is a problem, and asks the victim to read out a code or approve a login request on their phone.",
+          "If a call seems urgent or strange, hang up and call the company back using the official number from its website, never a number the caller gave."
+        ]
+      }
     },
     {
       "id": "57d72c25186e",
@@ -393,7 +545,15 @@
           "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
           "published": "2026-11-24T12:02:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a code integrity bypass?",
+        "points": [
+          "Windows has checks that confirm a program is trusted before it runs, like a security guard checking identification at a building entrance.",
+          "A bypass is a way around that check, and in this case a tiny change to a file tricked Windows into running code it should have blocked.",
+          "Installing system updates as soon as they are released helps close these gaps, and users should avoid running programs from unknown sources."
+        ]
+      }
     },
     {
       "id": "74a8a15d26b6",
@@ -409,7 +569,15 @@
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
           "published": "2026-11-24T12:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a memory corruption flaw?",
+        "points": [
+          "A memory corruption flaw happens when software writes data into the wrong part of computer memory, like writing a note on the wrong page of a notebook.",
+          "A person who already has access to the computer can use this mistake to change how the program behaves and make it run their own commands.",
+          "Users should apply the fixes the maker lists and limit who can log in to the computer."
+        ]
+      }
     },
     {
       "id": "0d94f4768be7",
@@ -425,7 +593,15 @@
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
           "published": "2026-11-24T12:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a buffer overflow?",
+        "points": [
+          "A buffer overflow happens when a program accepts more data than the space it has reserved, like pouring too much water into a cup so it spills over.",
+          "An attacker sends a specially crafted request over the network, and the extra data can carry commands that the device then runs.",
+          "Operators should install the maker's fix, keep control devices off the public internet, and place them behind a firewall (a filter that blocks unwanted traffic)."
+        ]
+      }
     },
     {
       "id": "619dbc122bff",
@@ -441,7 +617,15 @@
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
           "published": "2026-11-24T12:00:00+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a heap overflow?",
+        "points": [
+          "The heap is a shared area of computer memory that programs use to store data while they run, and a heap overflow happens when too much data is written into it.",
+          "An attacker can hide harmful content inside a project file, and when a user opens that file the software may crash or run the attacker's code.",
+          "Open project files only from trusted sources and keep the software updated to the latest version from the maker."
+        ]
+      }
     },
     {
       "id": "f517b5a194a7",

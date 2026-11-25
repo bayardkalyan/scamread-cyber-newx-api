@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T05:30:31+00:00",
+  "updated_at": "2026-11-25T05:43:02+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -39,7 +39,15 @@
           "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
           "published": "2026-11-24T16:32:56+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a software vulnerability?",
+        "points": [
+          "A vulnerability is a weakness in software, like a door that does not lock properly, that someone could use to get in where they should not.",
+          "Attackers send specially prepared input to the weak spot, which can trick the software into running their own commands on the server.",
+          "Administrators should check which versions they run and install the maker's updates (called patches) as soon as they are available."
+        ]
+      }
     },
     {
       "id": "94962b98d642",
@@ -65,7 +73,15 @@
           "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
           "published": "2026-11-24T20:21:20+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is voice phishing, or vishing?",
+        "points": [
+          "Voice phishing is a scam phone call where a criminal pretends to be a bank, a company, or IT staff to get private login details or approvals.",
+          "The caller creates urgency, saying there is a problem, and asks the victim to read out a code or approve a login request on their phone.",
+          "If a call seems urgent or strange, hang up and call the company back using the official number from its website, never a number the caller gave."
+        ]
+      }
     },
     {
       "id": "395590d718a3",
@@ -86,7 +102,15 @@
           "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
           "published": "2026-11-25T02:32:38+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
+          "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
+          "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
+        ]
+      }
     },
     {
       "id": "5cf9b85b8c4f",
@@ -107,7 +131,15 @@
           "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
           "published": "2026-11-24T14:21:56+00:00"
         }
-      ]
+      ],
+      "concept": {
+        "title": "What is a vulnerability and an exploit?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a faulty lock, that could let someone enter without permission.",
+          "An exploit is a method that uses that weak spot. Attackers scan for systems that have not been fixed, then use the exploit to get in, often before the owner knows.",
+          "Companies stay safe by installing security updates (fixes from the maker) quickly and by checking their management systems for unusual access."
+        ]
+      }
     },
     {
       "id": "00384e2e683a",
