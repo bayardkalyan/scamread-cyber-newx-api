@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T22:40:39+00:00",
+  "updated_at": "2026-11-25T23:39:51+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -103,40 +103,6 @@
       }
     },
     {
-      "id": "395590d718a3",
-      "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
-      "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-24T22:41:58+00:00",
-      "updated": "2026-11-25T08:21:13+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-          "published": "2026-11-24T22:41:58+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cia-and-odni-suffer-cyberattack/",
-          "published": "2026-11-25T02:32:38+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-          "published": "2026-11-25T07:45:03+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
-          "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
-          "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
-        ]
-      }
-    },
-    {
       "id": "43818f9f943c",
       "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
       "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
@@ -162,6 +128,35 @@
           "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
           "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
           "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
+        ]
+      }
+    },
+    {
+      "id": "10e0d3da49e6",
+      "headline": "Hackers Exploit CVSS 10.0 Flaw to Breach Hex.pm Package Registry Servers",
+      "summary": "Attackers ran commands on six production servers of Hex.pm, the registry Elixir and Erlang developers use for dependencies. The flaw had existed since 2016, and the servers were patched within about 15 minutes.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-25T09:06:59+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+          "published": "2026-11-25T09:06:59+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-exploit-critical-hex-pm-vulnerability/",
+          "published": "2026-11-25T14:05:27+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a remote code execution flaw?",
+        "points": [
+          "A remote code execution flaw is a bug that lets an attacker run their own commands on someone else's computer, like a hidden door into a building.",
+          "Attackers find the bug, send specially built requests to the server, and the server runs the attacker's commands without checking them first.",
+          "Software makers release a patch (a fix) quickly, and users should install updates as soon as they arrive."
         ]
       }
     }
