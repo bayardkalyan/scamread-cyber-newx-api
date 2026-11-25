@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-11-25T20:40:42+00:00",
+  "updated_at": "2026-11-25T21:39:53+00:00",
   "stories": [
+    {
+      "id": "f1f716d39e5b",
+      "story_key": "1password-github-account-breach",
+      "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
+      "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-25T21:33:33+00:00",
+      "first_seen": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+          "published": "2026-11-25T21:33:33+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an account takeover?",
+        "points": [
+          "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
+          "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
+          "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "14c7aa7a4cb7",
+      "story_key": "salt-typhoon-artex-ai-tool",
+      "headline": "Microsoft Says China's Salt Typhoon Is Using Artex AI Tool",
+      "summary": "Microsoft reports that China's Salt Typhoon group is using Artex, an AI tool previously tied to several high-profile breaches. Hacking groups from China and North Korea are rapidly adding it to their toolkits.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-25T21:18:00+00:00",
+      "first_seen": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "published": "2026-11-25T21:18:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How are hackers using artificial intelligence tools?",
+        "points": [
+          "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
+          "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
+          "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "4a2b7fbe9517",
+      "story_key": "fifa-data-breach",
+      "headline": "FIFA Says Hackers Accessed Limited Personal and Business Information",
+      "summary": "FIFA says attackers accessed a limited set of personal and business information in a recent breach. The Swiss-based soccer governing body is working with authorities and law enforcement on the investigation.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-25T20:40:00+00:00",
+      "first_seen": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/fifa-data-breach-limited",
+          "published": "2026-11-25T20:40:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when criminals break into a company's or organization's computer systems and copy private information, such as names, contact details, or records.",
+          "Attackers often find a weak password, a system missing its latest security fix, or a tricked employee, then move inside to copy files.",
+          "People can protect themselves by using unique passwords and turning on two-step login wherever it is offered."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "bd2b56bde9ee",
       "story_key": "florida-ransomware-recovery-ceo-indicted",
@@ -405,6 +486,33 @@
           "An autonomous AI agent (a computer program that works on its own) can carry out a series of tasks with little human help. Attackers can misuse these programs to break into systems.",
           "Think of an agent as a tireless helper that tries many doors at once. After stealing a password, it can use that password to log in to other computers on the same network.",
           "Organizations can reduce this risk by using strong, unique passwords and multi-factor login (a second check, such as a code sent to your phone)."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "07875af858cc",
+      "story_key": "cisa-kev-ten-exploited-flaws-nov-2026",
+      "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
+      "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-25T12:00:00+00:00",
+      "first_seen": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-25T12:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an exploited vulnerability?",
+        "points": [
+          "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
+          "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
+          "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
         ]
       },
       "concept_checked": true

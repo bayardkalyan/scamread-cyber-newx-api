@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T20:40:42+00:00",
+  "updated_at": "2026-11-25T21:39:53+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,78 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "f1f716d39e5b",
+      "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
+      "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-25T21:33:33+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+          "published": "2026-11-25T21:33:33+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an account takeover?",
+        "points": [
+          "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
+          "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
+          "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
+        ]
+      }
+    },
+    {
+      "id": "14c7aa7a4cb7",
+      "headline": "Microsoft Says China's Salt Typhoon Is Using Artex AI Tool",
+      "summary": "Microsoft reports that China's Salt Typhoon group is using Artex, an AI tool previously tied to several high-profile breaches. Hacking groups from China and North Korea are rapidly adding it to their toolkits.",
+      "category": "ai-security",
+      "importance": 6,
+      "published": "2026-11-25T21:18:00+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "published": "2026-11-25T21:18:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How are hackers using artificial intelligence tools?",
+        "points": [
+          "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
+          "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
+          "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
+        ]
+      }
+    },
+    {
+      "id": "4a2b7fbe9517",
+      "headline": "FIFA Says Hackers Accessed Limited Personal and Business Information",
+      "summary": "FIFA says attackers accessed a limited set of personal and business information in a recent breach. The Swiss-based soccer governing body is working with authorities and law enforcement on the investigation.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-25T20:40:00+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/fifa-data-breach-limited",
+          "published": "2026-11-25T20:40:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when criminals break into a company's or organization's computer systems and copy private information, such as names, contact details, or records.",
+          "Attackers often find a weak password, a system missing its latest security fix, or a tricked employee, then move inside to copy files.",
+          "People can protect themselves by using unique passwords and turning on two-step login wherever it is offered."
+        ]
+      }
+    },
     {
       "id": "bd2b56bde9ee",
       "headline": "Florida Ransomware Recovery CEO Indicted Over Ransom Payments",
@@ -373,6 +445,30 @@
           "An autonomous AI agent (a computer program that works on its own) can carry out a series of tasks with little human help. Attackers can misuse these programs to break into systems.",
           "Think of an agent as a tireless helper that tries many doors at once. After stealing a password, it can use that password to log in to other computers on the same network.",
           "Organizations can reduce this risk by using strong, unique passwords and multi-factor login (a second check, such as a code sent to your phone)."
+        ]
+      }
+    },
+    {
+      "id": "07875af858cc",
+      "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
+      "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-25T12:00:00+00:00",
+      "updated": "2026-11-25T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-25T12:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an exploited vulnerability?",
+        "points": [
+          "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
+          "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
+          "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
         ]
       }
     },
@@ -1458,102 +1554,6 @@
           "A vulnerability is a weak spot in software that someone could misuse, like a broken lock on a door.",
           "Attackers scan the internet for this weak spot and use it to break into systems before many owners have fixed it.",
           "Organizations can protect themselves by installing software updates (fixes from the maker) as soon as they are released."
-        ]
-      }
-    },
-    {
-      "id": "00384e2e683a",
-      "headline": "Hackers Keep Running EvilTokens Phishing After Microsoft Takedown",
-      "summary": "Attackers are still using the EvilTokens phishing kit to take over Microsoft 365 accounts despite Microsoft shutting the service down. New phishing hosts kept appearing in October and November after two arrests in London.",
-      "category": "scam-phishing",
-      "importance": 7,
-      "published": "2026-11-24T11:36:09+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/eviltokens-phishing/",
-          "published": "2026-11-24T11:36:09+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a phishing kit?",
-        "points": [
-          "A phishing kit is a ready-made set of fake login pages that criminals can buy or copy to trick people into giving away passwords.",
-          "The victim gets a message with a link to a fake Microsoft sign-in page, types in their login details, and the attacker receives them.",
-          "Never enter your password after clicking a link in an unexpected email, and go to the website directly instead."
-        ]
-      }
-    },
-    {
-      "id": "4092dc0bd687",
-      "headline": "OpenSSH Flaw Lets Attackers Log Into Unpatched Alpine Linux Servers",
-      "summary": "A flaw in OpenSSH, tracked as CVE-2026-123158, can let remote attackers sign in to certain Alpine Linux accounts without a valid password. Affected servers use musl, lack PAM, and allow SSH password logins; patches were released in early November.",
-      "category": "vulnerability",
-      "importance": 6,
-      "published": "2026-11-24T11:25:20+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-bypass-alpine-linux-ssh-authentication/",
-          "published": "2026-11-24T11:25:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote login vulnerability?",
-        "points": [
-          "A remote login vulnerability is a flaw that lets a stranger on the internet sign into a computer without knowing the correct password.",
-          "Attackers send special requests to a server running the weak software and may gain access to accounts they should not reach.",
-          "Keeping servers updated with the latest patches (fixes from the maker) is the best way to close this kind of gap."
-        ]
-      }
-    },
-    {
-      "id": "def3e58e2b61",
-      "headline": "Phone Scammers Bypass MFA to Reach Microsoft 365 Data",
-      "summary": "Criminals posing as IT support phone employees and direct them to fake sign-in pages to get Microsoft 365 access, even with MFA enabled. They then steal email and files from OneDrive and SharePoint and demand payment.",
-      "category": "scam-phishing",
-      "importance": 6,
-      "published": "2026-11-24T10:48:04+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/bypass-mfa-through-phone-scams/",
-          "published": "2026-11-24T10:48:04+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is vishing and how does it bypass MFA?",
-        "points": [
-          "Vishing is voice phishing, where a criminal uses a phone call to pretend to be someone trustworthy, such as IT support.",
-          "The caller guides the victim to a fake sign-in page, and the victim may give away a login code, which lets the attacker get past MFA (a second check, like a code sent to your phone).",
-          "Never share a login code over the phone, and hang up and call your company's real IT number to check any request."
-        ]
-      }
-    },
-    {
-      "id": "3ef7beb4837a",
-      "headline": "Bluetooth Flaws in Elecbrakes Controllers Could Force Trailer Braking",
-      "summary": "Critical Bluetooth vulnerabilities in Elecbrakes trailer brake controllers could let nearby attackers trigger braking. The flaws could potentially cause accidents.",
-      "category": "vulnerability",
-      "importance": 5,
-      "published": "2026-11-24T10:44:44+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-          "published": "2026-11-24T10:44:44+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a Bluetooth vulnerability?",
-        "points": [
-          "Bluetooth is a short-range wireless connection, like the one used to link headphones to a phone.",
-          "A weakness in the Bluetooth code of a device can let a nearby attacker send it commands that it should not accept.",
-          "Makers can reduce this risk by releasing firmware updates (fixes for a device's built-in software) and owners should install them."
         ]
       }
     }
