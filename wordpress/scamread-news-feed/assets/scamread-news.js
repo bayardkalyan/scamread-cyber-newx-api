@@ -40,6 +40,23 @@
     return a;
   }
 
+  /* "Learn the concept": built with textContent only, like the rest of the card. */
+  function renderConcept(concept) {
+    if (!concept || !concept.title || !Array.isArray(concept.points)) return null;
+    var points = concept.points.filter(function (p) { return p && String(p).trim(); }).slice(0, 3);
+    if (points.length < 2) return null;
+    var details = el('details', 'srn-concept');
+    details.appendChild(el('summary', '', 'Learn the concept'));
+    var body = el('div', 'srn-concept-body');
+    body.appendChild(el('p', 'srn-concept-title', String(concept.title)));
+    var list = el('ol', 'srn-concept-points');
+    points.forEach(function (p) { list.appendChild(el('li', '', String(p))); });
+    body.appendChild(list);
+    body.appendChild(el('p', 'srn-concept-note', 'Explained for beginners by AI (Claude).'));
+    details.appendChild(body);
+    return details;
+  }
+
   function renderItem(item) {
     var sources = (item.sources || []).filter(function (s) { return safeUrl(s.url); });
     if (!item.headline || !sources.length) return null;
@@ -56,6 +73,8 @@
     article.appendChild(meta);
     article.appendChild(el('h3', 'srn-headline', item.headline));
     if (item.summary) article.appendChild(el('p', 'srn-summary', item.summary));
+    var concept = renderConcept(item.concept);
+    if (concept) article.appendChild(concept);
 
     var links = el('p', 'srn-links');
     if (sources.length === 1) {
@@ -94,6 +113,10 @@
       if (!node) {
         node = renderItem(item);
         if (node && live && hadItems) markNew(node);
+      } else if (item.concept && !node.querySelector('.srn-concept')) {
+        // An explainer was written after this card appeared: add it in place.
+        var concept = renderConcept(item.concept);
+        if (concept) node.insertBefore(concept, node.querySelector('.srn-links'));
       }
       if (node) wanted.push(node);
     });
@@ -126,6 +149,15 @@
       })
       .catch(function () { /* network hiccup: try again next tick */ });
   }
+
+  // Count how often visitors open "Learn the concept" (if Google Analytics is on the page).
+  document.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (d && d.classList && d.classList.contains('srn-concept') && d.open && typeof window.gtag === 'function') {
+      var item = d.closest('.srn-item');
+      window.gtag('event', 'learn_concept_open', { story_id: item ? item.dataset.id : '' });
+    }
+  }, true);
 
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.srn-feed[data-endpoint]').forEach(function (section) {

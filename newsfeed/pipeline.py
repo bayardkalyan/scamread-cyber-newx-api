@@ -20,6 +20,7 @@ from typing import Callable, Optional
 
 from . import __version__, config
 from .curator import CATEGORIES, Curator
+from .explainer import Explainer
 from .fetcher import RawItem, fetch_all, http_fetch
 from .store import load_json, save_json
 
@@ -87,7 +88,31 @@ def merge_results(stories: dict[str, dict], results: list[dict], items: list[Raw
 
 def public_story(story: dict) -> dict:
     keys = ("id", "headline", "summary", "category", "importance", "published", "updated", "sources")
-    return {k: story[k] for k in keys}
+    out = {k: story[k] for k in keys}
+    if story.get("concept"):
+        out["concept"] = story["concept"]  # "Learn the concept": {"title", "points"}
+    return out
+
+
+def add_concepts(stories: list[dict], explainer: Explainer, status: dict,
+                 limit: int = config.EXPLAIN_MAX_PER_RUN, batch_size: int = config.EXPLAIN_BATCH_SIZE) -> None:
+    """Write beginner explainers for the newest stories not looked at yet."""
+    todo = [s for s in stories if not s.get("concept_checked")][:limit]
+    for batch in _chunks(todo, batch_size):
+        try:
+            concepts = explainer.explain(batch)
+        except Exception as exc:  # stories stay unchecked, so the next run tries again
+            log.error("explainer failed for a batch of %d: %s", len(batch), exc)
+            status["errors"].append(f"explainer: {type(exc).__name__}: {str(exc)[:200]}")
+            if getattr(exc, "status_code", None) in (401, 403):
+                break
+            continue
+        for story in batch:
+            if story["story_key"] in concepts:
+                story["concept"] = concepts[story["story_key"]]
+                story["concept_checked"] = True
+                if story["concept"]:
+                    status["explained_stories"] += 1
 
 
 def build_top(stories: list[dict], now: datetime, window_hours: int, n: int) -> list[dict]:
@@ -105,6 +130,7 @@ def build_top(stories: list[dict], now: datetime, window_hours: int, n: int) -> 
 def run(out_dir: Path,
         sources_file: Path = config.SOURCES_FILE,
         curator: Optional[Curator] = None,
+        explainer: Optional[Explainer] = None,
         fetch: Callable[[str], bytes] = http_fetch,
         now: Optional[datetime] = None) -> dict:
     now = now or datetime.now(timezone.utc)
@@ -136,6 +162,7 @@ def run(out_dir: Path,
         "kept_items": 0,
         "new_stories": 0,
         "merged_sources": 0,
+        "explained_stories": 0,
         "errors": [],
     }
 
@@ -143,6 +170,8 @@ def run(out_dir: Path,
     if curator is None and api_key:
         log.info("API key check: %s", describe_api_key(os.environ.get("ANTHROPIC_API_KEY", "")))
         curator = Curator(api_key=api_key)
+        if explainer is None:
+            explainer = Explainer(api_key=api_key)
     if curator is None:
         status["mode"] = "fetch-only"
         status["errors"].append("ANTHROPIC_API_KEY is not set: fetched sources but did not curate.")
@@ -180,6 +209,9 @@ def run(out_dir: Path,
     seen = {k: v for k, v in seen.items() if _parse(v) >= seen_cutoff}
 
     ordered = sorted(stories.values(), key=lambda s: s["published"], reverse=True)
+    key_rejected = any("API key was rejected" in e for e in status["errors"])
+    if explainer is not None and not key_rejected:
+        add_concepts(ordered[:config.FEED_LIMIT], explainer, status)
     updated_at = _iso(now)
     meta = {
         "name": "ScamRead cyber news feed",
@@ -201,7 +233,7 @@ def run(out_dir: Path,
             if path.is_file():
                 shutil.copy2(path, out_dir / path.name)
 
-    log.info("run done: %d new items, %d kept, %d new stories, %d merged sources, %d errors",
+    log.info("run done: %d new items, %d kept, %d new stories, %d merged sources, %d explained, %d errors",
              status["curated_items"], status["kept_items"], status["new_stories"],
-             status["merged_sources"], len(status["errors"]))
+             status["merged_sources"], status["explained_stories"], len(status["errors"]))
     return status

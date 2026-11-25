@@ -20,6 +20,8 @@ def _int(name: str, default: int) -> int:
 MODEL = os.environ.get("NEWSFEED_MODEL", "claude-haiku-5-5")
 MAX_TOKENS = _int("NEWSFEED_MAX_TOKENS", 8000)
 BATCH_SIZE = _int("NEWSFEED_BATCH_SIZE", 12)
+EXPLAIN_MAX_PER_RUN = _int("NEWSFEED_EXPLAIN_MAX_PER_RUN", 24)  # "Learn the concept" notes per run
+EXPLAIN_BATCH_SIZE = _int("NEWSFEED_EXPLAIN_BATCH_SIZE", 8)
 
 # Fetching
 SOURCES_FILE = Path(os.environ.get("NEWSFEED_SOURCES", PACKAGE_DIR / "sources.json"))

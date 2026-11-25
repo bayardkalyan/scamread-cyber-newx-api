@@ -3,7 +3,7 @@
  * Plugin Name:       ScamRead News Feed
  * Plugin URI:        https://github.com/bayardkalyan/scamread-cyber-newx-api
  * Description:       Shows the ScamRead cyber news feed: AI-written headlines and summaries with links to the original articles. Use the shortcode [scamread_news].
- * Version:           1.1.1
+ * Version:           1.2.0
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            ScamRead
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SRN_VERSION', '1.1.1' );
+define( 'SRN_VERSION', '1.2.0' );
 define( 'SRN_DEFAULT_BASE', 'https://bayardkalyan.github.io/scamread-cyber-newx-api/' );
 define( 'SRN_CACHE_SECONDS', 5 * MINUTE_IN_SECONDS );
 
@@ -205,7 +205,51 @@ function srn_clean_item( $item ) {
 		'label'     => $labels[ $category ],
 		'published' => isset( $item['published'] ) ? (string) $item['published'] : '',
 		'sources'   => $sources,
+		'concept'   => srn_clean_concept( isset( $item['concept'] ) ? $item['concept'] : null ),
 	);
+}
+
+/* "Learn the concept": a short question and 2-3 plain-language points, or null. */
+function srn_clean_concept( $concept ) {
+	if ( ! is_array( $concept ) || empty( $concept['title'] ) || empty( $concept['points'] ) || ! is_array( $concept['points'] ) ) {
+		return null;
+	}
+	$points = array();
+	foreach ( array_slice( $concept['points'], 0, 3 ) as $point ) {
+		$point = trim( wp_strip_all_tags( (string) $point ) );
+		if ( '' !== $point ) {
+			$points[] = mb_substr( $point, 0, 300 );
+		}
+	}
+	if ( count( $points ) < 2 ) {
+		return null;
+	}
+	return array(
+		'title'  => mb_substr( trim( wp_strip_all_tags( (string) $concept['title'] ) ), 0, 120 ),
+		'points' => $points,
+	);
+}
+
+function srn_render_concept( $concept ) {
+	if ( ! $concept ) {
+		return '';
+	}
+	ob_start();
+	?>
+		<details class="srn-concept">
+			<summary>Learn the concept</summary>
+			<div class="srn-concept-body">
+				<p class="srn-concept-title"><?php echo esc_html( $concept['title'] ); ?></p>
+				<ol class="srn-concept-points">
+					<?php foreach ( $concept['points'] as $point ) : ?>
+						<li><?php echo esc_html( $point ); ?></li>
+					<?php endforeach; ?>
+				</ol>
+				<p class="srn-concept-note">Explained for beginners by AI (Claude).</p>
+			</div>
+		</details>
+	<?php
+	return ob_get_clean();
 }
 
 function srn_render_item( $item ) {
@@ -222,6 +266,7 @@ function srn_render_item( $item ) {
 		<?php if ( $item['summary'] ) : ?>
 			<p class="srn-summary"><?php echo esc_html( $item['summary'] ); ?></p>
 		<?php endif; ?>
+		<?php echo srn_render_concept( $item['concept'] ); // phpcs:ignore WordPress.Security.EscapeOutput -- escaped inside ?>
 		<p class="srn-links">
 			<?php if ( 1 === count( $item['sources'] ) ) : ?>
 				<a href="<?php echo esc_url( $item['sources'][0]['url'] ); ?>" target="_blank" rel="noopener nofollow">Read full article on <?php echo esc_html( $item['sources'][0]['name'] ); ?> &rarr;</a>

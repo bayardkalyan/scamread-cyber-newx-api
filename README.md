@@ -38,9 +38,22 @@ Each story looks like this:
   "sources": [
     {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/...", "published": "..."},
     {"name": "The Hacker News", "url": "https://thehackernews.com/...", "published": "..."}
-  ]
+  ],
+  "concept": {
+    "title": "What is a supply-chain attack?",
+    "points": [
+      "Instead of attacking a website directly, criminals break into a company that supplies it with code.",
+      "The supplier's code quietly carries the bad part, so every site that uses it is affected at once.",
+      "Sites protect themselves by checking that outside code hasn't changed and limiting what it can do."
+    ]
+  }
 }
 ```
+
+`concept` ("Learn the concept") is only present on attack, scam, malware,
+vulnerability and technical stories: a beginner question and 2-3 plain-language
+points about the idea behind the news. Business, funding and purely legal
+stories don't get one.
 
 Categories: `data-breach`, `scam-phishing`, `vulnerability`, `ransomware`, `malware`, `ai-security`, `privacy-policy`, `other`.
 
@@ -77,6 +90,7 @@ Listed in [`newsfeed/sources.json`](newsfeed/sources.json): The Hacker News, Ble
 - Keeps only real security news. Drops job posts, webinars, adverts and Reddit questions.
 - Writes the headline and summary in its own words from the article's title and RSS snippet only. It never sees or copies full articles.
 - Groups reports of the same story from different sites into one story with several source links.
+- Writes a "Learn the concept" note for attack and technical stories: 2-3 short points in everyday words (what it is, how the trick works, how to stay safe). It explains the general idea and adds no new facts about the incident. Each story is explained once, in a separate small request.
 - Treats everything it reads as untrusted data, so instructions hidden in an article can't steer it.
 - Uses Claude Haiku 5.5 with structured outputs, so the response always matches the expected JSON shape.
 
