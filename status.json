@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-24T17:50:57+00:00",
+  "run_at": "2026-11-25T01:02:08+00:00",
   "mode": "full",
   "sources": [
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 5,
+      "items": 8,
       "error": null
     },
     {
@@ -54,15 +54,15 @@
     {
       "name": "CISA",
       "ok": true,
-      "items": 4,
+      "items": 5,
       "error": null
     }
   ],
-  "fetched_items": 77,
-  "new_items": 5,
-  "curated_items": 5,
-  "kept_items": 5,
-  "new_stories": 3,
+  "fetched_items": 81,
+  "new_items": 11,
+  "curated_items": 11,
+  "kept_items": 10,
+  "new_stories": 8,
   "merged_sources": 2,
   "errors": []
 }

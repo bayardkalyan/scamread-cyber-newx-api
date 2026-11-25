@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T17:50:57+00:00",
+  "updated_at": "2026-11-25T01:02:08+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -12,8 +12,104 @@
     "privacy-policy",
     "other"
   ],
-  "count": 54,
+  "count": 60,
   "items": [
+    {
+      "id": "395590d718a3",
+      "headline": "Unclassified CIA System Breached in Cyberattack, Source Says",
+      "summary": "An unclassified CIA system was breached in a cyberattack, according to an AP source. It is unclear what information was taken or who was responsible.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T22:41:58+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+          "published": "2026-11-24T22:41:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2a1f05ab0644",
+      "headline": "Rackspace Shuts Down Spot Cloud Platform After Security Breach",
+      "summary": "Rackspace is closing its Spot cloud platform after hackers accessed customer Kubernetes clusters and secrets. Customers have until December 8 to migrate services and download their data.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T21:37:30+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+          "published": "2026-11-24T21:37:30+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b89dc1eefaaf",
+      "headline": "Flaws in Visa and Immigration Systems Could Disrupt Border Entry",
+      "summary": "Vulnerabilities in online visa and immigration systems could have disrupted traveler entry to several countries, including Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji and Ghana.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-24T21:36:11+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+          "published": "2026-11-24T21:36:11+00:00"
+        }
+      ]
+    },
+    {
+      "id": "602b8f0083e1",
+      "headline": "Colorado myColorado App Hit by Cyberattack, 150,000 Users' Data Stolen",
+      "summary": "The cyberattack took the myColorado app offline and likely exposed data from 150,000 users. The app is used for digital identification, document storage and state government services.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T20:52:00+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/mycolorado-app-down-data-breach",
+          "published": "2026-11-24T20:52:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5d2a2ec43868",
+      "headline": "California Privacy Agency Director Kemp to Step Down",
+      "summary": "Kemp, director of the California Privacy Protection Agency, announced his departure after a two-year tenure that included launching a platform for easily opting out of data sharing.",
+      "category": "privacy-policy",
+      "importance": 3,
+      "published": "2026-11-24T19:30:00+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/california-privacy-agency-kemp",
+          "published": "2026-11-24T19:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e31442eafaee",
+      "headline": "Turnitin Discloses Cyberattack Affecting Customer-Facing Systems",
+      "summary": "Turnitin said it detected unauthorized activity involving certain customer-facing systems. The disclosure was made in a statement from CEO Chris Caren.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-24T18:59:52+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+          "published": "2026-11-24T18:59:52+00:00"
+        }
+      ]
+    },
     {
       "id": "367e93123f70",
       "headline": "Radware Discloses Breach Exposing Customer Cloud Access Keys",
@@ -27,6 +123,22 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
           "published": "2026-11-24T17:49:05+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9fa0fecef642",
+      "headline": "Lawmakers Urge ID Verification Firms to Tighten Security After IDscan Breach",
+      "summary": "A bipartisan group of lawmakers wrote that identity verification companies still have significant security work to do following IDscan's data breach in September.",
+      "category": "privacy-policy",
+      "importance": 4,
+      "published": "2026-11-24T17:49:00+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+          "published": "2026-11-24T17:49:00+00:00"
         }
       ]
     },
@@ -225,9 +337,9 @@
       "headline": "Okta Links ShinyHunters-Linked Vishing Crew to New INCEPTION Leak Site",
       "summary": "Okta says a cluster once tied to the ShinyHunters extortion crew appears to have rebranded as INCEPTION, using voice phishing to steal credentials and approvals. Targets span many industries.",
       "category": "scam-phishing",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-24T12:47:07+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -238,6 +350,11 @@
           "name": "Help Net Security",
           "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
           "published": "2026-11-24T12:47:07+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+          "published": "2026-11-24T20:21:20+00:00"
         }
       ]
     },
@@ -301,6 +418,22 @@
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+          "published": "2026-11-24T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f517b5a194a7",
+      "headline": "CISA Adds Three Exploited Flaws in Idunno, Drupal and Optimizely",
+      "summary": "CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation, affecting Idunno AntiCsrf, Drupal Core and Optimizely Web Experimentation.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-24T12:00:00+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-24T12:00:00+00:00"
         }
       ]
@@ -678,12 +811,17 @@
       "category": "malware",
       "importance": 6,
       "published": "2026-11-23T17:45:15+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
           "published": "2026-11-23T17:45:15+00:00"
+        },
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+          "published": "2026-11-24T21:48:06+00:00"
         }
       ]
     },
@@ -973,43 +1111,6 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
           "published": "2026-11-22T18:45:37+00:00"
-        }
-      ]
-    },
-    {
-      "id": "80c649264115",
-      "headline": "Cleverbridge Breach Exposes Customer Credit Card Numbers and CVVs",
-      "summary": "E-commerce platform Cleverbridge warned that hackers breached its systems and stole customers' payment card details, including card numbers and security codes.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-22T15:43:04+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-          "published": "2026-11-22T15:43:04+00:00"
-        }
-      ]
-    },
-    {
-      "id": "c0b57b61d141",
-      "headline": "Signal Blocks Screenshots on Apple and Google Systems Over AI Agents",
-      "summary": "Signal says AI features in Google Gemini and Apple Siri make the environment hostile to privacy, so it is blocking screenshots to protect messages from AI agents.",
-      "category": "ai-security",
-      "importance": 4,
-      "published": "2026-11-22T15:15:25+00:00",
-      "updated": "2026-11-24T11:43:48+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
-          "published": "2026-11-23T18:37:00+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-          "published": "2026-11-22T15:15:25+00:00"
         }
       ]
     }

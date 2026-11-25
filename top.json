@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-24T17:50:57+00:00",
+  "updated_at": "2026-11-25T01:02:08+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -38,6 +38,32 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
           "published": "2026-11-24T16:32:56+00:00"
+        }
+      ]
+    },
+    {
+      "id": "94962b98d642",
+      "headline": "Okta Links ShinyHunters-Linked Vishing Crew to New INCEPTION Leak Site",
+      "summary": "Okta says a cluster once tied to the ShinyHunters extortion crew appears to have rebranded as INCEPTION, using voice phishing to steal credentials and approvals. Targets span many industries.",
+      "category": "scam-phishing",
+      "importance": 7,
+      "published": "2026-11-24T12:47:07+00:00",
+      "updated": "2026-11-25T01:02:08+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+          "published": "2026-11-24T13:28:21+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
+          "published": "2026-11-24T12:47:07+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+          "published": "2026-11-24T20:21:20+00:00"
         }
       ]
     },
@@ -91,22 +117,6 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
           "published": "2026-11-24T10:00:33+00:00"
-        }
-      ]
-    },
-    {
-      "id": "b85e913e4ec0",
-      "headline": "WHMCS Flaw Lets Anyone Pull Customer Records and Admin Password Hashes",
-      "summary": "A SQL injection flaw in the WHMCS billing platform, used by many web hosts, can be exploited without logging in. It could expose customer records and administrator password hashes.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T08:34:20+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-          "published": "2026-11-24T08:34:20+00:00"
         }
       ]
     }
