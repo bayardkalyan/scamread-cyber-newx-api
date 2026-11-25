@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-25T19:52:48+00:00",
+  "run_at": "2026-11-25T20:40:42+00:00",
   "mode": "full",
   "sources": [
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 11,
+      "items": 10,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
       "error": null
     }
   ],
-  "fetched_items": 84,
+  "fetched_items": 83,
   "new_items": 0,
   "curated_items": 0,
   "kept_items": 0,
