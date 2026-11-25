@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T18:40:15+00:00",
+  "updated_at": "2026-11-25T19:40:38+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -109,12 +109,17 @@
       "category": "ai-security",
       "importance": 6,
       "published": "2026-11-25T16:02:38+00:00",
-      "updated": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-25T19:40:38+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks/",
           "published": "2026-11-25T16:02:38+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+          "published": "2026-11-25T19:39:31+00:00"
         }
       ],
       "concept": {
