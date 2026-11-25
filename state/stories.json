@@ -1,6 +1,80 @@
 {
-  "updated_at": "2026-11-25T16:40:10+00:00",
+  "updated_at": "2026-11-25T17:40:01+00:00",
   "stories": [
+    {
+      "id": "bd2b56bde9ee",
+      "story_key": "florida-ransomware-recovery-ceo-indicted",
+      "headline": "Florida Ransomware Recovery CEO Indicted Over Ransom Payments",
+      "summary": "A federal grand jury indicted the CEO of a ransomware recovery firm, alleging he lied about the company's services and paid ransoms to cybercriminals.",
+      "category": "ransomware",
+      "importance": 5,
+      "published": "2026-11-25T17:30:00+00:00",
+      "first_seen": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/ransomware-doj-indictment-recovery",
+          "published": "2026-11-25T17:30:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is ransomware?",
+        "points": [
+          "Ransomware is a type of malware, which is harmful software, that locks your files or computer so you cannot use them until you pay money, called a ransom.",
+          "Attackers often sneak it in through a fake email link or an unsafe download. Once it runs, it scrambles your files and shows a message demanding payment.",
+          "Paying does not always bring files back, so keep regular backups of important data stored separately from your computer."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "3c1f1ed1c52a",
+      "story_key": "australia-digital-duty-of-care-act",
+      "headline": "Australia Passes Digital Duty of Care Act for Online Platforms",
+      "summary": "Australia's Parliament passed the Digital Duty of Care Act, which requires online providers to set up protections against threats of violence and other significant harms to users.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-25T17:07:00+00:00",
+      "first_seen": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+          "published": "2026-11-25T17:07:00+00:00"
+        }
+      ],
+      "concept": null,
+      "concept_checked": true
+    },
+    {
+      "id": "0e6ca5b01a3a",
+      "story_key": "holiday-themed-attacks-anyrun",
+      "headline": "Researchers Detail Five Holiday-Themed Phishing and Remote Access Attacks",
+      "summary": "ANY.RUN researchers identified five Thanksgiving and Black Friday themed attacks using credential phishing, unauthorized remote access software and malicious scripts. Businesses risk exposed corporate credentials.",
+      "category": "scam-phishing",
+      "importance": 4,
+      "published": "2026-11-25T16:42:01+00:00",
+      "first_seen": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/beyond-holiday-scams-5-thankssgiving-and-black-friday-cyberattacks-targeting-users-and-businesses/",
+          "published": "2026-11-25T16:42:01+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a phishing attack?",
+        "points": [
+          "Phishing is a scam where a criminal pretends to be a trusted person or company to trick you into giving passwords or other private details.",
+          "The attacker sends a fake email or text with a link to a copy of a real login page, and anything you type goes straight to the criminal.",
+          "Before entering a password, check the web address carefully, and never let an unknown person install software that controls your computer."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "430ceacab685",
       "story_key": "todoist-production-systems-breach",
@@ -386,7 +460,7 @@
       "importance": 6,
       "published": "2026-11-25T10:15:00+00:00",
       "first_seen": "2026-11-25T15:40:16+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
@@ -402,6 +476,11 @@
           "name": "The Record",
           "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
           "published": "2026-11-25T10:15:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
+          "published": "2026-11-25T17:01:30+00:00"
         }
       ],
       "concept": {

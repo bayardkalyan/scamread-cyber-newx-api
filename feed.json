@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-25T16:40:10+00:00",
+  "updated_at": "2026-11-25T17:40:01+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,70 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "bd2b56bde9ee",
+      "headline": "Florida Ransomware Recovery CEO Indicted Over Ransom Payments",
+      "summary": "A federal grand jury indicted the CEO of a ransomware recovery firm, alleging he lied about the company's services and paid ransoms to cybercriminals.",
+      "category": "ransomware",
+      "importance": 5,
+      "published": "2026-11-25T17:30:00+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/ransomware-doj-indictment-recovery",
+          "published": "2026-11-25T17:30:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is ransomware?",
+        "points": [
+          "Ransomware is a type of malware, which is harmful software, that locks your files or computer so you cannot use them until you pay money, called a ransom.",
+          "Attackers often sneak it in through a fake email link or an unsafe download. Once it runs, it scrambles your files and shows a message demanding payment.",
+          "Paying does not always bring files back, so keep regular backups of important data stored separately from your computer."
+        ]
+      }
+    },
+    {
+      "id": "3c1f1ed1c52a",
+      "headline": "Australia Passes Digital Duty of Care Act for Online Platforms",
+      "summary": "Australia's Parliament passed the Digital Duty of Care Act, which requires online providers to set up protections against threats of violence and other significant harms to users.",
+      "category": "other",
+      "importance": 4,
+      "published": "2026-11-25T17:07:00+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+          "published": "2026-11-25T17:07:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0e6ca5b01a3a",
+      "headline": "Researchers Detail Five Holiday-Themed Phishing and Remote Access Attacks",
+      "summary": "ANY.RUN researchers identified five Thanksgiving and Black Friday themed attacks using credential phishing, unauthorized remote access software and malicious scripts. Businesses risk exposed corporate credentials.",
+      "category": "scam-phishing",
+      "importance": 4,
+      "published": "2026-11-25T16:42:01+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/beyond-holiday-scams-5-thankssgiving-and-black-friday-cyberattacks-targeting-users-and-businesses/",
+          "published": "2026-11-25T16:42:01+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a phishing attack?",
+        "points": [
+          "Phishing is a scam where a criminal pretends to be a trusted person or company to trick you into giving passwords or other private details.",
+          "The attacker sends a fake email or text with a link to a copy of a real login page, and anything you type goes straight to the criminal.",
+          "Before entering a password, check the web address carefully, and never let an unknown person install software that controls your computer."
+        ]
+      }
+    },
     {
       "id": "430ceacab685",
       "headline": "Todoist Breach Exposes Account Records for About 6% of Users",
@@ -354,7 +418,7 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-25T10:15:00+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
+      "updated": "2026-11-25T17:40:01+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
@@ -370,6 +434,11 @@
           "name": "The Record",
           "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
           "published": "2026-11-25T10:15:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
+          "published": "2026-11-25T17:01:30+00:00"
         }
       ],
       "concept": {
@@ -1480,70 +1549,6 @@
           "Bluetooth is a short-range wireless connection, like the one used to link headphones to a phone.",
           "A weakness in the Bluetooth code of a device can let a nearby attacker send it commands that it should not accept.",
           "Makers can reduce this risk by releasing firmware updates (fixes for a device's built-in software) and owners should install them."
-        ]
-      }
-    },
-    {
-      "id": "5118f678428f",
-      "headline": "Peninsula Energy Halts Trading After Cyber Incident at Wyoming Uranium Project",
-      "summary": "Peninsula Energy told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations, and trading in its shares has been halted.",
-      "category": "other",
-      "importance": 5,
-      "published": "2026-11-24T10:35:04+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-          "published": "2026-11-24T10:35:04+00:00"
-        }
-      ]
-    },
-    {
-      "id": "2b544b0580ff",
-      "headline": "CISA Adds Four Exploited Flaws in VMware, SAP, Cisco and Apache Products",
-      "summary": "CISA added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its exploited catalog. Federal agencies were given until November 23 to patch them.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T10:00:33+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
-          "published": "2026-11-24T10:00:33+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a known exploited vulnerability?",
-        "points": [
-          "A vulnerability is a weak spot in software that someone could misuse, like a broken lock on a door.",
-          "Attackers scan the internet for this weak spot and use it to break into systems before many owners have fixed it.",
-          "Organizations can protect themselves by installing software updates (fixes from the maker) as soon as they are released."
-        ]
-      }
-    },
-    {
-      "id": "27d2c2409079",
-      "headline": "Google Patches Critical Chrome Flaw Allowing Escape From Browser Sandbox",
-      "summary": "Google released a Chrome desktop update to fix CVE-2026-134401, a critical flaw that could let remote attackers run code outside the browser sandbox. Users on earlier versions should install the update as rollout continues.",
-      "category": "vulnerability",
-      "importance": 6,
-      "published": "2026-11-24T09:37:46+00:00",
-      "updated": "2026-11-24T11:40:39+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/critical-google-chrome-flaw/",
-          "published": "2026-11-24T09:37:46+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a browser sandbox escape?",
-        "points": [
-          "A browser sandbox is a safe room inside the browser that keeps websites away from the rest of your computer.",
-          "A flaw that lets code escape this room could let a harmful website reach files and programs on the device.",
-          "Keep your browser set to update automatically and restart it when an update is installed."
         ]
       }
     }
