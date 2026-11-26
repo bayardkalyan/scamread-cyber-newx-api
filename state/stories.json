@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T04:40:15+00:00",
+  "updated_at": "2026-11-26T05:40:49+00:00",
   "stories": [
+    {
+      "id": "90b4e6073eeb",
+      "story_key": "google-workspace-ai-agent-controls",
+      "headline": "Google Adds Security Controls for Workspace AI Agents",
+      "summary": "Google announced safeguards for autonomous AI agents in Workspace and Cloud, including agent identities, human approval for sensitive actions, and prompt injection screening. It also says MCP or CLI access will be mandatory for these agents starting February 2027.",
+      "category": "ai-security",
+      "importance": 4,
+      "published": "2026-11-26T05:30:05+00:00",
+      "first_seen": "2026-11-26T05:40:49+00:00",
+      "updated": "2026-11-26T05:40:49+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+          "published": "2026-11-26T05:30:05+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is prompt injection in AI agents?",
+        "points": [
+          "An AI agent is a computer program that can carry out tasks on its own, like reading email or changing files, for a person.",
+          "Prompt injection is when an attacker hides instructions in text the agent reads, like a web page or email, tricking it into acting against its owner.",
+          "Safer designs give each agent its own identity, and ask a person to approve sensitive actions such as sending money or deleting files."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "f1f716d39e5b",
       "story_key": "1password-github-account-breach",
@@ -10,7 +37,7 @@
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-26T03:40:28+00:00",
+      "updated": "2026-11-26T05:40:49+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -21,6 +48,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/1password-hacked-2/",
           "published": "2026-11-26T03:04:19+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+          "published": "2026-11-26T04:20:22+00:00"
         }
       ],
       "concept": {

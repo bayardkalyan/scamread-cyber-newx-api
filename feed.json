@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T04:40:15+00:00",
+  "updated_at": "2026-11-26T05:40:49+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,13 +15,37 @@
   "count": 60,
   "items": [
     {
+      "id": "90b4e6073eeb",
+      "headline": "Google Adds Security Controls for Workspace AI Agents",
+      "summary": "Google announced safeguards for autonomous AI agents in Workspace and Cloud, including agent identities, human approval for sensitive actions, and prompt injection screening. It also says MCP or CLI access will be mandatory for these agents starting February 2027.",
+      "category": "ai-security",
+      "importance": 4,
+      "published": "2026-11-26T05:30:05+00:00",
+      "updated": "2026-11-26T05:40:49+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+          "published": "2026-11-26T05:30:05+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is prompt injection in AI agents?",
+        "points": [
+          "An AI agent is a computer program that can carry out tasks on its own, like reading email or changing files, for a person.",
+          "Prompt injection is when an attacker hides instructions in text the agent reads, like a web page or email, tricking it into acting against its owner.",
+          "Safer designs give each agent its own identity, and ask a person to approve sensitive actions such as sending money or deleting files."
+        ]
+      }
+    },
+    {
       "id": "f1f716d39e5b",
       "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
       "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
-      "updated": "2026-11-26T03:40:28+00:00",
+      "updated": "2026-11-26T05:40:49+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -32,6 +56,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/1password-hacked-2/",
           "published": "2026-11-26T03:04:19+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+          "published": "2026-11-26T04:20:22+00:00"
         }
       ],
       "concept": {
@@ -1530,45 +1559,6 @@
           "The heap is a shared area of computer memory that programs use to store data while they run, and a heap overflow happens when too much data is written into it.",
           "An attacker can hide harmful content inside a project file, and when a user opens that file the software may crash or run the attacker's code.",
           "Open project files only from trusted sources and keep the software updated to the latest version from the maker."
-        ]
-      }
-    },
-    {
-      "id": "f517b5a194a7",
-      "headline": "CISA Adds Three Exploited Flaws in Idunno, Drupal and Optimizely",
-      "summary": "CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog based on evidence of active exploitation, affecting Idunno AntiCsrf, Drupal Core and Optimizely Web Experimentation.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-24T12:00:00+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-          "published": "2026-11-24T12:00:00+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-          "published": "2026-11-25T08:01:06+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/drupal-critical-security-flaw/",
-          "published": "2026-11-25T14:51:54+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/25/drupal-installer-rce-cve-2026-132165-exploited/",
-          "published": "2026-11-25T13:37:28+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a known exploited vulnerability?",
-        "points": [
-          "A vulnerability is a weak spot in software that someone could misuse, like a broken lock on a door.",
-          "Attackers scan the internet for this weak spot and use it to break into systems before many owners have fixed it.",
-          "Organizations can protect themselves by installing software updates (fixes from the maker) as soon as they are released."
         ]
       }
     }
