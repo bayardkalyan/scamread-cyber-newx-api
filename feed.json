@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T14:40:21+00:00",
+  "updated_at": "2026-11-26T15:40:33+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "d1596a1e5549",
+      "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories",
+      "summary": "A campaign linked to North Korea planted a Python loader in more than 7,600 GitHub repositories to spread malware. Researchers say the activity may have started as early as February 2025.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-26T15:13:41+00:00",
+      "updated": "2026-11-26T15:40:33+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+          "published": "2026-11-26T15:13:41+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is repository poisoning?",
+        "points": [
+          "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
+          "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
+          "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
+        ]
+      }
+    },
     {
       "id": "d997dcf4bec6",
       "headline": "Bithumb Breach Exposes Passport Numbers and Bank Details for Longer Period",
@@ -1208,12 +1232,17 @@
       "category": "malware",
       "importance": 6,
       "published": "2026-11-25T06:48:13+00:00",
-      "updated": "2026-11-25T08:21:13+00:00",
+      "updated": "2026-11-26T15:40:33+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/remus-stealer/",
           "published": "2026-11-25T06:48:13+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+          "published": "2026-11-26T15:23:28+00:00"
         }
       ],
       "concept": {
@@ -1517,30 +1546,6 @@
           "An API is a behind-the-scenes connection that lets one computer program talk to another, like a service window where staff pass requests back and forth.",
           "If this connection is left open to the internet without protection, anyone who finds it can send requests and see information they should not access.",
           "Companies prevent this by keeping internal connections behind a login check, limiting access to trusted users, and regularly testing their systems for open gaps."
-        ]
-      }
-    },
-    {
-      "id": "9fa0fecef642",
-      "headline": "Lawmakers Urge ID Verification Firms to Tighten Security After IDscan Breach",
-      "summary": "A bipartisan group of lawmakers wrote that identity verification companies still have significant security work to do following IDscan's data breach in September.",
-      "category": "privacy-policy",
-      "importance": 4,
-      "published": "2026-11-24T17:49:00+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
-          "published": "2026-11-24T17:49:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach happens when someone gets into a company's computer system and takes or sees personal information, like names, birth dates or ID numbers.",
-          "Attackers often steal a password or find a weak spot in the system, then copy the stored records and may sell them or use them for scams.",
-          "People can protect themselves by using unique passwords, turning on two-step login, and watching for strange messages about their data."
         ]
       }
     }

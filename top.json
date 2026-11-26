@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T14:40:21+00:00",
+  "updated_at": "2026-11-26T15:40:33+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -46,30 +46,6 @@
           "A software flaw is a mistake in a program's code that lets a stranger do things they should not be allowed to do, like a weak lock.",
           "Attackers find the flaw, then send a specially built request that uses it to take control of the website, such as changing its pages.",
           "Website owners should install updates from the software maker as soon as they are released, since an update (a fix from the maker) closes the flaw."
-        ]
-      }
-    },
-    {
-      "id": "488fba3625cf",
-      "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
-      "summary": "US authorities are investigating whether Iran was behind attacks on Fortinet FortiGate devices that may have compromised up to 50 commercial ships. The count is an intelligence estimate and attribution is unconfirmed.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-25T15:22:40+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/",
-          "published": "2026-11-25T15:22:40+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What does it mean to exploit a security flaw?",
-        "points": [
-          "A security flaw is a mistake in software that works like a hidden gap in a lock.",
-          "Attackers scan the internet for devices with the flaw, then send special messages that let them enter without permission.",
-          "Installing the maker's fix (called a patch) as soon as it is released closes the gap before attackers can use it."
         ]
       }
     },
@@ -143,6 +119,30 @@
           "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
           "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
           "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
+        ]
+      }
+    },
+    {
+      "id": "d1596a1e5549",
+      "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories",
+      "summary": "A campaign linked to North Korea planted a Python loader in more than 7,600 GitHub repositories to spread malware. Researchers say the activity may have started as early as February 2025.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-26T15:13:41+00:00",
+      "updated": "2026-11-26T15:40:33+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+          "published": "2026-11-26T15:13:41+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is repository poisoning?",
+        "points": [
+          "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
+          "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
+          "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
         ]
       }
     },
