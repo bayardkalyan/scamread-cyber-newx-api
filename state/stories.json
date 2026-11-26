@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T19:40:31+00:00",
+  "updated_at": "2026-11-26T20:39:50+00:00",
   "stories": [
+    {
+      "id": "42426dd92d02",
+      "story_key": "threatsday-weekly-roundup-nov-2026",
+      "headline": "Roundup: NGINX Services at Risk, Malicious Extensions, AI Server Hijacking",
+      "summary": "A weekly roundup of security stories reports about 10 million NGINX services at risk, over 250 malicious browser extensions, and attackers hijacking AI servers. Details are limited to the item's headline.",
+      "category": "other",
+      "importance": 3,
+      "published": "2026-11-26T19:39:57+00:00",
+      "first_seen": "2026-11-26T20:39:50+00:00",
+      "updated": "2026-11-26T20:39:50+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+          "published": "2026-11-26T19:39:57+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious browser extension?",
+        "points": [
+          "A browser extension is a small add-on program for a web browser, such as one that blocks ads or saves passwords. A malicious extension is an add-on secretly built to harm the user.",
+          "After it is installed, it can read the web pages you visit, change what you see, or collect logins and other personal data, often while looking useful.",
+          "To stay safe, install add-ons only from official stores, check the reviews and the publisher, and remove any add-on you no longer use."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "216f59d31daa",
       "story_key": "goodguys-fake-expert-interview-phishing",
