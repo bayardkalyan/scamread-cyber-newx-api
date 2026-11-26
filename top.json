@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T02:45:08+00:00",
+  "updated_at": "2026-11-26T03:40:28+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -103,6 +103,35 @@
       }
     },
     {
+      "id": "f1f716d39e5b",
+      "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
+      "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-25T21:33:33+00:00",
+      "updated": "2026-11-26T03:40:28+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+          "published": "2026-11-25T21:33:33+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/1password-hacked-2/",
+          "published": "2026-11-26T03:04:19+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an account takeover?",
+        "points": [
+          "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
+          "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
+          "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
+        ]
+      }
+    },
+    {
       "id": "43818f9f943c",
       "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
       "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
@@ -128,35 +157,6 @@
           "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
           "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
           "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
-        ]
-      }
-    },
-    {
-      "id": "10e0d3da49e6",
-      "headline": "Hackers Exploit CVSS 10.0 Flaw to Breach Hex.pm Package Registry Servers",
-      "summary": "Attackers ran commands on six production servers of Hex.pm, the registry Elixir and Erlang developers use for dependencies. The flaw had existed since 2016, and the servers were patched within about 15 minutes.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-25T09:06:59+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-          "published": "2026-11-25T09:06:59+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-exploit-critical-hex-pm-vulnerability/",
-          "published": "2026-11-25T14:05:27+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote code execution flaw?",
-        "points": [
-          "A remote code execution flaw is a bug that lets an attacker run their own commands on someone else's computer, like a hidden door into a building.",
-          "Attackers find the bug, send specially built requests to the server, and the server runs the attacker's commands without checking them first.",
-          "Software makers release a patch (a fix) quickly, and users should install updates as soon as they arrive."
         ]
       }
     }

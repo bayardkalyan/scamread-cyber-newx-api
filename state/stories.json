@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T02:45:08+00:00",
+  "updated_at": "2026-11-26T03:40:28+00:00",
   "stories": [
     {
       "id": "f1f716d39e5b",
@@ -10,12 +10,17 @@
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-26T03:40:28+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
           "published": "2026-11-25T21:33:33+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/1password-hacked-2/",
+          "published": "2026-11-26T03:04:19+00:00"
         }
       ],
       "concept": {
