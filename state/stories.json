@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T10:40:13+00:00",
+  "updated_at": "2026-11-26T11:40:03+00:00",
   "stories": [
+    {
+      "id": "151e8021a3e7",
+      "story_key": "mitel-micollab-zero-days-exploited",
+      "headline": "Hackers Exploit Mitel MiCollab Zero-Days in Suspected AI-Assisted Attacks",
+      "summary": "Accenture reports that attackers exploited MiCollab flaws before Mitel published its advisory. The campaign appears to be extortion-focused and may have been helped by AI tools.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-26T11:35:25+00:00",
+      "first_seen": "2026-11-26T11:40:03+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+          "published": "2026-11-26T11:35:25+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day attack?",
+        "points": [
+          "A zero-day is a flaw in software that attackers find and use before the maker knows about it or has released a fix.",
+          "Attackers scan software for such flaws and send specially crafted input that triggers them, letting them get into a system without permission.",
+          "People can protect themselves by installing software updates as soon as they arrive, since the maker then releases a fix (a patch) for the flaw."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "1349aa35230f",
       "story_key": "exposed-intrusion-crew-directories-hospital-credentials",
@@ -198,6 +225,26 @@
           "Safer designs give each agent its own identity, and ask a person to approve sensitive actions such as sending money or deleting files."
         ]
       },
+      "concept_checked": true
+    },
+    {
+      "id": "42c7fe38740c",
+      "story_key": "uk-national-cyber-action-plan-delayed",
+      "headline": "UK National Cyber Action Plan Delayed Again Until December 9",
+      "summary": "The UK government has postponed its national strategy for defending the wider economy against state-backed and criminal hackers. Officials now aim to publish it on December 9, after missing a mid-November target.",
+      "category": "other",
+      "importance": 3,
+      "published": "2026-11-26T00:00:00+00:00",
+      "first_seen": "2026-11-26T11:40:03+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+          "published": "2026-11-26T00:00:00+00:00"
+        }
+      ],
+      "concept": null,
       "concept_checked": true
     },
     {
@@ -817,7 +864,7 @@
       "importance": 6,
       "published": "2026-11-25T10:15:00+00:00",
       "first_seen": "2026-11-25T15:40:16+00:00",
-      "updated": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
@@ -838,6 +885,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
           "published": "2026-11-25T17:01:30+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+          "published": "2026-11-26T11:05:01+00:00"
         }
       ],
       "concept": {

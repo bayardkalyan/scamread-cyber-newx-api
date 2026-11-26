@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T10:40:13+00:00",
+  "updated_at": "2026-11-26T11:40:03+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "151e8021a3e7",
+      "headline": "Hackers Exploit Mitel MiCollab Zero-Days in Suspected AI-Assisted Attacks",
+      "summary": "Accenture reports that attackers exploited MiCollab flaws before Mitel published its advisory. The campaign appears to be extortion-focused and may have been helped by AI tools.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-26T11:35:25+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+          "published": "2026-11-26T11:35:25+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day attack?",
+        "points": [
+          "A zero-day is a flaw in software that attackers find and use before the maker knows about it or has released a fix.",
+          "Attackers scan software for such flaws and send specially crafted input that triggers them, letting them get into a system without permission.",
+          "People can protect themselves by installing software updates as soon as they arrive, since the maker then releases a fix (a patch) for the flaw."
+        ]
+      }
+    },
     {
       "id": "1349aa35230f",
       "headline": "Exposed Attacker Servers Reveal Hospital Credentials and Cloud Access",
@@ -191,6 +215,22 @@
           "Safer designs give each agent its own identity, and ask a person to approve sensitive actions such as sending money or deleting files."
         ]
       }
+    },
+    {
+      "id": "42c7fe38740c",
+      "headline": "UK National Cyber Action Plan Delayed Again Until December 9",
+      "summary": "The UK government has postponed its national strategy for defending the wider economy against state-backed and criminal hackers. Officials now aim to publish it on December 9, after missing a mid-November target.",
+      "category": "other",
+      "importance": 3,
+      "published": "2026-11-26T00:00:00+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+          "published": "2026-11-26T00:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "f1f716d39e5b",
@@ -742,7 +782,7 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-25T10:15:00+00:00",
-      "updated": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
@@ -763,6 +803,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
           "published": "2026-11-25T17:01:30+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+          "published": "2026-11-26T11:05:01+00:00"
         }
       ],
       "concept": {
@@ -1521,69 +1566,6 @@
           "A backdoor is a hidden program that gives an attacker a secret way back into a computer, even after the first break-in is found.",
           "Once installed, it can run commands, read files and open hidden network tunnels (secret paths for data), while pretending to be an ordinary running program.",
           "Companies can watch for programs they do not recognize and limit who can install software on their servers (computers that host websites and data)."
-        ]
-      }
-    },
-    {
-      "id": "9679b0bf91aa",
-      "headline": "Anthropic Expands Enterprise Tools for Spotting Claude Misuse",
-      "summary": "Anthropic's expanded enterprise safeguards help customers with zero data retention detect Claude misuse spread across many requests. Conversation data stays in the customer's own cloud.",
-      "category": "ai-security",
-      "importance": 4,
-      "published": "2026-11-24T13:30:23+00:00",
-      "updated": "2026-11-25T09:44:58+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
-          "published": "2026-11-24T13:30:23+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/25/anthropic-enterprise-frontier-safeguards-public-beta/",
-          "published": "2026-11-25T09:20:14+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How do tools spot AI misuse across many requests?",
-        "points": [
-          "An AI tool can be misused when one person sends many small requests that together serve a harmful goal, like pieces of a puzzle hidden across many messages.",
-          "Detection tools watch patterns across all of a company's requests over time, similar to a bank noticing many small transfers that together look like theft.",
-          "Companies can use these tools and keep clear records of how AI systems are used, so unusual activity is found early."
-        ]
-      }
-    },
-    {
-      "id": "88b982e416d9",
-      "headline": "Broadcom Patches 23 VMware Flaws, Two Critical ESX Code Execution Bugs",
-      "summary": "Broadcom disclosed 23 VMware vulnerabilities across vCenter, ESX and other products, including two critical flaws that could let attackers run code on ESX hosts. Administrators should check their versions, and no active exploitation is reported.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-24T13:28:26+00:00",
-      "updated": "2026-11-24T17:50:57+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
-          "published": "2026-11-24T14:11:04+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-          "published": "2026-11-24T13:28:26+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-          "published": "2026-11-24T16:32:56+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a software vulnerability?",
-        "points": [
-          "A vulnerability is a weakness in software, like a door that does not lock properly, that someone could use to get in where they should not.",
-          "Attackers send specially prepared input to the weak spot, which can trick the software into running their own commands on the server.",
-          "Administrators should check which versions they run and install the maker's updates (called patches) as soon as they are available."
         ]
       }
     }

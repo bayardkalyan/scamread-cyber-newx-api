@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-26T10:40:13+00:00",
+  "run_at": "2026-11-26T11:40:03+00:00",
   "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
       "ok": true,
-      "items": 20,
+      "items": 19,
       "error": null
     },
     {
@@ -58,12 +58,12 @@
       "error": null
     }
   ],
-  "fetched_items": 84,
-  "new_items": 2,
-  "curated_items": 2,
-  "kept_items": 2,
-  "new_stories": 0,
-  "merged_sources": 2,
-  "explained_stories": 0,
+  "fetched_items": 83,
+  "new_items": 3,
+  "curated_items": 3,
+  "kept_items": 3,
+  "new_stories": 2,
+  "merged_sources": 1,
+  "explained_stories": 1,
   "errors": []
 }
