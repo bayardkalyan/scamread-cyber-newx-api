@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T11:40:03+00:00",
+  "updated_at": "2026-11-26T12:14:58+00:00",
   "stories": [
+    {
+      "id": "fd0ab1448f65",
+      "story_key": "sys01-infostealer-browser-management-extension",
+      "headline": "New SYS010 Malware Uses Browser Management to Spy on Email",
+      "summary": "An updated version of the SYS01 infostealer, spread through Meta ads, enrolls victims' browsers into enterprise-style management to install a data-stealing extension. The extension can capture emails from Gmail and Outlook.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-26T11:50:17+00:00",
+      "first_seen": "2026-11-26T12:14:58+00:00",
+      "updated": "2026-11-26T12:14:58+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+          "published": "2026-11-26T11:50:17+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is infostealer malware?",
+        "points": [
+          "Infostealer malware is a hidden program that secretly copies private information, such as passwords and messages, from a person's device and sends it to attackers.",
+          "The attacker uses a feature that companies normally use to manage office computers, which lets them add a hidden add-on (a small extra program) to the victim's web browser.",
+          "A safe habit is to install software only from official stores, and to be careful with ads that promise free downloads or urgent fixes."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "151e8021a3e7",
       "story_key": "mitel-micollab-zero-days-exploited",

@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T11:40:03+00:00",
+  "updated_at": "2026-11-26T12:14:58+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -46,35 +46,6 @@
           "A software flaw is a mistake in a program's code that lets a stranger do things they should not be allowed to do, like a weak lock.",
           "Attackers find the flaw, then send a specially built request that uses it to take control of the website, such as changing its pages.",
           "Website owners should install updates from the software maker as soon as they are released, since an update (a fix from the maker) closes the flaw."
-        ]
-      }
-    },
-    {
-      "id": "07875af858cc",
-      "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
-      "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-25T12:00:00+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-          "published": "2026-11-25T12:00:00+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-          "published": "2026-11-26T06:44:46+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is an exploited vulnerability?",
-        "points": [
-          "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
-          "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
-          "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
         ]
       }
     },
@@ -172,6 +143,35 @@
           "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
           "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
           "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
+        ]
+      }
+    },
+    {
+      "id": "43818f9f943c",
+      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
+      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-25T12:48:54+00:00",
+      "updated": "2026-11-25T15:40:16+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+          "published": "2026-11-25T15:27:36+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+          "published": "2026-11-25T12:48:54+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How do attackers use a newly found software flaw?",
+        "points": [
+          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
+          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
+          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
         ]
       }
     }

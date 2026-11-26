@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T11:40:03+00:00",
+  "updated_at": "2026-11-26T12:14:58+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "fd0ab1448f65",
+      "headline": "New SYS010 Malware Uses Browser Management to Spy on Email",
+      "summary": "An updated version of the SYS01 infostealer, spread through Meta ads, enrolls victims' browsers into enterprise-style management to install a data-stealing extension. The extension can capture emails from Gmail and Outlook.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-26T11:50:17+00:00",
+      "updated": "2026-11-26T12:14:58+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+          "published": "2026-11-26T11:50:17+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is infostealer malware?",
+        "points": [
+          "Infostealer malware is a hidden program that secretly copies private information, such as passwords and messages, from a person's device and sends it to attackers.",
+          "The attacker uses a feature that companies normally use to manage office computers, which lets them add a hidden add-on (a small extra program) to the victim's web browser.",
+          "A safe habit is to install software only from official stores, and to be careful with ads that promise free downloads or urgent fixes."
+        ]
+      }
+    },
     {
       "id": "151e8021a3e7",
       "headline": "Hackers Exploit Mitel MiCollab Zero-Days in Suspected AI-Assisted Attacks",
@@ -1542,30 +1566,6 @@
           "Attackers now use AI tools (computer programs that can write and reason like people) to make their attacks faster, larger and harder to stop.",
           "AI can write believable scam emails in any language, test many passwords quickly, and keep changing its methods so that an attack keeps going for longer.",
           "Defenders also use AI to spot unusual activity, but people should still check unexpected requests carefully before acting on them."
-        ]
-      }
-    },
-    {
-      "id": "f5ae27d9a34e",
-      "headline": "New ZQAgent Linux Backdoor Gives Attackers Long-Term Server Access",
-      "summary": "A new Linux backdoor called ZQAgent lets attackers run commands, read files and open network tunnels while disguising itself as a normal process. Analysts linked it to the AI-driven ARTEX framework in a Belgian incident.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-24T13:35:26+00:00",
-      "updated": "2026-11-24T14:21:55+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
-          "published": "2026-11-24T13:35:26+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a server backdoor?",
-        "points": [
-          "A backdoor is a hidden program that gives an attacker a secret way back into a computer, even after the first break-in is found.",
-          "Once installed, it can run commands, read files and open hidden network tunnels (secret paths for data), while pretending to be an ordinary running program.",
-          "Companies can watch for programs they do not recognize and limit who can install software on their servers (computers that host websites and data)."
         ]
       }
     }
