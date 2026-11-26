@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T20:39:50+00:00",
+  "updated_at": "2026-11-26T21:40:05+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -50,79 +50,6 @@
       }
     },
     {
-      "id": "f1f716d39e5b",
-      "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
-      "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-25T21:33:33+00:00",
-      "updated": "2026-11-26T09:40:20+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-          "published": "2026-11-25T21:33:33+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/1password-hacked-2/",
-          "published": "2026-11-26T03:04:19+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-          "published": "2026-11-26T04:20:22+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
-          "published": "2026-11-26T08:32:10+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
-          "published": "2026-11-26T08:42:32+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is an account takeover?",
-        "points": [
-          "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
-          "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
-          "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
-        ]
-      }
-    },
-    {
-      "id": "14c7aa7a4cb7",
-      "headline": "Microsoft Says China's Salt Typhoon Is Using Artex AI Tool",
-      "summary": "Microsoft reports that China's Salt Typhoon group is using Artex, an AI tool previously tied to several high-profile breaches. Hacking groups from China and North Korea are rapidly adding it to their toolkits.",
-      "category": "ai-security",
-      "importance": 7,
-      "published": "2026-11-25T21:18:00+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
-          "published": "2026-11-25T21:18:00+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/artex-ai-agents-2/",
-          "published": "2026-11-26T07:39:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How are hackers using artificial intelligence tools?",
-        "points": [
-          "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
-          "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
-          "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
-        ]
-      }
-    },
-    {
       "id": "d1596a1e5549",
       "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories",
       "summary": "A campaign linked to North Korea planted a Python loader in more than 7,600 GitHub repositories to spread malware. Researchers say the activity may have started as early as February 2025.",
@@ -167,6 +94,54 @@
           "A data breach is when someone breaks into a computer system and takes private information, like names, bank numbers or ID numbers.",
           "Attackers often steal a password or trick a worker into opening a harmful link, then move through the system quietly until they find files they want.",
           "Companies protect against this by limiting who can open sensitive records and by checking activity logs often to spot unusual visits."
+        ]
+      }
+    },
+    {
+      "id": "c6b2b594e2fb",
+      "headline": "Critical Juniper Session Smart Conductor Flaw Under Active Attack",
+      "summary": "Attackers are exploiting a critical Juniper Session Smart Conductor flaw, tracked as CVE-2026-103406. It lets remote attackers run arbitrary commands as root.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-26T13:04:06+00:00",
+      "updated": "2026-11-26T13:40:17+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+          "published": "2026-11-26T13:04:06+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a vulnerability being actively exploited?",
+        "points": [
+          "A vulnerability is a weakness in software that lets someone do things the software was not meant to allow.",
+          "An attacker sends carefully built requests over the internet to the flawed device, tricking it into running their own commands with root (full administrator) control.",
+          "Companies protect themselves by installing the maker's security update (a fix) as soon as it is released."
+        ]
+      }
+    },
+    {
+      "id": "151e8021a3e7",
+      "headline": "Hackers Exploit Mitel MiCollab Zero-Days in Suspected AI-Assisted Attacks",
+      "summary": "Accenture reports that attackers exploited MiCollab flaws before Mitel published its advisory. The campaign appears to be extortion-focused and may have been helped by AI tools.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-26T11:35:25+00:00",
+      "updated": "2026-11-26T11:40:03+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+          "published": "2026-11-26T11:35:25+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day attack?",
+        "points": [
+          "A zero-day is a flaw in software that attackers find and use before the maker knows about it or has released a fix.",
+          "Attackers scan software for such flaws and send specially crafted input that triggers them, letting them get into a system without permission.",
+          "People can protect themselves by installing software updates as soon as they arrive, since the maker then releases a fix (a patch) for the flaw."
         ]
       }
     }
