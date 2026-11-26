@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T16:40:04+00:00",
+  "updated_at": "2026-11-26T17:39:57+00:00",
   "stories": [
+    {
+      "id": "216f59d31daa",
+      "story_key": "goodguys-fake-expert-interview-phishing",
+      "headline": "Fake Expert Interview Invites Impersonate Brands to Steal Google Logins",
+      "summary": "A phishing campaign called GoodGuys poses as major brands such as Google and Nvidia, using fake invitations to paid expert interviews and webinars. It aims to steal corporate Google and Okta login credentials.",
+      "category": "scam-phishing",
+      "importance": 6,
+      "published": "2026-11-26T17:15:27+00:00",
+      "first_seen": "2026-11-26T17:39:57+00:00",
+      "updated": "2026-11-26T17:39:57+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+          "published": "2026-11-26T17:15:27+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is phishing, and how do fake interview invites work?",
+        "points": [
+          "Phishing is when a criminal pretends to be a trusted company to trick you into giving away your password, like a thief dressed as a delivery worker asking for your house key.",
+          "The attacker sends a message offering a paid interview or webinar, with a link to a fake login page that looks like Google or Okta. When you type your password, the criminal receives it.",
+          "Before logging in, check the web address carefully, and go to the company's site by typing its address yourself rather than clicking a link in an unexpected message."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "d1596a1e5549",
       "story_key": "polinrider-github-repo-poisoning",
@@ -578,7 +605,7 @@
       "importance": 6,
       "published": "2026-11-25T20:40:00+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-26T08:40:23+00:00",
+      "updated": "2026-11-26T17:39:57+00:00",
       "sources": [
         {
           "name": "The Record",
@@ -589,6 +616,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/fifa-alleged-breach/",
           "published": "2026-11-26T08:07:35+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+          "published": "2026-11-26T17:06:55+00:00"
         }
       ],
       "concept": {
