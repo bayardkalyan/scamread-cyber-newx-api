@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T08:40:23+00:00",
+  "updated_at": "2026-11-26T09:40:20+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,18 +15,52 @@
   "count": 60,
   "items": [
     {
+      "id": "1349aa35230f",
+      "headline": "Exposed Attacker Servers Reveal Hospital Credentials and Cloud Access",
+      "summary": "Researchers found exposed web directories tied to an intrusion crew, including U.S. hospital credential records and a manufacturer's cloud storage listing. The files did not show a law firm or federal agency was breached.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-26T08:41:41+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/exposed-hacker-servers/",
+          "published": "2026-11-26T08:41:41+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What are exposed attacker directories?",
+        "points": [
+          "An exposed directory is like a filing cabinet left open on a public street, where anyone who finds the address can look inside the folders.",
+          "Criminal groups sometimes store their stolen passwords, lists and tools on web servers, and a mistake in the setup can make those folders visible to researchers or anyone else online.",
+          "Organizations can reduce this risk by checking that their servers do not show file lists to the public and by changing passwords after any suspected leak."
+        ]
+      }
+    },
+    {
       "id": "ed56377cec46",
       "headline": "Drupal Warns of Highly Critical Core Flaw Exploited in the Wild",
       "summary": "Drupal has warned that a new highly critical site takeover flaw in its core is being exploited in the wild. It is tracked as CVE-2026-136716 and is related to the earlier Fail2Install issue, addressing remaining vulnerable installation states.",
       "category": "vulnerability",
       "importance": 8,
       "published": "2026-11-26T07:02:34+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
           "published": "2026-11-26T07:02:34+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+          "published": "2026-11-26T09:12:26+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/",
+          "published": "2026-11-26T09:06:38+00:00"
         }
       ],
       "concept": {
@@ -165,7 +199,7 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
-      "updated": "2026-11-26T08:40:23+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -186,6 +220,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
           "published": "2026-11-26T08:32:10+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+          "published": "2026-11-26T08:42:32+00:00"
         }
       ],
       "concept": {
@@ -1535,40 +1574,6 @@
           "A vulnerability is a weakness in software, like a door that does not lock properly, that someone could use to get in where they should not.",
           "Attackers send specially prepared input to the weak spot, which can trick the software into running their own commands on the server.",
           "Administrators should check which versions they run and install the maker's updates (called patches) as soon as they are available."
-        ]
-      }
-    },
-    {
-      "id": "5e000706662e",
-      "headline": "McDonald's Japan Breach Exposes App User Location Data",
-      "summary": "McDonald's Japan disclosed that attackers accessed a database holding sensitive information for users of its official smartphone app, exposing customer location details.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-24T13:00:00+00:00",
-      "updated": "2026-11-24T16:22:33+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-          "published": "2026-11-24T14:09:37+00:00"
-        },
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
-          "published": "2026-11-24T13:00:00+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
-          "published": "2026-11-24T15:39:05+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach happens when someone gets into a company's computer storage without permission and takes personal information, like a thief copying private files from a filing cabinet.",
-          "Attackers often find an entry point such as a weak password or outdated software, then search the stored records and copy the ones they want.",
-          "Users can protect themselves by using a unique password for each app and watching for unexpected messages about their account."
         ]
       }
     }

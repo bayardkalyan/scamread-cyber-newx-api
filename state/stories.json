@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-26T08:40:23+00:00",
+  "updated_at": "2026-11-26T09:40:20+00:00",
   "stories": [
+    {
+      "id": "1349aa35230f",
+      "story_key": "exposed-intrusion-crew-directories-hospital-credentials",
+      "headline": "Exposed Attacker Servers Reveal Hospital Credentials and Cloud Access",
+      "summary": "Researchers found exposed web directories tied to an intrusion crew, including U.S. hospital credential records and a manufacturer's cloud storage listing. The files did not show a law firm or federal agency was breached.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-26T08:41:41+00:00",
+      "first_seen": "2026-11-26T09:40:20+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/exposed-hacker-servers/",
+          "published": "2026-11-26T08:41:41+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What are exposed attacker directories?",
+        "points": [
+          "An exposed directory is like a filing cabinet left open on a public street, where anyone who finds the address can look inside the folders.",
+          "Criminal groups sometimes store their stolen passwords, lists and tools on web servers, and a mistake in the setup can make those folders visible to researchers or anyone else online.",
+          "Organizations can reduce this risk by checking that their servers do not show file lists to the public and by changing passwords after any suspected leak."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "ed56377cec46",
       "story_key": "drupal-core-site-takeover-exploited-nov-2026",
@@ -10,12 +37,22 @@
       "importance": 8,
       "published": "2026-11-26T07:02:34+00:00",
       "first_seen": "2026-11-26T07:40:29+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
           "published": "2026-11-26T07:02:34+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+          "published": "2026-11-26T09:12:26+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/",
+          "published": "2026-11-26T09:06:38+00:00"
         }
       ],
       "concept": {
@@ -172,7 +209,7 @@
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-26T08:40:23+00:00",
+      "updated": "2026-11-26T09:40:20+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -193,6 +230,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
           "published": "2026-11-26T08:32:10+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+          "published": "2026-11-26T08:42:32+00:00"
         }
       ],
       "concept": {
