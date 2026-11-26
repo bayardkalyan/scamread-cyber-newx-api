@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-26T05:40:49+00:00",
+  "updated_at": "2026-11-26T06:40:08+00:00",
   "stories": [
+    {
+      "id": "5a7796617e34",
+      "story_key": "ai-hacking-frameworks-exposed-shadowserver",
+      "headline": "Thousands of Servers Running AI Hacking Tools Exposed Online",
+      "summary": "Shadowserver found about 4,200 internet-exposed instances of AI hacking frameworks on November 23, up from roughly 3,700 a day earlier. It also recorded over 10,000 events from more than 80 IP addresses between November 9 and 23, though not all exposed systems were attacking.",
+      "category": "ai-security",
+      "importance": 5,
+      "published": "2026-11-26T06:26:55+00:00",
+      "first_seen": "2026-11-26T06:40:08+00:00",
+      "updated": "2026-11-26T06:40:08+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/4000-servers-running-ai-hacking-agents-are-exposed/",
+          "published": "2026-11-26T06:26:55+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What are exposed AI hacking tools?",
+        "points": [
+          "An exposed system is a computer or server that anyone on the internet can reach, like a shop with its door left open for everyone to walk in.",
+          "AI hacking frameworks are ready-made tool kits that use artificial intelligence to scan, probe and attack other computers, and when they are reachable online, others can try to take control of them.",
+          "Organizations can stay safe by checking which of their systems are visible online and closing any they do not need to be public."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "ec6bbb2ff7ac",
+      "story_key": "roundcube-webmail-12-flaws-fixed",
+      "headline": "Roundcube Webmail Releases Fix 12 Security Flaws",
+      "summary": "Roundcube released versions 1.6.22 and 1.7.7 to fix 12 security flaws affecting attachment handling, message display and mail server connections. The release notes do not confirm remote code execution or active exploitation.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-26T06:05:33+00:00",
+      "first_seen": "2026-11-26T06:40:08+00:00",
+      "updated": "2026-11-26T06:40:08+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/roundcube-webmail-flaws/",
+          "published": "2026-11-26T06:05:33+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a security flaw and a patch?",
+        "points": [
+          "A security flaw is a weakness in software, like a broken lock on a door, that could let someone do things they should not be allowed to do.",
+          "Attackers look for these weaknesses and may try to use them to read private messages or gain control of the program, so the maker releases a patch (a fix) to close the gap.",
+          "Users of email software should install updates as soon as they are offered, because an updated program is much harder to break into."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "2d449014e5d0",
+      "story_key": "holiday-shopping-malicious-domains-fortiguard",
+      "headline": "Report Finds More Than 4,400 Malicious Holiday Shopping Domains",
+      "summary": "FortiGuard Labs found over 24,000 newly registered shopping-related domains in 90 days, including more than 4,400 classified as malicious. Researchers warn of fake storefronts, retailer impersonation and payment fraud targeting holiday shoppers.",
+      "category": "scam-phishing",
+      "importance": 4,
+      "published": "2026-11-26T06:00:53+00:00",
+      "first_seen": "2026-11-26T06:40:08+00:00",
+      "updated": "2026-11-26T06:40:08+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/",
+          "published": "2026-11-26T06:00:53+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a fake shopping website scam?",
+        "points": [
+          "A fake shopping website is a copy of a real store built to look trustworthy, like a shop front with a false sign, so people hand over money or details for goods that never arrive.",
+          "Scammers register many new web addresses (domains), copy a retailer's logo and style, then advertise low prices to pull in shoppers and collect card numbers or passwords.",
+          "Shoppers can stay safe by typing known store addresses directly, checking that the web address spelling is correct, and paying with a credit card or a secure payment service."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "55ca6f71eefd",
+      "story_key": "solarwinds-serv-u-2026-4-flaws",
+      "headline": "SolarWinds Serv-U Update Fixes Critical Flaws Enabling Linux Root Access",
+      "summary": "SolarWinds released Serv-U 2026.4 on November 24, fixing 18 vulnerabilities, nine of them critical. Two could give attackers root access on Linux servers, while a Windows-only high-severity command injection flaw is also fixed.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-26T06:00:51+00:00",
+      "first_seen": "2026-11-26T06:40:08+00:00",
+      "updated": "2026-11-26T06:40:08+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-solarwinds-serv-u-flaws/",
+          "published": "2026-11-26T06:00:51+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What does root access on a server mean?",
+        "points": [
+          "Root access is the highest level of control on a computer, like holding the master key to every room in a building.",
+          "When a flaw allows root access, an attacker who finds it may take full control of a server and change, copy or delete anything stored on it.",
+          "Businesses can stay safe by installing the vendor's update quickly, since the fix closes the weakness before attackers use it."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "90b4e6073eeb",
       "story_key": "google-workspace-ai-agent-controls",
