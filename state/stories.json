@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:40:29+00:00",
+  "updated_at": "2026-11-26T08:40:23+00:00",
   "stories": [
     {
       "id": "ed56377cec46",
@@ -172,7 +172,7 @@
       "importance": 7,
       "published": "2026-11-25T21:33:33+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-26T05:40:49+00:00",
+      "updated": "2026-11-26T08:40:23+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
@@ -188,6 +188,11 @@
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
           "published": "2026-11-26T04:20:22+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+          "published": "2026-11-26T08:32:10+00:00"
         }
       ],
       "concept": {
@@ -238,15 +243,20 @@
       "headline": "FIFA Says Hackers Accessed Limited Personal and Business Information",
       "summary": "FIFA says attackers accessed a limited set of personal and business information in a recent breach. The Swiss-based soccer governing body is working with authorities and law enforcement on the investigation.",
       "category": "data-breach",
-      "importance": 5,
+      "importance": 6,
       "published": "2026-11-25T20:40:00+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-26T08:40:23+00:00",
       "sources": [
         {
           "name": "The Record",
           "url": "https://therecord.media/fifa-data-breach-limited",
           "published": "2026-11-25T20:40:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/fifa-alleged-breach/",
+          "published": "2026-11-26T08:07:35+00:00"
         }
       ],
       "concept": {
@@ -1417,7 +1427,7 @@
       "importance": 6,
       "published": "2026-11-24T16:54:07+00:00",
       "first_seen": "2026-11-24T17:50:57+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
+      "updated": "2026-11-26T08:40:23+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -1428,6 +1438,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/",
           "published": "2026-11-25T11:54:28+00:00"
+        },
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
+          "published": "2026-11-26T08:00:00+00:00"
         }
       ],
       "concept": {
@@ -1825,10 +1840,10 @@
       "headline": "Danfoss Controllers Hit by Critical Remote Code Execution Flaw",
       "summary": "A buffer overflow in the Danfoss AK-SM 8xxA controller lets unauthenticated remote attackers send crafted requests to run code with webserver privileges. The flaw has a CVSS score of 9.8.",
       "category": "vulnerability",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-24T12:00:00+00:00",
       "first_seen": "2026-11-24T16:22:33+00:00",
-      "updated": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-26T08:40:23+00:00",
       "sources": [
         {
           "name": "CISA",
@@ -1839,6 +1854,11 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
           "published": "2026-11-25T16:13:40+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/",
+          "published": "2026-11-26T08:33:52+00:00"
         }
       ],
       "concept": {
