@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T03:40:28+00:00",
+  "updated_at": "2026-11-26T04:40:15+00:00",
   "stories": [
     {
       "id": "f1f716d39e5b",
@@ -226,15 +226,20 @@
       "headline": "Fake Recruitment Campaign Spreads Malware Through 13 NuGet Packages",
       "summary": "Researchers found 13 malicious NuGet packages used in a fake recruitment campaign aimed at .NET developers. The packages spread malware and give attackers access to developers' machines.",
       "category": "malware",
-      "importance": 5,
+      "importance": 6,
       "published": "2026-11-25T15:48:04+00:00",
       "first_seen": "2026-11-25T16:40:10+00:00",
-      "updated": "2026-11-25T16:40:10+00:00",
+      "updated": "2026-11-26T04:40:15+00:00",
       "sources": [
         {
           "name": "Dark Reading",
           "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
           "published": "2026-11-25T15:48:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+          "published": "2026-11-26T03:48:52+00:00"
         }
       ],
       "concept": {
