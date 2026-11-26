@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T06:40:08+00:00",
+  "updated_at": "2026-11-26T07:40:29+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -50,6 +50,35 @@
       }
     },
     {
+      "id": "07875af858cc",
+      "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
+      "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-25T12:00:00+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-25T12:00:00+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+          "published": "2026-11-26T06:44:46+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an exploited vulnerability?",
+        "points": [
+          "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
+          "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
+          "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
+        ]
+      }
+    },
+    {
       "id": "72f47c4e3262",
       "headline": "Critical Drupal Fail2Install Flaw Added to CISA Exploited List",
       "summary": "CISA added a critical remote code execution flaw in Drupal core, tracked as CVE-2026-132165, to its exploited vulnerabilities catalog. Federal agencies must apply fixes by November 27, 2026.",
@@ -79,6 +108,30 @@
       }
     },
     {
+      "id": "ed56377cec46",
+      "headline": "Drupal Warns of Highly Critical Core Flaw Exploited in the Wild",
+      "summary": "Drupal has warned that a new highly critical site takeover flaw in its core is being exploited in the wild. It is tracked as CVE-2026-136716 and is related to the earlier Fail2Install issue, addressing remaining vulnerable installation states.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-26T07:02:34+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+          "published": "2026-11-26T07:02:34+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software flaw that attackers exploit?",
+        "points": [
+          "A software flaw is a mistake in a program's code that lets a stranger do things they should not be allowed to do, like a weak lock.",
+          "Attackers find the flaw, then send a specially built request that uses it to take control of the website, such as changing its pages.",
+          "Website owners should install updates from the software maker as soon as they are released, since an update (a fix from the maker) closes the flaw."
+        ]
+      }
+    },
+    {
       "id": "488fba3625cf",
       "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
       "summary": "US authorities are investigating whether Iran was behind attacks on Fortinet FortiGate devices that may have compromised up to 50 commercial ships. The count is an intelligence estimate and attribution is unconfirmed.",
@@ -99,69 +152,6 @@
           "A security flaw is a mistake in software that works like a hidden gap in a lock.",
           "Attackers scan the internet for devices with the flaw, then send special messages that let them enter without permission.",
           "Installing the maker's fix (called a patch) as soon as it is released closes the gap before attackers can use it."
-        ]
-      }
-    },
-    {
-      "id": "f1f716d39e5b",
-      "headline": "1Password Customer Data Stolen After Employee GitHub Account Breach",
-      "summary": "1Password disclosed that an attacker hijacked an employee's corporate GitHub account and used it to push malicious code to backend services. The intrusion was used to steal customer data.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-25T21:33:33+00:00",
-      "updated": "2026-11-26T05:40:49+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-          "published": "2026-11-25T21:33:33+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/1password-hacked-2/",
-          "published": "2026-11-26T03:04:19+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-          "published": "2026-11-26T04:20:22+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is an account takeover?",
-        "points": [
-          "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
-          "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
-          "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
-        ]
-      }
-    },
-    {
-      "id": "43818f9f943c",
-      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
-      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-25T12:48:54+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-          "published": "2026-11-25T15:27:36+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-          "published": "2026-11-25T12:48:54+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How do attackers use a newly found software flaw?",
-        "points": [
-          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
-          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
-          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
         ]
       }
     }

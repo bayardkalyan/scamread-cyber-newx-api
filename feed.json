@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T06:40:08+00:00",
+  "updated_at": "2026-11-26T07:40:29+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "ed56377cec46",
+      "headline": "Drupal Warns of Highly Critical Core Flaw Exploited in the Wild",
+      "summary": "Drupal has warned that a new highly critical site takeover flaw in its core is being exploited in the wild. It is tracked as CVE-2026-136716 and is related to the earlier Fail2Install issue, addressing remaining vulnerable installation states.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-26T07:02:34+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+          "published": "2026-11-26T07:02:34+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software flaw that attackers exploit?",
+        "points": [
+          "A software flaw is a mistake in a program's code that lets a stranger do things they should not be allowed to do, like a weak lock.",
+          "Attackers find the flaw, then send a specially built request that uses it to take control of the website, such as changing its pages.",
+          "Website owners should install updates from the software maker as soon as they are released, since an update (a fix from the maker) closes the flaw."
+        ]
+      }
+    },
     {
       "id": "5a7796617e34",
       "headline": "Thousands of Servers Running AI Hacking Tools Exposed Online",
@@ -173,14 +197,19 @@
       "headline": "Microsoft Says China's Salt Typhoon Is Using Artex AI Tool",
       "summary": "Microsoft reports that China's Salt Typhoon group is using Artex, an AI tool previously tied to several high-profile breaches. Hacking groups from China and North Korea are rapidly adding it to their toolkits.",
       "category": "ai-security",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-25T21:18:00+00:00",
-      "updated": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
       "sources": [
         {
           "name": "The Record",
           "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
           "published": "2026-11-25T21:18:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/artex-ai-agents-2/",
+          "published": "2026-11-26T07:39:00+00:00"
         }
       ],
       "concept": {
@@ -588,14 +617,19 @@
       "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
       "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
       "category": "vulnerability",
-      "importance": 7,
+      "importance": 8,
       "published": "2026-11-25T12:00:00+00:00",
-      "updated": "2026-11-25T21:39:53+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
       "sources": [
         {
           "name": "CISA",
           "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
           "published": "2026-11-25T12:00:00+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+          "published": "2026-11-26T06:44:46+00:00"
         }
       ],
       "concept": {
@@ -1520,40 +1554,6 @@
           "A data breach happens when someone gets into a company's computer storage without permission and takes personal information, like a thief copying private files from a filing cabinet.",
           "Attackers often find an entry point such as a weak password or outdated software, then search the stored records and copy the ones they want.",
           "Users can protect themselves by using a unique password for each app and watching for unexpected messages about their account."
-        ]
-      }
-    },
-    {
-      "id": "94962b98d642",
-      "headline": "Okta Links ShinyHunters-Linked Vishing Crew to New INCEPTION Leak Site",
-      "summary": "Okta says a cluster once tied to the ShinyHunters extortion crew appears to have rebranded as INCEPTION, using voice phishing to steal credentials and approvals. Targets span many industries.",
-      "category": "scam-phishing",
-      "importance": 7,
-      "published": "2026-11-24T12:47:07+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-          "published": "2026-11-24T13:28:21+00:00"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/24/shinyhunters-inception-leak-site-okta/",
-          "published": "2026-11-24T12:47:07+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-          "published": "2026-11-24T20:21:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is voice phishing, or vishing?",
-        "points": [
-          "Voice phishing is a scam phone call where a criminal pretends to be a bank, a company, or IT staff to get private login details or approvals.",
-          "The caller creates urgency, saying there is a problem, and asks the victim to read out a code or approve a login request on their phone.",
-          "If a call seems urgent or strange, hang up and call the company back using the official number from its website, never a number the caller gave."
         ]
       }
     }
