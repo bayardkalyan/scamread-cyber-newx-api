@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T09:40:20+00:00",
+  "updated_at": "2026-11-26T10:40:13+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -79,35 +79,6 @@
       }
     },
     {
-      "id": "72f47c4e3262",
-      "headline": "Critical Drupal Fail2Install Flaw Added to CISA Exploited List",
-      "summary": "CISA added a critical remote code execution flaw in Drupal core, tracked as CVE-2026-132165, to its exploited vulnerabilities catalog. Federal agencies must apply fixes by November 27, 2026.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-25T10:10:20+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-          "published": "2026-11-25T11:23:26+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-          "published": "2026-11-25T10:10:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote code execution flaw?",
-        "points": [
-          "A software flaw is a mistake in a program's code that attackers can use to cause harm. A remote code execution flaw lets an attacker run their own commands on a computer from far away over the internet.",
-          "Attackers scan for unpatched systems and use the flaw to take control of the website or server without needing a password.",
-          "Software makers release patches (fixes for known flaws), so installing updates quickly is one of the simplest ways to stay protected."
-        ]
-      }
-    },
-    {
       "id": "488fba3625cf",
       "headline": "Hackers Exploited Fortinet Flaws in Commercial Ship Networks, US Probes",
       "summary": "US authorities are investigating whether Iran was behind attacks on Fortinet FortiGate devices that may have compromised up to 50 commercial ships. The count is an intelligence estimate and attribution is unconfirmed.",
@@ -172,6 +143,35 @@
           "An account takeover is when a criminal gets into someone else's login, like using a stolen key to enter a locked office.",
           "The attacker may steal a password or a login token (a small code that keeps someone signed in), then use the trusted account to reach private data.",
           "Companies can protect staff accounts by using two-step login, which asks for a second code from a phone."
+        ]
+      }
+    },
+    {
+      "id": "14c7aa7a4cb7",
+      "headline": "Microsoft Says China's Salt Typhoon Is Using Artex AI Tool",
+      "summary": "Microsoft reports that China's Salt Typhoon group is using Artex, an AI tool previously tied to several high-profile breaches. Hacking groups from China and North Korea are rapidly adding it to their toolkits.",
+      "category": "ai-security",
+      "importance": 7,
+      "published": "2026-11-25T21:18:00+00:00",
+      "updated": "2026-11-26T07:40:29+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+          "published": "2026-11-25T21:18:00+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/artex-ai-agents-2/",
+          "published": "2026-11-26T07:39:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How are hackers using artificial intelligence tools?",
+        "points": [
+          "Artificial intelligence (computer programs that can write text and analyze data) can help criminals work faster and make attacks look more believable.",
+          "Attackers may use such a tool to plan steps, write convincing messages, or search for weak spots in computer systems quickly.",
+          "Staying alert to unexpected messages and keeping software updated still helps protect people and businesses."
         ]
       }
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T09:40:20+00:00",
+  "updated_at": "2026-11-26T10:40:13+00:00",
   "stories": [
     {
       "id": "1349aa35230f",
@@ -317,15 +317,20 @@
       "headline": "Florida Ransomware Recovery CEO Indicted Over Ransom Payments",
       "summary": "A federal grand jury indicted the CEO of a ransomware recovery firm, alleging he lied about the company's services and paid ransoms to cybercriminals.",
       "category": "ransomware",
-      "importance": 5,
+      "importance": 6,
       "published": "2026-11-25T17:30:00+00:00",
       "first_seen": "2026-11-25T17:40:01+00:00",
-      "updated": "2026-11-25T17:40:01+00:00",
+      "updated": "2026-11-26T10:40:13+00:00",
       "sources": [
         {
           "name": "The Record",
           "url": "https://therecord.media/ransomware-doj-indictment-recovery",
           "published": "2026-11-25T17:30:00+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/26/ransomware-recovery-fraud-florida-firm-co-founder-charged/",
+          "published": "2026-11-26T09:59:07+00:00"
         }
       ],
       "concept": {
@@ -945,12 +950,17 @@
       "importance": 5,
       "published": "2026-11-25T09:02:57+00:00",
       "first_seen": "2026-11-25T09:44:58+00:00",
-      "updated": "2026-11-25T09:44:58+00:00",
+      "updated": "2026-11-26T10:40:13+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
           "published": "2026-11-25T09:02:57+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/november-update-breaks-authentication/",
+          "published": "2026-11-26T10:24:22+00:00"
         }
       ],
       "concept": {
