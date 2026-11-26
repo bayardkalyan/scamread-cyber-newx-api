@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T13:40:17+00:00",
+  "updated_at": "2026-11-26T14:40:21+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -147,26 +147,26 @@
       }
     },
     {
-      "id": "c6b2b594e2fb",
-      "headline": "Critical Juniper Session Smart Conductor Flaw Under Active Attack",
-      "summary": "Attackers are exploiting a critical Juniper Session Smart Conductor flaw, tracked as CVE-2026-103406. It lets remote attackers run arbitrary commands as root.",
-      "category": "vulnerability",
+      "id": "d997dcf4bec6",
+      "headline": "Bithumb Breach Exposes Passport Numbers and Bank Details for Longer Period",
+      "summary": "South Korean crypto exchange Bithumb says hackers accessed an internal office system from October 12 to 27 and stole passport numbers, bank account numbers and wallet addresses. The investigation found more people and data types were affected than first reported.",
+      "category": "data-breach",
       "importance": 7,
-      "published": "2026-11-26T13:04:06+00:00",
-      "updated": "2026-11-26T13:40:17+00:00",
+      "published": "2026-11-26T14:09:42+00:00",
+      "updated": "2026-11-26T14:40:21+00:00",
       "sources": [
         {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-          "published": "2026-11-26T13:04:06+00:00"
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/bithumb-hacked-for-15-days/",
+          "published": "2026-11-26T14:09:42+00:00"
         }
       ],
       "concept": {
-        "title": "What is a vulnerability being actively exploited?",
+        "title": "What is a data breach?",
         "points": [
-          "A vulnerability is a weakness in software that lets someone do things the software was not meant to allow.",
-          "An attacker sends carefully built requests over the internet to the flawed device, tricking it into running their own commands with root (full administrator) control.",
-          "Companies protect themselves by installing the maker's security update (a fix) as soon as it is released."
+          "A data breach is when someone breaks into a computer system and takes private information, like names, bank numbers or ID numbers.",
+          "Attackers often steal a password or trick a worker into opening a harmful link, then move through the system quietly until they find files they want.",
+          "Companies protect against this by limiting who can open sensitive records and by checking activity logs often to spot unusual visits."
         ]
       }
     }

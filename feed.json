@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T13:40:17+00:00",
+  "updated_at": "2026-11-26T14:40:21+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,54 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "d997dcf4bec6",
+      "headline": "Bithumb Breach Exposes Passport Numbers and Bank Details for Longer Period",
+      "summary": "South Korean crypto exchange Bithumb says hackers accessed an internal office system from October 12 to 27 and stole passport numbers, bank account numbers and wallet addresses. The investigation found more people and data types were affected than first reported.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-26T14:09:42+00:00",
+      "updated": "2026-11-26T14:40:21+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/bithumb-hacked-for-15-days/",
+          "published": "2026-11-26T14:09:42+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone breaks into a computer system and takes private information, like names, bank numbers or ID numbers.",
+          "Attackers often steal a password or trick a worker into opening a harmful link, then move through the system quietly until they find files they want.",
+          "Companies protect against this by limiting who can open sensitive records and by checking activity logs often to spot unusual visits."
+        ]
+      }
+    },
+    {
+      "id": "08368c30c2b9",
+      "headline": "Standard Chartered Crypto Unit Zodia Custody Hit by Breach",
+      "summary": "Zodia Custody, the crypto custody arm of Standard Chartered, detected attempts to probe its platform and exposed some client and employee information. It temporarily shut its business API and reported no unauthorized transactions as of the latest check.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-26T14:01:01+00:00",
+      "updated": "2026-11-26T14:40:21+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/zodia-custody-data-breach/",
+          "published": "2026-11-26T14:01:01+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What does it mean to probe a system?",
+        "points": [
+          "To probe a system means to test its doors and windows from outside, looking for a weak spot, like a thief checking which locks are loose.",
+          "Attackers send many test requests to see which parts respond, then use any weak spot they find to get in and take information.",
+          "Companies stay safe by watching for many odd requests at once and by closing unused connections quickly."
+        ]
+      }
+    },
     {
       "id": "65ccb6beb5e9",
       "headline": "Silver Fox Spreads Gh0stRAT Malware Via Fake Software Downloads",
@@ -833,7 +881,7 @@
       "category": "vulnerability",
       "importance": 8,
       "published": "2026-11-25T12:00:00+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
+      "updated": "2026-11-26T14:40:21+00:00",
       "sources": [
         {
           "name": "CISA",
@@ -844,6 +892,11 @@
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
           "published": "2026-11-26T06:44:46+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/",
+          "published": "2026-11-26T14:09:18+00:00"
         }
       ],
       "concept": {
@@ -1488,69 +1541,6 @@
           "A data breach happens when someone gets into a company's computer system and takes or sees personal information, like names, birth dates or ID numbers.",
           "Attackers often steal a password or find a weak spot in the system, then copy the stored records and may sell them or use them for scams.",
           "People can protect themselves by using unique passwords, turning on two-step login, and watching for strange messages about their data."
-        ]
-      }
-    },
-    {
-      "id": "21126c75eb99",
-      "headline": "Iran-Aligned Group Volant Manticore Uses IPFS-Based KuboShell Backdoor",
-      "summary": "A newly documented Iran-aligned espionage group has targeted telecom firms, airlines and critical infrastructure in Cyprus using the KuboShell backdoor, which relies on IPFS for command-and-control.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-24T16:54:07+00:00",
-      "updated": "2026-11-26T08:40:23+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-          "published": "2026-11-24T16:54:07+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/",
-          "published": "2026-11-25T11:54:28+00:00"
-        },
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
-          "published": "2026-11-26T08:00:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a backdoor in malware?",
-        "points": [
-          "Malware is harmful software, and a backdoor is a hidden secret entrance that lets an attacker control a computer without the owner knowing.",
-          "Some backdoors hide their commands in public file-sharing networks, so the traffic looks ordinary and is harder to block.",
-          "Companies protect themselves with security updates, strict access controls, and tools that watch for unusual network activity."
-        ]
-      }
-    },
-    {
-      "id": "665f85d067d2",
-      "headline": "ShinyHunters Claims Return After Arrests, Posts Old PGP Keys",
-      "summary": "The ShinyHunters extortion gang says it is back, posting on a new data leak site after recent arrests of alleged members. It used old PGP keys as proof.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-24T16:30:19+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-          "published": "2026-11-24T16:30:19+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-          "published": "2026-11-25T14:15:25+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is data extortion?",
-        "points": [
-          "Data extortion is when criminals steal private data and then threaten to leak it unless the victim pays money.",
-          "Gangs post stolen data on public leak sites to pressure victims, and may show old PGP keys (secret codes used to lock messages) as proof.",
-          "Victims can protect themselves by keeping software updated, using strong unique passwords, and checking any unknown demand carefully before replying."
         ]
       }
     }
