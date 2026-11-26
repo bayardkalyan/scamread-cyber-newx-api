@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T15:40:33+00:00",
+  "updated_at": "2026-11-26T16:40:04+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -35,6 +35,30 @@
           "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
           "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
           "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
+        ]
+      }
+    },
+    {
+      "id": "2837b5c48797",
+      "headline": "Hackers Hide Password Stealers in GitHub Pull Requests Targeting Software Builds",
+      "summary": "Malicious code was submitted through pull requests to several open-source GitHub projects, including CircuitVerse, where it ran in a release workflow building desktop software. Maintainers removed 40 installers, and GitHub suspended the responsible account.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-26T14:50:20+00:00",
+      "updated": "2026-11-26T16:40:04+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/password-stealing-malware/",
+          "published": "2026-11-26T14:50:20+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious pull request attack?",
+        "points": [
+          "A pull request is a way for a programmer to suggest changes to a shared software project, like handing in a draft for others to add to a common book.",
+          "Attackers secretly put harmful code inside a suggested change, and if the project's automatic build system runs it, the harmful code can steal saved passwords from the computer doing the build.",
+          "Software projects can protect themselves by reviewing every suggested change carefully before the automatic build system runs it, especially changes from new or unknown accounts."
         ]
       }
     },
@@ -1522,30 +1546,6 @@
           "A cyberattack is an attempt by criminals to break into a computer system to steal, damage or lock information, much like a burglar trying doors in a building.",
           "Attackers often look for stolen login details or weak spots in software, then move through systems to find data they can take or misuse.",
           "Organizations defend against this by limiting who can access systems, watching for unusual activity, and updating software quickly."
-        ]
-      }
-    },
-    {
-      "id": "367e93123f70",
-      "headline": "Radware Discloses Breach Exposing Customer Cloud Access Keys",
-      "summary": "Cybersecurity firm Radware says attackers reached some customers' account details and cloud access keys through an unsecured internal Cloud WAF management API left exposed online.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-24T17:49:05+00:00",
-      "updated": "2026-11-24T17:50:57+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-          "published": "2026-11-24T17:49:05+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is an exposed API?",
-        "points": [
-          "An API is a behind-the-scenes connection that lets one computer program talk to another, like a service window where staff pass requests back and forth.",
-          "If this connection is left open to the internet without protection, anyone who finds it can send requests and see information they should not access.",
-          "Companies prevent this by keeping internal connections behind a login check, limiting access to trusted users, and regularly testing their systems for open gaps."
         ]
       }
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:40:33+00:00",
+  "updated_at": "2026-11-26T16:40:04+00:00",
   "stories": [
     {
       "id": "d1596a1e5549",
@@ -24,6 +24,33 @@
           "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
           "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
           "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "2837b5c48797",
+      "story_key": "github-pr-malware-circuitverse-installers",
+      "headline": "Hackers Hide Password Stealers in GitHub Pull Requests Targeting Software Builds",
+      "summary": "Malicious code was submitted through pull requests to several open-source GitHub projects, including CircuitVerse, where it ran in a release workflow building desktop software. Maintainers removed 40 installers, and GitHub suspended the responsible account.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-26T14:50:20+00:00",
+      "first_seen": "2026-11-26T16:40:04+00:00",
+      "updated": "2026-11-26T16:40:04+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/password-stealing-malware/",
+          "published": "2026-11-26T14:50:20+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious pull request attack?",
+        "points": [
+          "A pull request is a way for a programmer to suggest changes to a shared software project, like handing in a draft for others to add to a common book.",
+          "Attackers secretly put harmful code inside a suggested change, and if the project's automatic build system runs it, the harmful code can steal saved passwords from the computer doing the build.",
+          "Software projects can protect themselves by reviewing every suggested change carefully before the automatic build system runs it, especially changes from new or unknown accounts."
         ]
       },
       "concept_checked": true
