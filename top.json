@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-26T12:14:58+00:00",
+  "updated_at": "2026-11-26T13:40:17+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -147,31 +147,26 @@
       }
     },
     {
-      "id": "43818f9f943c",
-      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
-      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
+      "id": "c6b2b594e2fb",
+      "headline": "Critical Juniper Session Smart Conductor Flaw Under Active Attack",
+      "summary": "Attackers are exploiting a critical Juniper Session Smart Conductor flaw, tracked as CVE-2026-103406. It lets remote attackers run arbitrary commands as root.",
       "category": "vulnerability",
       "importance": 7,
-      "published": "2026-11-25T12:48:54+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
+      "published": "2026-11-26T13:04:06+00:00",
+      "updated": "2026-11-26T13:40:17+00:00",
       "sources": [
         {
           "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-          "published": "2026-11-25T15:27:36+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-          "published": "2026-11-25T12:48:54+00:00"
+          "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+          "published": "2026-11-26T13:04:06+00:00"
         }
       ],
       "concept": {
-        "title": "How do attackers use a newly found software flaw?",
+        "title": "What is a vulnerability being actively exploited?",
         "points": [
-          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
-          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
-          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
+          "A vulnerability is a weakness in software that lets someone do things the software was not meant to allow.",
+          "An attacker sends carefully built requests over the internet to the flawed device, tricking it into running their own commands with root (full administrator) control.",
+          "Companies protect themselves by installing the maker's security update (a fix) as soon as it is released."
         ]
       }
     }
