@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-27T08:40:36+00:00",
+  "updated_at": "2026-11-27T09:40:25+00:00",
   "stories": [
+    {
+      "id": "b67c1a8712dc",
+      "story_key": "flight-centre-customer-data-breach",
+      "headline": "Flight Centre Warns of Customer Data Breach Involving Some Passport Details",
+      "summary": "Flight Centre Travel Group is investigating unusual activity in a third-party accommodation booking system. Customers of several of its brands may have had names exposed, and in rare cases passport and health details.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-27T09:31:44+00:00",
+      "first_seen": "2026-11-27T09:40:25+00:00",
+      "updated": "2026-11-27T09:40:25+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/",
+          "published": "2026-11-27T09:31:44+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when someone gets into a company's records without permission, like a thief opening a locked filing cabinet and reading private papers.",
+          "Attackers often find a weak point in a system, such as a booking tool linked to the company, and then copy or view the stored customer details.",
+          "People can lower their risk by using strong, unique passwords and watching for unexpected messages asking them to confirm personal details."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "ef11ff0b9759",
+      "story_key": "colorado-mycolorado-data-breach",
+      "headline": "Colorado myColorado Breach Potentially Affects 100,000 People",
+      "summary": "Hackers breached myColorado, a state app for digital identification and document storage, and accessed user-uploaded data. About 100,000 people could be affected.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-27T09:30:54+00:00",
+      "first_seen": "2026-11-27T09:40:25+00:00",
+      "updated": "2026-11-27T09:40:25+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+          "published": "2026-11-27T09:30:54+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when someone gets into a company's records without permission, like a thief opening a locked filing cabinet and reading private papers.",
+          "Attackers often find a weak point in a system, such as a booking tool linked to the company, and then copy or view the stored customer details.",
+          "People can lower their risk by using strong, unique passwords and watching for unexpected messages asking them to confirm personal details."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "a0aca5f975d9",
+      "story_key": "telegram-spy-recruitment-posts",
+      "headline": "Thousands of Telegram Job Posts Linked to Suspected Spy Recruitment",
+      "summary": "Researchers counted 3,089 recruitment posts from 88 Telegram accounts, reaching users in Israel, the Gulf, Europe and the United States. Some openly claimed to recruit for Iranian intelligence.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-27T09:22:53+00:00",
+      "first_seen": "2026-11-27T09:40:25+00:00",
+      "updated": "2026-11-27T09:40:25+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/telegram-job-posts/",
+          "published": "2026-11-27T09:22:53+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How do fake job posts lure people into spying?",
+        "points": [
+          "Spy recruitment through job posts is a lure where ads promise easy money or simple tasks, but the real goal is to get people to collect secrets for another country.",
+          "Posters often move the chat to private messages, ask for personal details, and give small tasks that slowly pull people into illegal activity.",
+          "A safe step is to check that a job offer comes from a known company, and to stop replying if someone asks for secret information."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "e7114d38226e",
+      "story_key": "tor-browser-one-click-ip-leak",
+      "headline": "Tor Browser Flaw Could Expose Real IP Address After One Click",
+      "summary": "Researchers showed a malicious website could reveal a Tor Browser user's public IP address with one click on Linux. The fix was released in September, and no live attacks were confirmed.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-27T09:09:49+00:00",
+      "first_seen": "2026-11-27T09:40:25+00:00",
+      "updated": "2026-11-27T09:40:25+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/tor-browser-flaw/",
+          "published": "2026-11-27T09:09:49+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software flaw that exposes your location?",
+        "points": [
+          "A software flaw is a mistake in a program that lets a person do something the maker did not intend, like a door that opens when pushed in the wrong way.",
+          "An attacker could build a harmful web page that, after one click, reveals the real IP address (a number that shows where your internet connection is).",
+          "A simple protection is to install updates quickly, because updates often contain fixes from the maker that close these gaps."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "0449f70f74fb",
       "story_key": "nfs2root-linux-nfs-root-flaw",
