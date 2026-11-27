@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T09:40:25+00:00",
+  "updated_at": "2026-11-27T10:40:00+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -40,6 +40,40 @@
       }
     },
     {
+      "id": "85055571aa55",
+      "headline": "SAP Confirms Security Incident After Hackers Reportedly Steal GitHub Tokens",
+      "summary": "SAP confirmed an IT security incident in which attackers reportedly stole employee authentication tokens and used them to alter and copy source code on GitHub. The company says investigators have found no evidence of unauthorized access to customer business data so far.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T03:39:12+00:00",
+      "updated": "2026-11-27T10:40:00+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/sap-security-incident/",
+          "published": "2026-11-27T03:39:12+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "published": "2026-11-27T07:36:14+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+          "published": "2026-11-27T09:56:36+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a stolen login token?",
+        "points": [
+          "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
+          "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
+          "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
+        ]
+      }
+    },
+    {
       "id": "f529234ad27c",
       "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
       "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
@@ -65,35 +99,6 @@
           "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
           "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
           "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
-        ]
-      }
-    },
-    {
-      "id": "85055571aa55",
-      "headline": "SAP Confirms Security Incident After Hackers Reportedly Steal GitHub Tokens",
-      "summary": "SAP confirmed an IT security incident in which attackers reportedly stole employee authentication tokens and used them to alter and copy source code on GitHub. The company says investigators have found no evidence of unauthorized access to customer business data so far.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-27T03:39:12+00:00",
-      "updated": "2026-11-27T07:40:43+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/sap-security-incident/",
-          "published": "2026-11-27T03:39:12+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
-          "published": "2026-11-27T07:36:14+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a stolen login token?",
-        "points": [
-          "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
-          "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
-          "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
         ]
       }
     },

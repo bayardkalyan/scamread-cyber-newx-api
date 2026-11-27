@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T09:40:25+00:00",
+  "updated_at": "2026-11-27T10:40:00+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -290,7 +290,7 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-27T03:39:12+00:00",
-      "updated": "2026-11-27T07:40:43+00:00",
+      "updated": "2026-11-27T10:40:00+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -301,6 +301,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
           "published": "2026-11-27T07:36:14+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+          "published": "2026-11-27T09:56:36+00:00"
         }
       ],
       "concept": {
@@ -357,6 +362,30 @@
           "A software vulnerability is a mistake in a computer program that an attacker could use to cause harm, like a weak spot in a door lock.",
           "Attackers look for these mistakes and send specially built messages to the program, trying to make it do things its owner did not intend.",
           "People and companies stay safer by installing updates and fixes from the software maker as soon as they are released."
+        ]
+      }
+    },
+    {
+      "id": "2a0eeaffa38f",
+      "headline": "UK Work and Pensions Department Takes Services Offline After Cyber Incident",
+      "summary": "The Department for Work and Pensions reported a cyber incident and took several services offline as a precaution. The disruption affects people who rely on its online services.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T00:00:00+00:00",
+      "updated": "2026-11-27T10:40:00+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+          "published": "2026-11-27T00:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a cyber incident?",
+        "points": [
+          "A cyber incident is an event where criminals or faults threaten an organisation's computer systems or information, a bit like a break-in, but on computers.",
+          "Attackers may break into a computer system, lock or copy files, or stop services working, so organisations often switch services off while they check and repair the damage.",
+          "People can stay safer by using strong, unique passwords and two-step login, so a stolen password alone is not enough to get in."
         ]
       }
     },
@@ -684,7 +713,7 @@
       "category": "vulnerability",
       "importance": 8,
       "published": "2026-11-26T07:02:34+00:00",
-      "updated": "2026-11-26T09:40:20+00:00",
+      "updated": "2026-11-27T10:40:00+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -700,6 +729,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/",
           "published": "2026-11-26T09:06:38+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+          "published": "2026-11-27T10:10:15+00:00"
         }
       ],
       "concept": {
@@ -1533,35 +1567,6 @@
           "Remote code execution means an attacker can make a computer run commands they chose from far away, like a stranger giving orders through a mail slot.",
           "The attacker sends one specially built web request, and the unpatched library accepts it and runs the hidden commands.",
           "Old software that no one maintains is risky, so people should remove it or move to a maintained library (a shared code package)."
-        ]
-      }
-    },
-    {
-      "id": "5e0a8275c0db",
-      "headline": "Microsoft Confirms Authentication Problems After November Security Updates",
-      "summary": "Microsoft says customers may face sign-in problems after installing November security updates that fix a high-severity remote code execution flaw.",
-      "category": "other",
-      "importance": 5,
-      "published": "2026-11-25T09:02:57+00:00",
-      "updated": "2026-11-26T10:40:13+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-          "published": "2026-11-25T09:02:57+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/november-update-breaks-authentication/",
-          "published": "2026-11-26T10:24:22+00:00"
-        }
-      ],
-      "concept": {
-        "title": "Why can security updates cause sign-in problems?",
-        "points": [
-          "A security update is a fix that closes a weakness, like a new lock installed on a door to stop burglars.",
-          "Sometimes a fix changes how a system works, so part of the sign-in process can break for some users.",
-          "Keep devices updated, and check the company's support pages if you cannot sign in after an update."
         ]
       }
     }
