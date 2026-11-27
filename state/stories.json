@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-27T04:40:40+00:00",
+  "updated_at": "2026-11-27T05:39:49+00:00",
   "stories": [
+    {
+      "id": "54032a6a5fbe",
+      "story_key": "us-largest-scam-crackdown-seizures",
+      "headline": "US Crackdown Targets 800 Alleged Scammers in Record Operation",
+      "summary": "The US Justice Department says its largest anti-scam effort so far covers over 400 cases and more than 800 alleged scammers. Officials report nearly $17 billion seized, and police in more than 10 countries raided scam call centers and compounds abroad.",
+      "category": "scam-phishing",
+      "importance": 7,
+      "published": "2026-11-27T05:30:28+00:00",
+      "first_seen": "2026-11-27T05:39:49+00:00",
+      "updated": "2026-11-27T05:39:49+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/27/doj-scam-crackdown-800-scammers/",
+          "published": "2026-11-27T05:30:28+00:00"
+        }
+      ],
+      "concept": {
+        "title": "How do large scam call centers operate?",
+        "points": [
+          "Scam call centers are offices where criminals phone many people at once, pretending to be banks, police, or friends, to get money or personal details.",
+          "Scammers often work in groups, using fake stories and pressure to make victims send money quickly, sometimes from buildings in other countries.",
+          "Never send money or share codes after an unexpected call, even if the caller sounds official. Hang up and call the organization using a number you already know."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "1a1645a84aea",
+      "story_key": "crest-ai-threat-led-pentesting-study",
+      "headline": "Survey Finds 81% of Pentest Providers Use AI Beyond Experiments",
+      "summary": "A CREST study of 26 testing providers finds AI is now widely used in threat-led penetration testing. The research raises questions about what those tests actually prove, with a focus on financial services.",
+      "category": "ai-security",
+      "importance": 3,
+      "published": "2026-11-27T05:00:32+00:00",
+      "first_seen": "2026-11-27T05:39:49+00:00",
+      "updated": "2026-11-27T05:39:49+00:00",
+      "sources": [
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/27/crest-ai-threat-led-penetration-testing/",
+          "published": "2026-11-27T05:00:32+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a penetration test?",
+        "points": [
+          "A penetration test is a planned, friendly attack that security experts run on a company's computers, websites, or systems to find weak points before real criminals do.",
+          "Testers try the same methods that attackers use, such as guessing weak passwords or finding open doors in software, and then write a report of what they found.",
+          "Some testers now use artificial intelligence (AI, computer systems that learn from data) to speed up this work, so companies should ask what the test really proved."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "85055571aa55",
       "story_key": "sap-github-token-theft-incident",
