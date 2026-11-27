@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T04:07:59+00:00",
+  "updated_at": "2026-11-27T04:40:40+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,54 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "85055571aa55",
+      "headline": "SAP Confirms Security Incident After Hackers Reportedly Steal GitHub Tokens",
+      "summary": "SAP confirmed an IT security incident in which attackers reportedly stole employee authentication tokens and used them to alter and copy source code on GitHub. The company says investigators have found no evidence of unauthorized access to customer business data so far.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T03:39:12+00:00",
+      "updated": "2026-11-27T04:40:40+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/sap-security-incident/",
+          "published": "2026-11-27T03:39:12+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a stolen login token?",
+        "points": [
+          "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
+          "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
+          "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
+        ]
+      }
+    },
+    {
+      "id": "9659574a4d10",
+      "headline": "Bitcoin Core Privacy Flaw Could Link Wallet Addresses to IP Addresses",
+      "summary": "A privacy flaw in Bitcoin Core could let an observer connect a public Bitcoin address to the IP address of the node tracking it. A test on a private network succeeded, but the method has not been measured on the live network, and it does not expose funds.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-27T03:23:06+00:00",
+      "updated": "2026-11-27T04:40:40+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/bitcoin-privacy-flaw/",
+          "published": "2026-11-27T03:23:06+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a wallet privacy flaw?",
+        "points": [
+          "A Bitcoin address is a public code, like an account number others can see, and an IP address (a device's internet number) shows where a device connects from.",
+          "A node (a computer that keeps a copy of the network's records) may let an observer match a public address to the internet number of that computer.",
+          "Users can protect privacy by using wallet software that hides network details, and developers fix such flaws with updates."
+        ]
+      }
+    },
     {
       "id": "5122b3ec4141",
       "headline": "Node.js 27 Alpha Adds HTTP Connection Security Fixes and TLS 1.2 Controls",
@@ -1506,54 +1554,6 @@
           "A data breach is when someone gets into a computer system without permission and takes or sees information they should not have, like a thief getting into a locked filing cabinet.",
           "Attackers often break in by guessing passwords, tricking a worker into clicking a bad link, or using a weakness in software that has not been fixed yet.",
           "Organizations reduce this risk by using strong unique passwords, two-step login, and installing software updates as soon as they are released."
-        ]
-      }
-    },
-    {
-      "id": "2a1f05ab0644",
-      "headline": "Rackspace Shuts Down Spot Cloud Platform After Security Breach",
-      "summary": "Rackspace is closing its Spot cloud platform after hackers accessed customer Kubernetes clusters and secrets. Customers have until December 8 to migrate services and download their data.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-24T21:37:30+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-          "published": "2026-11-24T21:37:30+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a cloud platform breach?",
-        "points": [
-          "A cloud platform is a service that runs computer systems and stores data for businesses over the internet, like renting storage space in a large shared building.",
-          "When a cloud platform is breached, attackers can get into the accounts and secret keys that customers use to log in and control their systems.",
-          "Businesses protect themselves by keeping secret keys private, changing them often, and making regular backup copies of important data."
-        ]
-      }
-    },
-    {
-      "id": "b89dc1eefaaf",
-      "headline": "Flaws in Visa and Immigration Systems Could Disrupt Border Entry",
-      "summary": "Vulnerabilities in online visa and immigration systems could have disrupted traveler entry to several countries, including Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji and Ghana.",
-      "category": "vulnerability",
-      "importance": 5,
-      "published": "2026-11-24T21:36:11+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
-          "published": "2026-11-24T21:36:11+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a software vulnerability?",
-        "points": [
-          "A vulnerability is a weak spot in software, like a door that was left unlocked by mistake, that someone could use to get into a system they should not control.",
-          "An attacker finds the weak spot and uses a tool to exploit it, which can make the system show wrong information, stop working, or let them change records.",
-          "Software makers release fixes called patches, and users should install these updates quickly to close the weak spot."
         ]
       }
     }

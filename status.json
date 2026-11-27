@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-27T04:07:59+00:00",
+  "run_at": "2026-11-27T04:40:40+00:00",
   "mode": "full",
   "sources": [
     {
@@ -47,9 +47,9 @@
     },
     {
       "name": "Cyber Security News",
-      "ok": false,
-      "items": 0,
-      "error": "ValueError: could not parse feed: <unknown>:2:119: not well-formed (invalid token)"
+      "ok": true,
+      "items": 10,
+      "error": null
     },
     {
       "name": "CISA",
@@ -58,12 +58,12 @@
       "error": null
     }
   ],
-  "fetched_items": 62,
-  "new_items": 0,
-  "curated_items": 0,
-  "kept_items": 0,
-  "new_stories": 0,
+  "fetched_items": 72,
+  "new_items": 2,
+  "curated_items": 2,
+  "kept_items": 2,
+  "new_stories": 2,
   "merged_sources": 0,
-  "explained_stories": 0,
+  "explained_stories": 2,
   "errors": []
 }

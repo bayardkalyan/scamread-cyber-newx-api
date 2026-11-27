@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-27T04:07:59+00:00",
+  "updated_at": "2026-11-27T04:40:40+00:00",
   "stories": [
+    {
+      "id": "85055571aa55",
+      "story_key": "sap-github-token-theft-incident",
+      "headline": "SAP Confirms Security Incident After Hackers Reportedly Steal GitHub Tokens",
+      "summary": "SAP confirmed an IT security incident in which attackers reportedly stole employee authentication tokens and used them to alter and copy source code on GitHub. The company says investigators have found no evidence of unauthorized access to customer business data so far.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T03:39:12+00:00",
+      "first_seen": "2026-11-27T04:40:40+00:00",
+      "updated": "2026-11-27T04:40:40+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/sap-security-incident/",
+          "published": "2026-11-27T03:39:12+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a stolen login token?",
+        "points": [
+          "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
+          "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
+          "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "9659574a4d10",
+      "story_key": "bitcoin-core-address-ip-privacy-flaw",
+      "headline": "Bitcoin Core Privacy Flaw Could Link Wallet Addresses to IP Addresses",
+      "summary": "A privacy flaw in Bitcoin Core could let an observer connect a public Bitcoin address to the IP address of the node tracking it. A test on a private network succeeded, but the method has not been measured on the live network, and it does not expose funds.",
+      "category": "vulnerability",
+      "importance": 5,
+      "published": "2026-11-27T03:23:06+00:00",
+      "first_seen": "2026-11-27T04:40:40+00:00",
+      "updated": "2026-11-27T04:40:40+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/bitcoin-privacy-flaw/",
+          "published": "2026-11-27T03:23:06+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a wallet privacy flaw?",
+        "points": [
+          "A Bitcoin address is a public code, like an account number others can see, and an IP address (a device's internet number) shows where a device connects from.",
+          "A node (a computer that keeps a copy of the network's records) may let an observer match a public address to the internet number of that computer.",
+          "Users can protect privacy by using wallet software that hides network details, and developers fix such flaws with updates."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "5122b3ec4141",
       "story_key": "nodejs-27-alpha-http-security-fixes",

@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T04:07:59+00:00",
+  "updated_at": "2026-11-27T04:40:40+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -46,6 +46,30 @@
           "A software flaw is a mistake in a program's code that lets a stranger do things they should not be allowed to do, like a weak lock.",
           "Attackers find the flaw, then send a specially built request that uses it to take control of the website, such as changing its pages.",
           "Website owners should install updates from the software maker as soon as they are released, since an update (a fix from the maker) closes the flaw."
+        ]
+      }
+    },
+    {
+      "id": "85055571aa55",
+      "headline": "SAP Confirms Security Incident After Hackers Reportedly Steal GitHub Tokens",
+      "summary": "SAP confirmed an IT security incident in which attackers reportedly stole employee authentication tokens and used them to alter and copy source code on GitHub. The company says investigators have found no evidence of unauthorized access to customer business data so far.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T03:39:12+00:00",
+      "updated": "2026-11-27T04:40:40+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/sap-security-incident/",
+          "published": "2026-11-27T03:39:12+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a stolen login token?",
+        "points": [
+          "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
+          "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
+          "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
         ]
       }
     },
@@ -118,30 +142,6 @@
           "A vulnerability is a weakness in software that lets someone do things the software was not meant to allow.",
           "An attacker sends carefully built requests over the internet to the flawed device, tricking it into running their own commands with root (full administrator) control.",
           "Companies protect themselves by installing the maker's security update (a fix) as soon as it is released."
-        ]
-      }
-    },
-    {
-      "id": "151e8021a3e7",
-      "headline": "Hackers Exploit Mitel MiCollab Zero-Days in Suspected AI-Assisted Attacks",
-      "summary": "Accenture reports that attackers exploited MiCollab flaws before Mitel published its advisory. The campaign appears to be extortion-focused and may have been helped by AI tools.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-26T11:35:25+00:00",
-      "updated": "2026-11-26T11:40:03+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
-          "published": "2026-11-26T11:35:25+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a zero-day attack?",
-        "points": [
-          "A zero-day is a flaw in software that attackers find and use before the maker knows about it or has released a fix.",
-          "Attackers scan software for such flaws and send specially crafted input that triggers them, letting them get into a system without permission.",
-          "People can protect themselves by installing software updates as soon as they arrive, since the maker then releases a fix (a patch) for the flaw."
         ]
       }
     }
