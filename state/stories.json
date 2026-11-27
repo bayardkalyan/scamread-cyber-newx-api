@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T12:40:34+00:00",
+  "updated_at": "2026-11-27T13:40:10+00:00",
   "stories": [
     {
       "id": "d0ebc8952af1",
@@ -24,6 +24,33 @@
           "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
           "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
           "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "d3a03dbe0b29",
+      "story_key": "microsoft-store-vinci-rat-fake-snipping-tool",
+      "headline": "Microsoft Store App Delivers Vinci RAT Remote Access Trojan",
+      "summary": "Attackers used a fake sniping tool website to distribute a Microsoft-signed installer that deploys the Vinci RAT, which allows remote control of infected computers. Researchers at eSentire detailed the campaign.",
+      "category": "malware",
+      "importance": 5,
+      "published": "2026-11-27T11:49:34+00:00",
+      "first_seen": "2026-11-27T13:40:10+00:00",
+      "updated": "2026-11-27T13:40:10+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+          "published": "2026-11-27T11:49:34+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a remote access trojan?",
+        "points": [
+          "A remote access trojan is a hidden program that lets someone else control your computer from far away, like a stranger holding a copy of your house keys.",
+          "Attackers often hide it inside a fake download, such as a fake tool from a copied website, so the person installs it thinking it is safe.",
+          "To stay safe, download software only from official stores or the maker's own website, and keep your system updated."
         ]
       },
       "concept_checked": true
@@ -371,7 +398,7 @@
       "importance": 7,
       "published": "2026-11-27T03:39:12+00:00",
       "first_seen": "2026-11-27T04:40:40+00:00",
-      "updated": "2026-11-27T10:40:00+00:00",
+      "updated": "2026-11-27T13:40:10+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -387,6 +414,11 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
           "published": "2026-11-27T09:56:36+00:00"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/sap-germany-cyberattack-github",
+          "published": "2026-11-27T13:15:00+00:00"
         }
       ],
       "concept": {
@@ -1158,7 +1190,7 @@
       "importance": 6,
       "published": "2026-11-25T20:40:00+00:00",
       "first_seen": "2026-11-25T21:39:53+00:00",
-      "updated": "2026-11-26T17:39:57+00:00",
+      "updated": "2026-11-27T13:40:10+00:00",
       "sources": [
         {
           "name": "The Record",
@@ -1174,6 +1206,11 @@
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
           "published": "2026-11-26T17:06:55+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/27/fifa-cyberattack-data-leak/",
+          "published": "2026-11-27T13:21:50+00:00"
         }
       ],
       "concept": {

@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T12:40:34+00:00",
+  "updated_at": "2026-11-27T13:40:10+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -46,7 +46,7 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-27T03:39:12+00:00",
-      "updated": "2026-11-27T10:40:00+00:00",
+      "updated": "2026-11-27T13:40:10+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -62,6 +62,11 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
           "published": "2026-11-27T09:56:36+00:00"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/sap-germany-cyberattack-github",
+          "published": "2026-11-27T13:15:00+00:00"
         }
       ],
       "concept": {
