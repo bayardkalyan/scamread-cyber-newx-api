@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T14:14:47+00:00",
+  "updated_at": "2026-11-27T14:40:26+00:00",
   "stories": [
+    {
+      "id": "cf15855177df",
+      "story_key": "japan-education-ministry-procurement-breach",
+      "headline": "Japan Education Ministry Discloses Breach of Procurement System",
+      "summary": "Japan's education ministry disclosed that hackers breached its government procurement system earlier this week. Exposed records may include business information and email addresses.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-27T14:15:00+00:00",
+      "first_seen": "2026-11-27T14:40:26+00:00",
+      "updated": "2026-11-27T14:40:26+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/japan-education-ministry-cyberattack",
+          "published": "2026-11-27T14:15:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone who should not have access gets into a computer system and sees or takes private information, like a locked office that a stranger has entered.",
+          "Attackers often find a weak password, an old program with a known flaw, or a tricked employee, then move through the system to reach stored files and emails.",
+          "Organizations reduce this risk by using strong unique passwords, two-step login codes, and quick updates that fix known security flaws."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "38b7f1d52f33",
       "story_key": "air-force-cloud-one-breach",

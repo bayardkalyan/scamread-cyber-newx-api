@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T14:14:47+00:00",
+  "updated_at": "2026-11-27T14:40:26+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "cf15855177df",
+      "headline": "Japan Education Ministry Discloses Breach of Procurement System",
+      "summary": "Japan's education ministry disclosed that hackers breached its government procurement system earlier this week. Exposed records may include business information and email addresses.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-27T14:15:00+00:00",
+      "updated": "2026-11-27T14:40:26+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/japan-education-ministry-cyberattack",
+          "published": "2026-11-27T14:15:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone who should not have access gets into a computer system and sees or takes private information, like a locked office that a stranger has entered.",
+          "Attackers often find a weak password, an old program with a known flaw, or a tricked employee, then move through the system to reach stored files and emails.",
+          "Organizations reduce this risk by using strong unique passwords, two-step login codes, and quick updates that fix known security flaws."
+        ]
+      }
+    },
     {
       "id": "38b7f1d52f33",
       "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
@@ -1541,30 +1565,6 @@
           "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
           "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
           "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
-        ]
-      }
-    },
-    {
-      "id": "b05430fe8051",
-      "headline": "Bots Use Leaked AWS Key in Docker Image Within Eight Seconds",
-      "summary": "Researchers at Stony Brook University planted 300 decoy images on public container registries and found bots used a cloud access key left inside one in under eight seconds. Developers publishing images publicly face fast exposure of stored credentials.",
-      "category": "other",
-      "importance": 5,
-      "published": "2026-11-25T11:22:32+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
-          "published": "2026-11-25T11:22:32+00:00"
-        }
-      ],
-      "concept": {
-        "title": "Why do leaked cloud keys get found so fast?",
-        "points": [
-          "A cloud access key is a secret code that lets a program control online cloud services. If a developer puts this key inside a public container image (a packaged copy of an app), anyone can see it.",
-          "Automated bots constantly scan public image sites for secret keys. They can find and copy a key within seconds, then use it to access the owner's cloud account.",
-          "Developers should keep secret keys out of shared files and store them in a secrets manager (a tool that keeps passwords safe)."
         ]
       }
     }
