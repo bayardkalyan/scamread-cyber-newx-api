@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T16:40:35+00:00",
+  "updated_at": "2026-11-27T17:39:51+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "99a920c2585a",
+      "headline": "Vietnam-Linked Hackers Target Southeast Asian Governments in Espionage Campaign",
+      "summary": "A hacking group suspected of Vietnamese sponsorship attacked military, government and legislative bodies in Southeast Asia. The campaign, called WeaveLotus, aimed to gather intelligence on South China Sea defense agreements.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T16:36:11+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "published": "2026-11-27T16:36:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a state-sponsored hacking campaign?",
+        "points": [
+          "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
+          "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
+          "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
+        ]
+      }
+    },
     {
       "id": "1288c08a6b4c",
       "headline": "Hackers Set Meat Plant Freezer to 100°C and Lock Out Technician",
@@ -372,7 +396,7 @@
       "category": "vulnerability",
       "importance": 7,
       "published": "2026-11-27T05:47:56+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -383,6 +407,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/cacti-4http2root-zero-day/",
           "published": "2026-11-27T05:47:56+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+          "published": "2026-11-27T17:06:13+00:00"
         }
       ],
       "concept": {
@@ -1541,30 +1570,6 @@
           "Two-factor login is a safety step that asks for a second code, like a key card, after the password is typed.",
           "A fake plugin (an add-on program for a website) can let attackers sign in without that second step and run a small script (a set of code instructions) in visitors' browsers.",
           "Site owners should download add-ons only from trusted sources and review the list of installed plugins regularly."
-        ]
-      }
-    },
-    {
-      "id": "5318a356da21",
-      "headline": "Hackers Use Autonomous AI Agents to Steal Credentials and Move Across Networks",
-      "summary": "Researchers tracked more than 10 campaigns from July to September 2026 in which attackers used autonomous AI agents to steal credentials and move between corporate servers. Targets included government, logistics and education organizations.",
-      "category": "ai-security",
-      "importance": 7,
-      "published": "2026-11-25T12:11:01+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-use-autonomous-ai-agents-2/",
-          "published": "2026-11-25T12:11:01+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What are autonomous AI agent attacks?",
-        "points": [
-          "An autonomous AI agent (a computer program that works on its own) can carry out a series of tasks with little human help. Attackers can misuse these programs to break into systems.",
-          "Think of an agent as a tireless helper that tries many doors at once. After stealing a password, it can use that password to log in to other computers on the same network.",
-          "Organizations can reduce this risk by using strong, unique passwords and multi-factor login (a second check, such as a code sent to your phone)."
         ]
       }
     }

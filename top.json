@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T16:40:35+00:00",
+  "updated_at": "2026-11-27T17:39:51+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -84,6 +84,40 @@
       }
     },
     {
+      "id": "f529234ad27c",
+      "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
+      "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
+      "category": "vulnerability",
+      "importance": 7,
+      "published": "2026-11-27T05:47:56+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "published": "2026-11-27T05:48:20+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cacti-4http2root-zero-day/",
+          "published": "2026-11-27T05:47:56+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+          "published": "2026-11-27T17:06:13+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day vulnerability?",
+        "points": [
+          "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
+          "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
+          "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
+        ]
+      }
+    },
+    {
       "id": "38b7f1d52f33",
       "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
       "summary": "Intruders broke into Cloud One, the U.S. Air Force's main cloud platform, which holds military, personnel and logistics data. The breach was found during upgrade work, and the Air Force has paused plans to move back-office applications onto the platform.",
@@ -138,35 +172,6 @@
           "A trojanized installer is a normal-looking program setup file that secretly has harmful code hidden inside, like a gift box with a trap inside.",
           "The attacker changes the setup file so that when a person runs it, it also installs a remote access trojan, which lets someone else control the computer from far away.",
           "People can reduce the risk by downloading software only from the official maker's website and checking that the file is signed by the maker."
-        ]
-      }
-    },
-    {
-      "id": "f529234ad27c",
-      "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
-      "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-27T05:47:56+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
-          "published": "2026-11-27T05:48:20+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cacti-4http2root-zero-day/",
-          "published": "2026-11-27T05:47:56+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a zero-day vulnerability?",
-        "points": [
-          "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
-          "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
-          "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
         ]
       }
     }

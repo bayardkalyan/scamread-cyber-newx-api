@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T16:40:35+00:00",
+  "updated_at": "2026-11-27T17:39:51+00:00",
   "stories": [
+    {
+      "id": "99a920c2585a",
+      "story_key": "weavelotus-vietnam-south-china-sea-espionage",
+      "headline": "Vietnam-Linked Hackers Target Southeast Asian Governments in Espionage Campaign",
+      "summary": "A hacking group suspected of Vietnamese sponsorship attacked military, government and legislative bodies in Southeast Asia. The campaign, called WeaveLotus, aimed to gather intelligence on South China Sea defense agreements.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T16:36:11+00:00",
+      "first_seen": "2026-11-27T17:39:51+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "published": "2026-11-27T16:36:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a state-sponsored hacking campaign?",
+        "points": [
+          "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
+          "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
+          "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "1288c08a6b4c",
       "story_key": "slovenia-meat-plant-freezer-hack",
@@ -403,7 +430,7 @@
       "importance": 7,
       "published": "2026-11-27T05:47:56+00:00",
       "first_seen": "2026-11-27T06:40:27+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -414,6 +441,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/cacti-4http2root-zero-day/",
           "published": "2026-11-27T05:47:56+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+          "published": "2026-11-27T17:06:13+00:00"
         }
       ],
       "concept": {
