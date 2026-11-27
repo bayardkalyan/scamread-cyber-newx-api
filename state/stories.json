@@ -1,21 +1,134 @@
 {
-  "updated_at": "2026-11-27T07:40:43+00:00",
+  "updated_at": "2026-11-27T08:40:36+00:00",
   "stories": [
+    {
+      "id": "0449f70f74fb",
+      "story_key": "nfs2root-linux-nfs-root-flaw",
+      "headline": "Linux NFS Server Flaw Lets Remote Attackers Gain Root Privileges",
+      "summary": "A 12-year-old critical flaw in the Linux kernel's NFS server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. Administrators running affected kernels should check for and apply fixes.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-27T08:06:58+00:00",
+      "first_seen": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+          "published": "2026-11-27T08:06:58+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a vulnerability in server software?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a broken lock on a door that was built wrong by mistake.",
+          "An attacker who finds the weak spot can send specially made requests to the server over a network and trick it into giving them top-level control, called root access.",
+          "People can protect themselves by installing the security fix (a patch) that the software maker releases, as soon as it is available."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "2eabdffe562b",
+      "story_key": "softwareok-tampered-installers-rat",
+      "headline": "Tampered Windows Utility Installers Deliver Remote Access Trojan",
+      "summary": "Trojanized installers for Q-Dir and DesktopOK, distributed through official SoftwareOK downloads, installed a Python remote access trojan. Malicious files also reached users through updates of existing installations.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-27T07:27:11+00:00",
+      "first_seen": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-turn-trusted-windows-software/",
+          "published": "2026-11-27T07:27:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a trojanized installer?",
+        "points": [
+          "A trojanized installer is a normal-looking program setup file that secretly has harmful code hidden inside, like a gift box with a trap inside.",
+          "The attacker changes the setup file so that when a person runs it, it also installs a remote access trojan, which lets someone else control the computer from far away.",
+          "People can reduce the risk by downloading software only from the official maker's website and checking that the file is signed by the maker."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "964bad08fc49",
+      "story_key": "ransomware-crew-defender-evasion-testing",
+      "headline": "Ransomware Crew Tested Malware Against Microsoft Defender Until Undetected",
+      "summary": "A Russian-speaking ransomware group refined Windows malware in a lab until a revised build reached its command server without a Defender alert. Researchers warn that an empty alert queue does not mean a device is safe.",
+      "category": "ransomware",
+      "importance": 5,
+      "published": "2026-11-27T06:55:15+00:00",
+      "first_seen": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/malware-against-microsoft-defender/",
+          "published": "2026-11-27T06:55:15+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is malware evasion testing?",
+        "points": [
+          "Malware evasion testing means a criminal group repeatedly changes its harmful program until security tools stop noticing it, like a thief who practices sneaking past a guard dog.",
+          "The group checks its new version against antivirus software in a private test setup, makes small changes, and repeats this until no alert appears, then uses that version against real victims.",
+          "An empty alert list does not prove a device is safe, so people should keep their security software updated and also back up important files in case of ransomware."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "2a34c679c6c3",
+      "story_key": "redops-southeast-asia-espionage",
+      "headline": "RedOps Espionage Campaign Breaches Government Networks in Thailand and Philippines",
+      "summary": "Hackers stole sensitive documents and government credentials from military, government and legislative bodies in Thailand and the Philippines between August and September 2026. Researchers also saw reconnaissance against Indonesian agencies without confirmed breaches.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T06:35:33+00:00",
+      "first_seen": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/military-and-government-networks/",
+          "published": "2026-11-27T06:35:33+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an espionage campaign?",
+        "points": [
+          "An espionage campaign is a long, secret effort by hackers to steal private information, such as documents and passwords, from organizations rather than to cause quick damage.",
+          "Attackers usually first study a target to learn its weak points, then break into its computers and quietly copy files and login details over a long period.",
+          "Organizations can lower the risk by using strong, unique passwords, turning on two-step login, and limiting which staff can access sensitive files."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "f529234ad27c",
       "story_key": "cacti-unpatched-zero-day-rce",
       "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
       "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
       "category": "vulnerability",
-      "importance": 6,
-      "published": "2026-11-27T05:48:20+00:00",
+      "importance": 7,
+      "published": "2026-11-27T05:47:56+00:00",
       "first_seen": "2026-11-27T06:40:27+00:00",
-      "updated": "2026-11-27T06:40:27+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
           "published": "2026-11-27T05:48:20+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cacti-4http2root-zero-day/",
+          "published": "2026-11-27T05:47:56+00:00"
         }
       ],
       "concept": {
@@ -231,12 +344,17 @@
       "importance": 7,
       "published": "2026-11-26T15:13:41+00:00",
       "first_seen": "2026-11-26T15:40:33+00:00",
-      "updated": "2026-11-26T15:40:33+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
       "sources": [
         {
           "name": "The Hacker News",
           "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
           "published": "2026-11-26T15:13:41+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-hide-polinrider-malware/",
+          "published": "2026-11-27T05:39:50+00:00"
         }
       ],
       "concept": {
@@ -1422,7 +1540,7 @@
       "importance": 7,
       "published": "2026-11-25T09:06:59+00:00",
       "first_seen": "2026-11-25T09:44:58+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
+      "updated": "2026-11-27T08:40:36+00:00",
       "sources": [
         {
           "name": "The Hacker News",
@@ -1433,6 +1551,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/hackers-exploit-critical-hex-pm-vulnerability/",
           "published": "2026-11-25T14:05:27+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+          "published": "2026-11-27T07:44:49+00:00"
         }
       ],
       "concept": {
