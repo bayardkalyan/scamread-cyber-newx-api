@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T06:40:27+00:00",
+  "updated_at": "2026-11-27T07:40:43+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -93,12 +93,17 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-27T03:39:12+00:00",
-      "updated": "2026-11-27T04:40:40+00:00",
+      "updated": "2026-11-27T07:40:43+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/sap-security-incident/",
           "published": "2026-11-27T03:39:12+00:00"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "published": "2026-11-27T07:36:14+00:00"
         }
       ],
       "concept": {
