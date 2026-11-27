@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T11:40:25+00:00",
+  "updated_at": "2026-11-27T12:40:34+00:00",
   "stories": [
+    {
+      "id": "d0ebc8952af1",
+      "story_key": "remus-stealer-gmail-chrome-extension",
+      "headline": "Remus Stealer Uses Hidden Chrome Extension to Read Gmail Messages",
+      "summary": "Windows malware Remus Stealer installs a Chrome extension disguised as Google Sheets to read unread Gmail messages from an already open session. Victims' sign-in codes and reset links are at risk, and a password reset alone does not remove the extension.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-27T12:19:36+00:00",
+      "first_seen": "2026-11-27T12:40:34+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/",
+          "published": "2026-11-27T12:19:36+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious browser extension?",
+        "points": [
+          "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
+          "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
+          "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "0ed433506b46",
       "story_key": "securityweek-in-other-news-nov-27-2026",
@@ -454,6 +481,33 @@
       "concept_checked": true
     },
     {
+      "id": "eac3f8c5db6f",
+      "story_key": "afp-news-distribution-cyberattack",
+      "headline": "Cyberattack Disrupts AFP Global News Distribution Platform",
+      "summary": "French news agency AFP took one of its main news distribution platforms offline after a cyberattack on Thursday. The platform serves media organizations worldwide, so the disruption reaches outlets that rely on its content.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T00:00:00+00:00",
+      "first_seen": "2026-11-27T12:40:34+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+          "published": "2026-11-27T00:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a cyberattack that stops a service?",
+        "points": [
+          "A cyberattack is an attempt by criminals to break into or disrupt a computer system, like a thief who breaks into a shop to stop it from opening.",
+          "Attackers may break into a company's computers or flood its systems with traffic, so the service goes offline and customers cannot use it.",
+          "Companies protect against this by keeping backup systems ready, so that news and services can keep running while the main system is repaired."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
       "id": "42426dd92d02",
       "story_key": "threatsday-weekly-roundup-nov-2026",
       "headline": "Roundup: NGINX Services at Risk, Malicious Extensions, AI Server Hijacking",
@@ -737,12 +791,17 @@
       "importance": 6,
       "published": "2026-11-26T11:50:17+00:00",
       "first_seen": "2026-11-26T12:14:58+00:00",
-      "updated": "2026-11-26T12:14:58+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
           "published": "2026-11-26T11:50:17+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/new-sys010-malware/",
+          "published": "2026-11-27T12:29:38+00:00"
         }
       ],
       "concept": {

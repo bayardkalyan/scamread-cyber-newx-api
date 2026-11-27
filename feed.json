@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T11:40:25+00:00",
+  "updated_at": "2026-11-27T12:40:34+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "d0ebc8952af1",
+      "headline": "Remus Stealer Uses Hidden Chrome Extension to Read Gmail Messages",
+      "summary": "Windows malware Remus Stealer installs a Chrome extension disguised as Google Sheets to read unread Gmail messages from an already open session. Victims' sign-in codes and reset links are at risk, and a password reset alone does not remove the extension.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-27T12:19:36+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/",
+          "published": "2026-11-27T12:19:36+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious browser extension?",
+        "points": [
+          "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
+          "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
+          "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
+        ]
+      }
+    },
     {
       "id": "0ed433506b46",
       "headline": "Weekly Roundup Covers Tanker Cyberattacks and USDA Payment Systems Breach",
@@ -419,6 +443,30 @@
       }
     },
     {
+      "id": "eac3f8c5db6f",
+      "headline": "Cyberattack Disrupts AFP Global News Distribution Platform",
+      "summary": "French news agency AFP took one of its main news distribution platforms offline after a cyberattack on Thursday. The platform serves media organizations worldwide, so the disruption reaches outlets that rely on its content.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T00:00:00+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
+      "sources": [
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+          "published": "2026-11-27T00:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a cyberattack that stops a service?",
+        "points": [
+          "A cyberattack is an attempt by criminals to break into or disrupt a computer system, like a thief who breaks into a shop to stop it from opening.",
+          "Attackers may break into a company's computers or flood its systems with traffic, so the service goes offline and customers cannot use it.",
+          "Companies protect against this by keeping backup systems ready, so that news and services can keep running while the main system is repaired."
+        ]
+      }
+    },
+    {
       "id": "42426dd92d02",
       "headline": "Roundup: NGINX Services at Risk, Malicious Extensions, AI Server Hijacking",
       "summary": "A weekly roundup of security stories reports about 10 million NGINX services at risk, over 250 malicious browser extensions, and attackers hijacking AI servers. Details are limited to the item's headline.",
@@ -670,12 +718,17 @@
       "category": "malware",
       "importance": 6,
       "published": "2026-11-26T11:50:17+00:00",
-      "updated": "2026-11-26T12:14:58+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
           "published": "2026-11-26T11:50:17+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/new-sys010-malware/",
+          "published": "2026-11-27T12:29:38+00:00"
         }
       ],
       "concept": {
@@ -1514,69 +1567,6 @@
           "A cyber incident is an unwanted event that harms or disrupts computer systems or data. Attackers often cause these events, but they can also come from serious technical faults.",
           "When an organization finds a problem, it may disconnect some systems from the internet. This stops the problem from spreading while investigators examine the damage.",
           "Regular backups (saved copies of important data) and a tested response plan help organizations keep working during such disruptions."
-        ]
-      }
-    },
-    {
-      "id": "72f47c4e3262",
-      "headline": "Critical Drupal Fail2Install Flaw Added to CISA Exploited List",
-      "summary": "CISA added a critical remote code execution flaw in Drupal core, tracked as CVE-2026-132165, to its exploited vulnerabilities catalog. Federal agencies must apply fixes by November 27, 2026.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-25T10:10:20+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-          "published": "2026-11-25T11:23:26+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-          "published": "2026-11-25T10:10:20+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote code execution flaw?",
-        "points": [
-          "A software flaw is a mistake in a program's code that attackers can use to cause harm. A remote code execution flaw lets an attacker run their own commands on a computer from far away over the internet.",
-          "Attackers scan for unpatched systems and use the flaw to take control of the website or server without needing a password.",
-          "Software makers release patches (fixes for known flaws), so installing updates quickly is one of the simplest ways to stay protected."
-        ]
-      }
-    },
-    {
-      "id": "10e0d3da49e6",
-      "headline": "Hackers Exploit CVSS 10.0 Flaw to Breach Hex.pm Package Registry Servers",
-      "summary": "Attackers ran commands on six production servers of Hex.pm, the registry Elixir and Erlang developers use for dependencies. The flaw had existed since 2016, and the servers were patched within about 15 minutes.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-25T09:06:59+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-          "published": "2026-11-25T09:06:59+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-exploit-critical-hex-pm-vulnerability/",
-          "published": "2026-11-25T14:05:27+00:00"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-          "published": "2026-11-27T07:44:49+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote code execution flaw?",
-        "points": [
-          "A remote code execution flaw is a bug that lets an attacker run their own commands on someone else's computer, like a hidden door into a building.",
-          "Attackers find the bug, send specially built requests to the server, and the server runs the attacker's commands without checking them first.",
-          "Software makers release a patch (a fix) quickly, and users should install updates as soon as they arrive."
         ]
       }
     }
