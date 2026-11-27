@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T05:39:49+00:00",
+  "updated_at": "2026-11-27T06:40:27+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "f529234ad27c",
+      "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
+      "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-27T05:48:20+00:00",
+      "updated": "2026-11-27T06:40:27+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "published": "2026-11-27T05:48:20+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day vulnerability?",
+        "points": [
+          "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
+          "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
+          "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
+        ]
+      }
+    },
     {
       "id": "54032a6a5fbe",
       "headline": "US Crackdown Targets 800 Alleged Scammers in Record Operation",
@@ -821,9 +845,9 @@
       "headline": "Swiss Agency Confirms AI-Agent Cyberattacks Compromised Victims' IT Systems",
       "summary": "Switzerland's National Cyber Security Centre confirmed its first AI-assisted attacks on organisations, affecting companies and critical infrastructure in at least two sectors. In every known case, the AI agents successfully compromised the victims' IT systems.",
       "category": "ai-security",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-25T16:02:38+00:00",
-      "updated": "2026-11-25T19:40:38+00:00",
+      "updated": "2026-11-27T06:40:27+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -834,6 +858,11 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
           "published": "2026-11-25T19:39:31+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+          "published": "2026-11-27T06:04:20+00:00"
         }
       ],
       "concept": {
@@ -1520,30 +1549,6 @@
           "A remote access trojan is hidden software that lets a stranger control a computer from far away, like a secret spare key.",
           "Attackers hide it in a download that looks real, such as a screenshot tool, and then run commands once it is installed.",
           "Download apps only from official stores and check the publisher name before installing anything from a web link."
-        ]
-      }
-    },
-    {
-      "id": "b70f624e117e",
-      "headline": "WordPress Removes Six Backdoored WP Connect Plugins Before Release",
-      "summary": "WordPress removed six WP Connect plugins that were backdoored on November 22 after a suspected compromise of the developer's account, which could allow arbitrary code execution on sites. The plugins team blocked them before official release.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-25T06:21:12+00:00",
-      "updated": "2026-11-25T08:21:13+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-          "published": "2026-11-25T06:21:12+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a backdoor in software?",
-        "points": [
-          "A backdoor is a hidden entrance in software that lets someone skip the normal locks and run code without permission.",
-          "Here, attackers may have taken over a developer's account and added hidden code to plugins that websites install to add features.",
-          "Website owners should update plugins, remove unused ones, and install only plugins from trusted sources."
         ]
       }
     }

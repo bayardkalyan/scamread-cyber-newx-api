@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T05:39:49+00:00",
+  "updated_at": "2026-11-27T06:40:27+00:00",
   "stories": [
+    {
+      "id": "f529234ad27c",
+      "story_key": "cacti-unpatched-zero-day-rce",
+      "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
+      "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-27T05:48:20+00:00",
+      "first_seen": "2026-11-27T06:40:27+00:00",
+      "updated": "2026-11-27T06:40:27+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "published": "2026-11-27T05:48:20+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a zero-day vulnerability?",
+        "points": [
+          "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
+          "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
+          "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "54032a6a5fbe",
       "story_key": "us-largest-scam-crackdown-seizures",
@@ -907,10 +934,10 @@
       "headline": "Swiss Agency Confirms AI-Agent Cyberattacks Compromised Victims' IT Systems",
       "summary": "Switzerland's National Cyber Security Centre confirmed its first AI-assisted attacks on organisations, affecting companies and critical infrastructure in at least two sectors. In every known case, the AI agents successfully compromised the victims' IT systems.",
       "category": "ai-security",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-25T16:02:38+00:00",
       "first_seen": "2026-11-25T16:40:10+00:00",
-      "updated": "2026-11-25T19:40:38+00:00",
+      "updated": "2026-11-27T06:40:27+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
@@ -921,6 +948,11 @@
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
           "published": "2026-11-25T19:39:31+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+          "published": "2026-11-27T06:04:20+00:00"
         }
       ],
       "concept": {
