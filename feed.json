@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T18:40:13+00:00",
+  "updated_at": "2026-11-27T22:53:44+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,54 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "90b56ad7fedd",
+      "headline": "pCloud Confirms Cyberattack on Pass Password Manager",
+      "summary": "pCloud says its Pass password manager was attacked. Some users reported unknown devices logging into their accounts even with two-factor authentication turned on.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-27T19:26:04+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+          "published": "2026-11-27T19:26:04+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an account takeover, and how can it happen?",
+        "points": [
+          "An account takeover means a criminal gets into your online account and controls it, like someone copying your house key and walking in.",
+          "Attackers often steal or guess a password, then log in from their own device, sometimes using stolen login details that were leaked earlier.",
+          "Turning on two-factor authentication (a second check, such as a code sent to your phone) and using a unique password for each account makes this much harder."
+        ]
+      }
+    },
+    {
+      "id": "d3976f07ac3d",
+      "headline": "Boston Scientific Sends Breach Notices After Cyberattack",
+      "summary": "Medical technology company Boston Scientific is notifying affected individuals that a cyberattack on the firm exposed personal and medical information.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-27T18:57:42+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+          "published": "2026-11-27T18:57:42+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when criminals get into a company's computers and take personal information that was meant to stay private, like a locked filing cabinet that was forced open.",
+          "Attackers often break in through stolen passwords, tricky emails, or unpatched weak spots, then copy files and sometimes sell or publish them.",
+          "If you receive a breach notice, change your password for that service, watch for strange messages asking for more information, and consider a credit freeze."
+        ]
+      }
+    },
     {
       "id": "99a920c2585a",
       "headline": "Vietnam-Linked Hackers Target Southeast Asian Governments in Espionage Campaign",
@@ -136,6 +184,30 @@
           "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
           "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
           "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
+        ]
+      }
+    },
+    {
+      "id": "c6e486d6c14e",
+      "headline": "CISA Flags Three Actively Exploited Flaws Including Drupal and GeoServer",
+      "summary": "CISA added three vulnerabilities in OSGeo GeoServer and Drupal Core to its catalog based on evidence of active attacks. Federal agencies must address them under the directive.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-27T12:00:00+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-27T12:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a vulnerability that is being actively exploited?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a door that does not lock properly, and an exploit is a way attackers use that weak spot to get in.",
+          "Criminals scan the internet for computers running the flawed software, then use known methods to take control or steal data before many people have installed the fix.",
+          "Installing software updates quickly, as soon as the maker releases a fix (a patch), is one of the simplest ways to close these weak spots."
         ]
       }
     },
@@ -1493,83 +1565,6 @@
           "Industrial systems are the computers that control large machines, such as those at ports, pipelines and factories.",
           "Attackers try to get into these computers through weak passwords, old software or harmful emails, and then disrupt the work they control.",
           "Companies can protect these systems by separating them from the internet and keeping their software up to date."
-        ]
-      }
-    },
-    {
-      "id": "f1f0d87a0470",
-      "headline": "Suspected Ransomware Disrupts Surgeries at Guadeloupe University Hospital",
-      "summary": "France's national cybersecurity agency is investigating a suspected ransomware attack on the University Hospital of Guadeloupe. Doctors postponed surgeries, suspended some cancer treatments and switched to paper records.",
-      "category": "ransomware",
-      "importance": 7,
-      "published": "2026-11-25T13:30:00+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
-          "published": "2026-11-25T13:30:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is ransomware?",
-        "points": [
-          "Ransomware is harmful software that locks a victim's files or computers so they cannot be used until a payment is made.",
-          "The attacker usually gets in through a phishing email or a weak password, then spreads the lock across the network and demands money.",
-          "Keeping regular backups of important files that are stored separately lets an organization recover without paying."
-        ]
-      }
-    },
-    {
-      "id": "43818f9f943c",
-      "headline": "Attackers Target Two Newly Disclosed GeoServer Vulnerabilities",
-      "summary": "Attackers are probing GeoServer servers for two high-severity flaws that can be chained with other bugs to run code without logging in.",
-      "category": "vulnerability",
-      "importance": 7,
-      "published": "2026-11-25T12:48:54+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-          "published": "2026-11-25T15:27:36+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-          "published": "2026-11-25T12:48:54+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How do attackers use a newly found software flaw?",
-        "points": [
-          "A newly found flaw is a weakness in software that the maker has just made public, so some people may not have fixed it yet.",
-          "Attackers search for servers that still have the flaw and send them specially built requests that can make the server run their commands.",
-          "Applying the maker's update as soon as it is available is the best way for server owners to stay protected."
-        ]
-      }
-    },
-    {
-      "id": "51ab454efabf",
-      "headline": "Fake WordPress Plugin Lets Attackers Skip 2FA and Run Scripts",
-      "summary": "A disguised WordPress plugin lets attackers sign in without completing two-factor authentication and runs malicious JavaScript for logged-out site visitors. The plugin hides from the dashboard, so administrators may miss the infection.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-25T12:14:08+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/fake-wordpress-plugin/",
-          "published": "2026-11-25T12:14:08+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How can attackers skip two-factor login checks?",
-        "points": [
-          "Two-factor login is a safety step that asks for a second code, like a key card, after the password is typed.",
-          "A fake plugin (an add-on program for a website) can let attackers sign in without that second step and run a small script (a set of code instructions) in visitors' browsers.",
-          "Site owners should download add-ons only from trusted sources and review the list of installed plugins regularly."
         ]
       }
     }

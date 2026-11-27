@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-27T18:40:13+00:00",
+  "updated_at": "2026-11-27T22:53:44+00:00",
   "stories": [
+    {
+      "id": "90b56ad7fedd",
+      "story_key": "pcloud-pass-password-manager-hack",
+      "headline": "pCloud Confirms Cyberattack on Pass Password Manager",
+      "summary": "pCloud says its Pass password manager was attacked. Some users reported unknown devices logging into their accounts even with two-factor authentication turned on.",
+      "category": "data-breach",
+      "importance": 6,
+      "published": "2026-11-27T19:26:04+00:00",
+      "first_seen": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+          "published": "2026-11-27T19:26:04+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is an account takeover, and how can it happen?",
+        "points": [
+          "An account takeover means a criminal gets into your online account and controls it, like someone copying your house key and walking in.",
+          "Attackers often steal or guess a password, then log in from their own device, sometimes using stolen login details that were leaked earlier.",
+          "Turning on two-factor authentication (a second check, such as a code sent to your phone) and using a unique password for each account makes this much harder."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "d3976f07ac3d",
+      "story_key": "boston-scientific-data-breach",
+      "headline": "Boston Scientific Sends Breach Notices After Cyberattack",
+      "summary": "Medical technology company Boston Scientific is notifying affected individuals that a cyberattack on the firm exposed personal and medical information.",
+      "category": "data-breach",
+      "importance": 5,
+      "published": "2026-11-27T18:57:42+00:00",
+      "first_seen": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+          "published": "2026-11-27T18:57:42+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when criminals get into a company's computers and take personal information that was meant to stay private, like a locked filing cabinet that was forced open.",
+          "Attackers often break in through stolen passwords, tricky emails, or unpatched weak spots, then copy files and sometimes sell or publish them.",
+          "If you receive a breach notice, change your password for that service, watch for strange messages asking for more information, and consider a credit freeze."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "99a920c2585a",
       "story_key": "weavelotus-vietnam-south-china-sea-espionage",
@@ -137,6 +191,33 @@
           "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
           "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
           "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
+        ]
+      },
+      "concept_checked": true
+    },
+    {
+      "id": "c6e486d6c14e",
+      "story_key": "cisa-kev-geoserver-drupal-exploited",
+      "headline": "CISA Flags Three Actively Exploited Flaws Including Drupal and GeoServer",
+      "summary": "CISA added three vulnerabilities in OSGeo GeoServer and Drupal Core to its catalog based on evidence of active attacks. Federal agencies must address them under the directive.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-27T12:00:00+00:00",
+      "first_seen": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-27T22:53:44+00:00",
+      "sources": [
+        {
+          "name": "CISA",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "published": "2026-11-27T12:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a vulnerability that is being actively exploited?",
+        "points": [
+          "A vulnerability is a weak spot in software, like a door that does not lock properly, and an exploit is a way attackers use that weak spot to get in.",
+          "Criminals scan the internet for computers running the flawed software, then use known methods to take control or steal data before many people have installed the fix.",
+          "Installing software updates quickly, as soon as the maker releases a fix (a patch), is one of the simplest ways to close these weak spots."
         ]
       },
       "concept_checked": true
