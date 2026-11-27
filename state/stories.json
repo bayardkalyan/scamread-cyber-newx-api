@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T13:40:10+00:00",
+  "updated_at": "2026-11-27T14:14:47+00:00",
   "stories": [
+    {
+      "id": "38b7f1d52f33",
+      "story_key": "air-force-cloud-one-breach",
+      "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
+      "summary": "Intruders broke into Cloud One, the U.S. Air Force's main cloud platform, which holds military, personnel and logistics data. The breach was found during upgrade work, and the Air Force has paused plans to move back-office applications onto the platform.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T14:01:11+00:00",
+      "first_seen": "2026-11-27T14:14:47+00:00",
+      "updated": "2026-11-27T14:14:47+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
+          "published": "2026-11-27T14:01:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone without permission gets into a computer system and sees or takes information that was meant to be kept private, like a locked filing cabinet being opened by a stranger.",
+          "Attackers often find a weak point, such as an old password, an unlocked door in the software, or a forgotten account, and then move quietly through the system to find stored files.",
+          "People and organisations can reduce this risk by using strong unique passwords, turning on two-step login, and checking regularly who has access to important data."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "d0ebc8952af1",
       "story_key": "remus-stealer-gmail-chrome-extension",

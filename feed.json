@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T13:40:10+00:00",
+  "updated_at": "2026-11-27T14:14:47+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "38b7f1d52f33",
+      "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
+      "summary": "Intruders broke into Cloud One, the U.S. Air Force's main cloud platform, which holds military, personnel and logistics data. The breach was found during upgrade work, and the Air Force has paused plans to move back-office applications onto the platform.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T14:01:11+00:00",
+      "updated": "2026-11-27T14:14:47+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
+          "published": "2026-11-27T14:01:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone without permission gets into a computer system and sees or takes information that was meant to be kept private, like a locked filing cabinet being opened by a stranger.",
+          "Attackers often find a weak point, such as an old password, an unlocked door in the software, or a forgotten account, and then move quietly through the system to find stored files.",
+          "People and organisations can reduce this risk by using strong unique passwords, turning on two-step login, and checking regularly who has access to important data."
+        ]
+      }
+    },
     {
       "id": "d0ebc8952af1",
       "headline": "Remus Stealer Uses Hidden Chrome Extension to Read Gmail Messages",
@@ -1543,22 +1567,6 @@
           "Developers should keep secret keys out of shared files and store them in a secrets manager (a tool that keeps passwords safe)."
         ]
       }
-    },
-    {
-      "id": "79aaf7f9a76d",
-      "headline": "Ex-OpenAI Employee Granted $1 Million Bail Over Office Bugging",
-      "summary": "A former OpenAI employee accused of hiding a covert recording device at the company's San Francisco offices was ordered released on a $1 million bond. He was arrested in October 2026.",
-      "category": "other",
-      "importance": 4,
-      "published": "2026-11-25T10:43:07+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-          "published": "2026-11-25T10:43:07+00:00"
-        }
-      ]
     }
   ]
 }

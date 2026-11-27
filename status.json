@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-27T13:40:10+00:00",
+  "run_at": "2026-11-27T14:14:47+00:00",
   "mode": "full",
   "sources": [
     {
@@ -59,11 +59,11 @@
     }
   ],
   "fetched_items": 67,
-  "new_items": 3,
-  "curated_items": 3,
-  "kept_items": 3,
+  "new_items": 1,
+  "curated_items": 1,
+  "kept_items": 1,
   "new_stories": 1,
-  "merged_sources": 2,
+  "merged_sources": 0,
   "explained_stories": 1,
   "errors": []
 }
