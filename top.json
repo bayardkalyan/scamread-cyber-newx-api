@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T10:40:00+00:00",
+  "updated_at": "2026-11-27T11:40:25+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -74,6 +74,35 @@
       }
     },
     {
+      "id": "2eabdffe562b",
+      "headline": "Tampered Windows Utility Installers Deliver Remote Access Trojan",
+      "summary": "Trojanized installers for Q-Dir and DesktopOK, distributed through official SoftwareOK downloads, installed a Python remote access trojan. Malicious files also reached users through updates of existing installations.",
+      "category": "malware",
+      "importance": 7,
+      "published": "2026-11-27T07:27:11+00:00",
+      "updated": "2026-11-27T11:40:25+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-turn-trusted-windows-software/",
+          "published": "2026-11-27T07:27:11+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+          "published": "2026-11-27T09:29:30+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a trojanized installer?",
+        "points": [
+          "A trojanized installer is a normal-looking program setup file that secretly has harmful code hidden inside, like a gift box with a trap inside.",
+          "The attacker changes the setup file so that when a person runs it, it also installs a remote access trojan, which lets someone else control the computer from far away.",
+          "People can reduce the risk by downloading software only from the official maker's website and checking that the file is signed by the maker."
+        ]
+      }
+    },
+    {
       "id": "f529234ad27c",
       "headline": "Unpatched Cacti Zero-Day Allows Remote Code Execution Via HTTP Requests",
       "summary": "Details have emerged about a zero-day flaw in the open-source Cacti network monitoring tool that could allow remote code execution. A proof-of-concept exploit exists, and no CVE identifier has been assigned yet.",
@@ -128,30 +157,6 @@
           "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
           "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
           "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
-        ]
-      }
-    },
-    {
-      "id": "54032a6a5fbe",
-      "headline": "US Crackdown Targets 800 Alleged Scammers in Record Operation",
-      "summary": "The US Justice Department says its largest anti-scam effort so far covers over 400 cases and more than 800 alleged scammers. Officials report nearly $17 billion seized, and police in more than 10 countries raided scam call centers and compounds abroad.",
-      "category": "scam-phishing",
-      "importance": 7,
-      "published": "2026-11-27T05:30:28+00:00",
-      "updated": "2026-11-27T05:39:49+00:00",
-      "sources": [
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/11/27/doj-scam-crackdown-800-scammers/",
-          "published": "2026-11-27T05:30:28+00:00"
-        }
-      ],
-      "concept": {
-        "title": "How do large scam call centers operate?",
-        "points": [
-          "Scam call centers are offices where criminals phone many people at once, pretending to be banks, police, or friends, to get money or personal details.",
-          "Scammers often work in groups, using fake stories and pressure to make victims send money quickly, sometimes from buildings in other countries.",
-          "Never send money or share codes after an unexpected call, even if the caller sounds official. Hang up and call the organization using a number you already know."
         ]
       }
     }

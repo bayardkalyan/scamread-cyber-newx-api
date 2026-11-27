@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T10:40:00+00:00",
+  "updated_at": "2026-11-27T11:40:25+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "0ed433506b46",
+      "headline": "Weekly Roundup Covers Tanker Cyberattacks and USDA Payment Systems Breach",
+      "summary": "A SecurityWeek roundup highlights cyberattacks on tankers, a breach of USDA payment systems, and a hack of cybersecurity firm Radware. It also notes accusations that RansomwareHelp profited from ransom payments.",
+      "category": "other",
+      "importance": 3,
+      "published": "2026-11-27T11:00:00+00:00",
+      "updated": "2026-11-27T11:40:25+00:00",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+          "published": "2026-11-27T11:00:00+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is ransomware?",
+        "points": [
+          "Ransomware is harmful software that locks a victim's files or computer until someone pays money, like a thief who locks your house and sells you the key.",
+          "The attacker sneaks the software in through a fake email link or an old unfixed weakness, then scrambles the files so they cannot be opened without a secret key.",
+          "To stay safe, keep backup copies of important files offline and be careful with links and attachments from unknown senders."
+        ]
+      }
+    },
     {
       "id": "b67c1a8712dc",
       "headline": "Flight Centre Warns of Customer Data Breach Involving Some Passport Details",
@@ -139,14 +163,19 @@
       "headline": "Tampered Windows Utility Installers Deliver Remote Access Trojan",
       "summary": "Trojanized installers for Q-Dir and DesktopOK, distributed through official SoftwareOK downloads, installed a Python remote access trojan. Malicious files also reached users through updates of existing installations.",
       "category": "malware",
-      "importance": 6,
+      "importance": 7,
       "published": "2026-11-27T07:27:11+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T11:40:25+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/hackers-turn-trusted-windows-software/",
           "published": "2026-11-27T07:27:11+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+          "published": "2026-11-27T09:29:30+00:00"
         }
       ],
       "concept": {
@@ -932,7 +961,7 @@
       "category": "ai-security",
       "importance": 7,
       "published": "2026-11-25T21:18:00+00:00",
-      "updated": "2026-11-26T07:40:29+00:00",
+      "updated": "2026-11-27T11:40:25+00:00",
       "sources": [
         {
           "name": "The Record",
@@ -943,6 +972,11 @@
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/artex-ai-agents-2/",
           "published": "2026-11-26T07:39:00+00:00"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/11/27/artex-ai-pentest-framework-china-north-korea-state-hackers/",
+          "published": "2026-11-27T11:06:57+00:00"
         }
       ],
       "concept": {
@@ -1543,30 +1577,6 @@
           "A remote code execution flaw is a bug that lets an attacker run their own commands on someone else's computer, like a hidden door into a building.",
           "Attackers find the bug, send specially built requests to the server, and the server runs the attacker's commands without checking them first.",
           "Software makers release a patch (a fix) quickly, and users should install updates as soon as they arrive."
-        ]
-      }
-    },
-    {
-      "id": "cb8df03517bf",
-      "headline": "Attackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "summary": "Attackers can achieve remote code execution with a single crafted web request against the Idunno AntiCsrf library, which is defunct and unpatched.",
-      "category": "vulnerability",
-      "importance": 6,
-      "published": "2026-11-25T09:05:13+00:00",
-      "updated": "2026-11-25T09:44:58+00:00",
-      "sources": [
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-          "published": "2026-11-25T09:05:13+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a remote code execution attack?",
-        "points": [
-          "Remote code execution means an attacker can make a computer run commands they chose from far away, like a stranger giving orders through a mail slot.",
-          "The attacker sends one specially built web request, and the unpatched library accepts it and runs the hidden commands.",
-          "Old software that no one maintains is risky, so people should remove it or move to a maintained library (a shared code package)."
         ]
       }
     }
