@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T01:40:10+00:00",
+  "updated_at": "2026-11-27T02:40:04+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "5122b3ec4141",
+      "headline": "Node.js 27 Alpha Adds HTTP Connection Security Fixes and TLS 1.2 Controls",
+      "summary": "The Node.js project released an alpha version that fixes a flaw in how its HTTP client reuses open connections, tracked as CVE-2026-105481. It also lets developers disable TLS 1.2 renegotiation to test which services still rely on it.",
+      "category": "vulnerability",
+      "importance": 4,
+      "published": "2026-11-27T01:57:14+00:00",
+      "updated": "2026-11-27T02:40:04+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/node-js-27-alpha/",
+          "published": "2026-11-27T01:57:14+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software vulnerability?",
+        "points": [
+          "A software vulnerability is a mistake in a computer program that an attacker could use to cause harm, like a weak spot in a door lock.",
+          "Attackers look for these mistakes and send specially built messages to the program, trying to make it do things its owner did not intend.",
+          "People and companies stay safer by installing updates and fixes from the software maker as soon as they are released."
+        ]
+      }
+    },
     {
       "id": "42426dd92d02",
       "headline": "Roundup: NGINX Services at Risk, Malicious Extensions, AI Server Hijacking",
@@ -1530,30 +1554,6 @@
           "A vulnerability is a weak spot in software, like a door that was left unlocked by mistake, that someone could use to get into a system they should not control.",
           "An attacker finds the weak spot and uses a tool to exploit it, which can make the system show wrong information, stop working, or let them change records.",
           "Software makers release fixes called patches, and users should install these updates quickly to close the weak spot."
-        ]
-      }
-    },
-    {
-      "id": "602b8f0083e1",
-      "headline": "Colorado myColorado App Hit by Cyberattack, 150,000 Users' Data Stolen",
-      "summary": "The cyberattack took the myColorado app offline and likely exposed data from 150,000 users. The app is used for digital identification, document storage and state government services.",
-      "category": "data-breach",
-      "importance": 6,
-      "published": "2026-11-24T20:52:00+00:00",
-      "updated": "2026-11-25T01:02:08+00:00",
-      "sources": [
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/mycolorado-app-down-data-breach",
-          "published": "2026-11-24T20:52:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a cyberattack on a government app?",
-        "points": [
-          "A cyberattack is an attempt by criminals to break into a computer system to steal, damage or lock information, much like a burglar trying doors in a building.",
-          "Attackers may gain access through stolen passwords or weak security, then copy personal records or shut the service down so people cannot use it.",
-          "People can protect themselves by using unique passwords for government accounts, turning on two-step login, and being careful about messages that ask for personal details."
         ]
       }
     }

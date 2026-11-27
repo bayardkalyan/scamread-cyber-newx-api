@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-27T01:40:10+00:00",
+  "updated_at": "2026-11-27T02:40:04+00:00",
   "stories": [
+    {
+      "id": "5122b3ec4141",
+      "story_key": "nodejs-27-alpha-http-security-fixes",
+      "headline": "Node.js 27 Alpha Adds HTTP Connection Security Fixes and TLS 1.2 Controls",
+      "summary": "The Node.js project released an alpha version that fixes a flaw in how its HTTP client reuses open connections, tracked as CVE-2026-105481. It also lets developers disable TLS 1.2 renegotiation to test which services still rely on it.",
+      "category": "vulnerability",
+      "importance": 4,
+      "published": "2026-11-27T01:57:14+00:00",
+      "first_seen": "2026-11-27T02:40:04+00:00",
+      "updated": "2026-11-27T02:40:04+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/node-js-27-alpha/",
+          "published": "2026-11-27T01:57:14+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software vulnerability?",
+        "points": [
+          "A software vulnerability is a mistake in a computer program that an attacker could use to cause harm, like a weak spot in a door lock.",
+          "Attackers look for these mistakes and send specially built messages to the program, trying to make it do things its owner did not intend.",
+          "People and companies stay safer by installing updates and fixes from the software maker as soon as they are released."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "42426dd92d02",
       "story_key": "threatsday-weekly-roundup-nov-2026",
