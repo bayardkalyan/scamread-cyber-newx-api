@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-27T14:40:26+00:00",
+  "run_at": "2026-11-27T15:40:34+00:00",
   "mode": "full",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "SecurityWeek",
       "ok": true,
-      "items": 10,
+      "items": 9,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 5,
+      "items": 3,
       "error": null
     },
     {
@@ -58,12 +58,12 @@
       "error": null
     }
   ],
-  "fetched_items": 67,
-  "new_items": 2,
-  "curated_items": 2,
-  "kept_items": 1,
+  "fetched_items": 64,
+  "new_items": 4,
+  "curated_items": 4,
+  "kept_items": 3,
   "new_stories": 1,
-  "merged_sources": 0,
+  "merged_sources": 2,
   "explained_stories": 1,
   "errors": []
 }

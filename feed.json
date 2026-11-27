@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T14:40:26+00:00",
+  "updated_at": "2026-11-27T15:40:34+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "1288c08a6b4c",
+      "headline": "Hackers Set Meat Plant Freezer to 100°C and Lock Out Technician",
+      "summary": "Hackers changed a freezer temperature setting at a Slovenian meat processing plant and blocked a technician's login, displaying a taunting image instead. Staff caught the change before temperatures rose, and no meat was spoiled.",
+      "category": "other",
+      "importance": 5,
+      "published": "2026-11-27T14:52:38+00:00",
+      "updated": "2026-11-27T15:40:34+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/freezer-control-cyberattack/",
+          "published": "2026-11-27T14:52:38+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a factory control system attack?",
+        "points": [
+          "Many factories use computers to run machines like freezers and ovens. If an attacker gets into these computers, they can change how the machine works.",
+          "The attacker finds a weak password, logs in like a worker, changes a setting such as temperature, and locks out the technician.",
+          "Companies can stay safer by using strong, unique passwords, adding a second login step, and keeping control systems separate from the internet."
+        ]
+      }
+    },
     {
       "id": "cf15855177df",
       "headline": "Japan Education Ministry Discloses Breach of Procurement System",
@@ -45,12 +69,17 @@
       "category": "data-breach",
       "importance": 7,
       "published": "2026-11-27T14:01:11+00:00",
-      "updated": "2026-11-27T14:14:47+00:00",
+      "updated": "2026-11-27T15:40:34+00:00",
       "sources": [
         {
           "name": "Cyber Security News",
           "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
           "published": "2026-11-27T14:01:11+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+          "published": "2026-11-27T15:09:40+00:00"
         }
       ],
       "concept": {
@@ -237,12 +266,17 @@
       "category": "vulnerability",
       "importance": 8,
       "published": "2026-11-27T08:06:58+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T15:40:34+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
           "published": "2026-11-27T08:06:58+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/nfs2root-linux-vulnerability/",
+          "published": "2026-11-27T14:48:39+00:00"
         }
       ],
       "concept": {
@@ -1531,40 +1565,6 @@
           "An autonomous AI agent (a computer program that works on its own) can carry out a series of tasks with little human help. Attackers can misuse these programs to break into systems.",
           "Think of an agent as a tireless helper that tries many doors at once. After stealing a password, it can use that password to log in to other computers on the same network.",
           "Organizations can reduce this risk by using strong, unique passwords and multi-factor login (a second check, such as a code sent to your phone)."
-        ]
-      }
-    },
-    {
-      "id": "07875af858cc",
-      "headline": "CISA Adds Ten Exploited Flaws Including Danfoss and Mitel Products",
-      "summary": "CISA added ten vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence of active attacks. Affected products include Danfoss AK-SM 800A controllers, HPE Juniper Session Smart routers and Mitel MiCollab.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-25T12:00:00+00:00",
-      "updated": "2026-11-26T14:40:21+00:00",
-      "sources": [
-        {
-          "name": "CISA",
-          "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-          "published": "2026-11-25T12:00:00+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-          "published": "2026-11-26T06:44:46+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/",
-          "published": "2026-11-26T14:09:18+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is an exploited vulnerability?",
-        "points": [
-          "A vulnerability is a weakness in software or a device, like a door that does not lock properly, which can let an outsider get in.",
-          "An exploited flaw means attackers are already using a method to take advantage of that weakness, so a government cyber agency adds it to a public list.",
-          "Owners of affected devices should install the maker's fix (a software update that closes the weakness) as soon as it is available."
         ]
       }
     }

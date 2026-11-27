@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-27T14:40:26+00:00",
+  "updated_at": "2026-11-27T15:40:34+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -22,12 +22,17 @@
       "category": "vulnerability",
       "importance": 8,
       "published": "2026-11-27T08:06:58+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
+      "updated": "2026-11-27T15:40:34+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
           "published": "2026-11-27T08:06:58+00:00"
+        },
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/nfs2root-linux-vulnerability/",
+          "published": "2026-11-27T14:48:39+00:00"
         }
       ],
       "concept": {
@@ -75,6 +80,35 @@
           "A login token is a small digital pass that proves you are already signed in, so you do not have to type your password each time.",
           "If attackers steal the pass, they can act as the real user without knowing the password, like copying a hotel key card to enter rooms.",
           "Companies can reduce this risk by making tokens expire quickly and by watching for unusual use of them."
+        ]
+      }
+    },
+    {
+      "id": "38b7f1d52f33",
+      "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
+      "summary": "Intruders broke into Cloud One, the U.S. Air Force's main cloud platform, which holds military, personnel and logistics data. The breach was found during upgrade work, and the Air Force has paused plans to move back-office applications onto the platform.",
+      "category": "data-breach",
+      "importance": 7,
+      "published": "2026-11-27T14:01:11+00:00",
+      "updated": "2026-11-27T15:40:34+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
+          "published": "2026-11-27T14:01:11+00:00"
+        },
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+          "published": "2026-11-27T15:09:40+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach is when someone without permission gets into a computer system and sees or takes information that was meant to be kept private, like a locked filing cabinet being opened by a stranger.",
+          "Attackers often find a weak point, such as an old password, an unlocked door in the software, or a forgotten account, and then move quietly through the system to find stored files.",
+          "People and organisations can reduce this risk by using strong unique passwords, turning on two-step login, and checking regularly who has access to important data."
         ]
       }
     },
@@ -133,35 +167,6 @@
           "A zero-day flaw is a weakness in software that its maker does not know about yet, so no fix exists. It is like a hidden crack in a lock that only the finder knows about.",
           "Remote code execution means an attacker can send specially made requests over the internet and make the server run commands they chose.",
           "People who run this software should watch for an official fix from the maker and install it as soon as it is released."
-        ]
-      }
-    },
-    {
-      "id": "d1596a1e5549",
-      "headline": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories",
-      "summary": "A campaign linked to North Korea planted a Python loader in more than 7,600 GitHub repositories to spread malware. Researchers say the activity may have started as early as February 2025.",
-      "category": "malware",
-      "importance": 7,
-      "published": "2026-11-26T15:13:41+00:00",
-      "updated": "2026-11-27T08:40:36+00:00",
-      "sources": [
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-          "published": "2026-11-26T15:13:41+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-hide-polinrider-malware/",
-          "published": "2026-11-27T05:39:50+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is repository poisoning?",
-        "points": [
-          "Repository poisoning is when attackers hide harmful code inside software projects that other people download, like putting a bad ingredient into a food box that looks normal.",
-          "Attackers plant a hidden loader (a small program that secretly downloads other harmful software) in many projects, so people who copy them can run the malware unknowingly.",
-          "Developers can check code they download, use trusted sources, and protect their accounts with a strong password and two-step login."
         ]
       }
     }
