@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-28T04:42:07+00:00",
+  "updated_at": "2026-11-28T05:39:53+00:00",
   "stories": [
+    {
+      "id": "25d1ba7db7ae",
+      "story_key": "telegram-ios-massive-hacking-warning",
+      "headline": "Telegram Warns iPhone Users on Older iOS Are Being Hacked at Scale",
+      "summary": "Telegram CEO Pavel Durov said on November 27 that iPhone users on older iOS versions are being hacked on a massive scale, and that simply opening a website could be enough. Users are urged to install the latest iOS update.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-28T04:48:49+00:00",
+      "first_seen": "2026-11-28T05:39:53+00:00",
+      "updated": "2026-11-28T05:39:53+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/iphone-users-are-being-hacked/",
+          "published": "2026-11-28T04:48:49+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software vulnerability that lets attackers in?",
+        "points": [
+          "A software vulnerability is a weak spot in a program, like a loose window lock in a house that a thief can open.",
+          "Attackers find these weak spots and write hidden code that uses them, so that simply opening a harmful web page can let the attacker take control of a device without the owner noticing.",
+          "A simple protection is to install system updates as soon as they arrive, because each update usually closes known weak spots."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "90b56ad7fedd",
       "story_key": "pcloud-pass-password-manager-hack",

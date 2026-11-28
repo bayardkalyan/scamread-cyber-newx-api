@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T04:42:07+00:00",
+  "updated_at": "2026-11-28T05:39:53+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "25d1ba7db7ae",
+      "headline": "Telegram Warns iPhone Users on Older iOS Are Being Hacked at Scale",
+      "summary": "Telegram CEO Pavel Durov said on November 27 that iPhone users on older iOS versions are being hacked on a massive scale, and that simply opening a website could be enough. Users are urged to install the latest iOS update.",
+      "category": "vulnerability",
+      "importance": 8,
+      "published": "2026-11-28T04:48:49+00:00",
+      "updated": "2026-11-28T05:39:53+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/iphone-users-are-being-hacked/",
+          "published": "2026-11-28T04:48:49+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a software vulnerability that lets attackers in?",
+        "points": [
+          "A software vulnerability is a weak spot in a program, like a loose window lock in a house that a thief can open.",
+          "Attackers find these weak spots and write hidden code that uses them, so that simply opening a harmful web page can let the attacker take control of a device without the owner noticing.",
+          "A simple protection is to install system updates as soon as they arrive, because each update usually closes known weak spots."
+        ]
+      }
+    },
     {
       "id": "90b56ad7fedd",
       "headline": "pCloud Confirms Cyberattack on Pass Password Manager",
@@ -1541,30 +1565,6 @@
           "A phishing page is a fake sign-in page that looks like a real one from a trusted brand, such as a bank or email provider.",
           "The attacker sends a link to the fake page, and when a person types their password, the attacker receives it.",
           "Before typing a password, check the web address carefully and go to the official site yourself instead of using a link."
-        ]
-      }
-    },
-    {
-      "id": "ef8ff3a13a84",
-      "headline": "Cyberattacks Increasingly Hit Industrial Systems Across Latin America",
-      "summary": "Cyberattacks are increasingly affecting industrial systems across Latin America, including a port in Brazil and a pipeline in Argentina. The report covers ports, pipelines and manufacturing operations in the region.",
-      "category": "other",
-      "importance": 4,
-      "published": "2026-11-25T14:00:00+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Dark Reading",
-          "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
-          "published": "2026-11-25T14:00:00+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a cyberattack on industrial systems?",
-        "points": [
-          "Industrial systems are the computers that control large machines, such as those at ports, pipelines and factories.",
-          "Attackers try to get into these computers through weak passwords, old software or harmful emails, and then disrupt the work they control.",
-          "Companies can protect these systems by separating them from the internet and keeping their software up to date."
         ]
       }
     }
