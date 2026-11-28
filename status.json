@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-27T22:53:44+00:00",
+  "run_at": "2026-11-28T01:39:44+00:00",
   "mode": "full",
   "sources": [
     {
@@ -36,7 +36,7 @@
     {
       "name": "The Record",
       "ok": true,
-      "items": 5,
+      "items": 4,
       "error": null
     },
     {
@@ -58,12 +58,12 @@
       "error": null
     }
   ],
-  "fetched_items": 66,
-  "new_items": 3,
-  "curated_items": 3,
-  "kept_items": 3,
-  "new_stories": 3,
+  "fetched_items": 65,
+  "new_items": 0,
+  "curated_items": 0,
+  "kept_items": 0,
+  "new_stories": 0,
   "merged_sources": 0,
-  "explained_stories": 3,
+  "explained_stories": 0,
   "errors": []
 }
