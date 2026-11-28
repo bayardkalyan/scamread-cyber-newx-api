@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-28T09:40:52+00:00",
+  "updated_at": "2026-11-28T10:40:29+00:00",
   "stories": [
+    {
+      "id": "7ee4eab9e589",
+      "story_key": "erlang-otp-tls12-certificate-flaw",
+      "headline": "Critical Erlang/OTP Flaw Allows Impersonation of TLS Servers",
+      "summary": "A severe flaw in Erlang/OTP lets attackers pose as trusted servers and intercept or tamper with TLS 1.2 traffic. Clients can finish handshakes without a server certificate even when verification is required. TLS 1.3 connections are not affected.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-28T10:09:43+00:00",
+      "first_seen": "2026-11-28T10:40:29+00:00",
+      "updated": "2026-11-28T10:40:29+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-erlang-otp-flaw/",
+          "published": "2026-11-28T10:09:43+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a server impersonation flaw?",
+        "points": [
+          "A software flaw is a mistake in a program that attackers can misuse. Here, the flaw lets an attacker pretend to be a trusted website or server.",
+          "Normally, your device checks a server's ID card, called a certificate, before sharing data. If that check is skipped, a fake server can receive or change your data unseen.",
+          "People can stay safe by installing software updates quickly, since makers release fixes (patches) for flaws like this."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "c4ff96d026e9",
       "story_key": "kenya-ecitizen-data-breach",

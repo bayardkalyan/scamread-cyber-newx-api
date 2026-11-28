@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T09:40:52+00:00",
+  "updated_at": "2026-11-28T10:40:29+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "7ee4eab9e589",
+      "headline": "Critical Erlang/OTP Flaw Allows Impersonation of TLS Servers",
+      "summary": "A severe flaw in Erlang/OTP lets attackers pose as trusted servers and intercept or tamper with TLS 1.2 traffic. Clients can finish handshakes without a server certificate even when verification is required. TLS 1.3 connections are not affected.",
+      "category": "vulnerability",
+      "importance": 6,
+      "published": "2026-11-28T10:09:43+00:00",
+      "updated": "2026-11-28T10:40:29+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/critical-erlang-otp-flaw/",
+          "published": "2026-11-28T10:09:43+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a server impersonation flaw?",
+        "points": [
+          "A software flaw is a mistake in a program that attackers can misuse. Here, the flaw lets an attacker pretend to be a trusted website or server.",
+          "Normally, your device checks a server's ID card, called a certificate, before sharing data. If that check is skipped, a fake server can receive or change your data unseen.",
+          "People can stay safe by installing software updates quickly, since makers release fixes (patches) for flaws like this."
+        ]
+      }
+    },
     {
       "id": "c4ff96d026e9",
       "headline": "Hackers Reportedly Leak Kenya eCitizen Identity Records Online",
@@ -1546,30 +1570,6 @@
           "A supply-chain attack is like a thief hiding inside a box of parts that a trusted shop delivers to you.",
           "Attackers hide harmful code in a third-party program that other companies include in their products, so the harm spreads to every customer.",
           "Companies can reduce the risk by checking where their software parts come from and installing updates promptly."
-        ]
-      }
-    },
-    {
-      "id": "a3b1cb515c14",
-      "headline": "Adobe Patches Critical Flaws in Experience Manager and Campaign Classic",
-      "summary": "Adobe released security updates for Experience Manager and Campaign Classic to fix critical flaws that could let attackers run code on servers. Adobe said it knew of no attacks using them yet.",
-      "category": "vulnerability",
-      "importance": 6,
-      "published": "2026-11-25T14:28:30+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/critical-adobe-vulnerabilities/",
-          "published": "2026-11-25T14:28:30+00:00"
-        }
-      ],
-      "concept": {
-        "title": "Why do security patches matter?",
-        "points": [
-          "A security patch is a free update from the software maker that fixes a flaw before criminals can use it.",
-          "When a flaw is serious, attackers may be able to run their own commands on a company's server, which is like giving a stranger a key.",
-          "Installing updates quickly after they are released is one of the simplest ways to protect a website or business."
         ]
       }
     }
