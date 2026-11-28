@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T13:40:19+00:00",
+  "updated_at": "2026-11-28T14:05:02+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -64,35 +64,6 @@
       }
     },
     {
-      "id": "38b7f1d52f33",
-      "headline": "Hackers Breach U.S. Air Force Cloud One Platform Used for Military Data",
-      "summary": "Intruders broke into Cloud One, the U.S. Air Force's main cloud platform, which holds military, personnel and logistics data. The breach was found during upgrade work, and the Air Force has paused plans to move back-office applications onto the platform.",
-      "category": "data-breach",
-      "importance": 7,
-      "published": "2026-11-27T14:01:11+00:00",
-      "updated": "2026-11-27T15:40:34+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
-          "published": "2026-11-27T14:01:11+00:00"
-        },
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
-          "published": "2026-11-27T15:09:40+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a data breach?",
-        "points": [
-          "A data breach is when someone without permission gets into a computer system and sees or takes information that was meant to be kept private, like a locked filing cabinet being opened by a stranger.",
-          "Attackers often find a weak point, such as an old password, an unlocked door in the software, or a forgotten account, and then move quietly through the system to find stored files.",
-          "People and organisations can reduce this risk by using strong unique passwords, turning on two-step login, and checking regularly who has access to important data."
-        ]
-      }
-    },
-    {
       "id": "90b56ad7fedd",
       "headline": "pCloud Confirms Cyberattack on Pass Password Manager",
       "summary": "pCloud says its Pass password manager was attacked. Some users reported unknown devices logging into their accounts even with two-factor authentication turned on.",
@@ -142,6 +113,30 @@
           "A software flaw is a mistake in a program that attackers can misuse. Here, the flaw lets an attacker pretend to be a trusted website or server.",
           "Normally, your device checks a server's ID card, called a certificate, before sharing data. If that check is skipped, a fake server can receive or change your data unseen.",
           "People can stay safe by installing software updates quickly, since makers release fixes (patches) for flaws like this."
+        ]
+      }
+    },
+    {
+      "id": "99a920c2585a",
+      "headline": "Vietnam-Linked Hackers Target Southeast Asian Governments in Espionage Campaign",
+      "summary": "A hacking group suspected of Vietnamese sponsorship attacked military, government and legislative bodies in Southeast Asia. The campaign, called WeaveLotus, aimed to gather intelligence on South China Sea defense agreements.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T16:36:11+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "published": "2026-11-27T16:36:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a state-sponsored hacking campaign?",
+        "points": [
+          "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
+          "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
+          "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
         ]
       }
     }
