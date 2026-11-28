@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T08:39:56+00:00",
+  "updated_at": "2026-11-28T09:40:52+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,6 +15,30 @@
   "window_hours": 24,
   "count": 5,
   "items": [
+    {
+      "id": "c4ff96d026e9",
+      "headline": "Hackers Reportedly Leak Kenya eCitizen Identity Records Online",
+      "summary": "Hackers have reportedly started publishing identity records from Kenya's eCitizen government portal on the dark web. Authorities are investigating, have not confirmed the reported total of 32 million affected people, and say the platform remains online.",
+      "category": "data-breach",
+      "importance": 8,
+      "published": "2026-11-28T09:14:31+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/kenya-ecitizen-data-breach/",
+          "published": "2026-11-28T09:14:31+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when hackers break into a computer system and steal private information, such as names, ID numbers, or addresses.",
+          "Hackers find a weak spot, copy the stored records, and may sell them or post them on the dark web (a hidden part of the internet).",
+          "Organizations can protect records with strong passwords, regular updates, and by keeping only the data they really need."
+        ]
+      }
+    },
     {
       "id": "25d1ba7db7ae",
       "headline": "Telegram Warns iPhone Users on Older iOS Are Being Hacked at Scale",
@@ -75,12 +99,17 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-27T19:26:04+00:00",
-      "updated": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
           "published": "2026-11-27T19:26:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+          "published": "2026-11-28T08:08:11+00:00"
         }
       ],
       "concept": {
@@ -113,30 +142,6 @@
           "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
           "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
           "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
-        ]
-      }
-    },
-    {
-      "id": "d0ebc8952af1",
-      "headline": "Remus Stealer Uses Hidden Chrome Extension to Read Gmail Messages",
-      "summary": "Windows malware Remus Stealer installs a Chrome extension disguised as Google Sheets to read unread Gmail messages from an already open session. Victims' sign-in codes and reset links are at risk, and a password reset alone does not remove the extension.",
-      "category": "malware",
-      "importance": 6,
-      "published": "2026-11-27T12:19:36+00:00",
-      "updated": "2026-11-27T12:40:34+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/",
-          "published": "2026-11-27T12:19:36+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a malicious browser extension?",
-        "points": [
-          "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
-          "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
-          "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
         ]
       }
     }

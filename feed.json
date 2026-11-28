@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T08:39:56+00:00",
+  "updated_at": "2026-11-28T09:40:52+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -14,6 +14,30 @@
   ],
   "count": 60,
   "items": [
+    {
+      "id": "c4ff96d026e9",
+      "headline": "Hackers Reportedly Leak Kenya eCitizen Identity Records Online",
+      "summary": "Hackers have reportedly started publishing identity records from Kenya's eCitizen government portal on the dark web. Authorities are investigating, have not confirmed the reported total of 32 million affected people, and say the platform remains online.",
+      "category": "data-breach",
+      "importance": 8,
+      "published": "2026-11-28T09:14:31+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/kenya-ecitizen-data-breach/",
+          "published": "2026-11-28T09:14:31+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when hackers break into a computer system and steal private information, such as names, ID numbers, or addresses.",
+          "Hackers find a weak spot, copy the stored records, and may sell them or post them on the dark web (a hidden part of the internet).",
+          "Organizations can protect records with strong passwords, regular updates, and by keeping only the data they really need."
+        ]
+      }
+    },
     {
       "id": "25d1ba7db7ae",
       "headline": "Telegram Warns iPhone Users on Older iOS Are Being Hacked at Scale",
@@ -45,12 +69,17 @@
       "category": "data-breach",
       "importance": 6,
       "published": "2026-11-27T19:26:04+00:00",
-      "updated": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
           "published": "2026-11-27T19:26:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+          "published": "2026-11-28T08:08:11+00:00"
         }
       ],
       "concept": {
@@ -1541,30 +1570,6 @@
           "A security patch is a free update from the software maker that fixes a flaw before criminals can use it.",
           "When a flaw is serious, attackers may be able to run their own commands on a company's server, which is like giving a stranger a key.",
           "Installing updates quickly after they are released is one of the simplest ways to protect a website or business."
-        ]
-      }
-    },
-    {
-      "id": "0e060521889c",
-      "headline": "Hackers Abuse Hugging Face AI Builder to Host Fake Big-Brand Login Pages",
-      "summary": "Attackers used Hugging Face's DeepSite builder to create fake sign-in pages impersonating 28 brands, including Microsoft, Google and PayPal. Researchers found 42 such pages and reported them, and all were paused or unreachable by October 29.",
-      "category": "scam-phishing",
-      "importance": 6,
-      "published": "2026-11-25T14:13:33+00:00",
-      "updated": "2026-11-25T15:40:16+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hugging-face-ai-phishing-pages/",
-          "published": "2026-11-25T14:13:33+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a phishing page?",
-        "points": [
-          "A phishing page is a fake sign-in page that looks like a real one from a trusted brand, such as a bank or email provider.",
-          "The attacker sends a link to the fake page, and when a person types their password, the attacker receives it.",
-          "Before typing a password, check the web address carefully and go to the official site yourself instead of using a link."
         ]
       }
     }

@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-11-28T08:39:56+00:00",
+  "updated_at": "2026-11-28T09:40:52+00:00",
   "stories": [
+    {
+      "id": "c4ff96d026e9",
+      "story_key": "kenya-ecitizen-data-breach",
+      "headline": "Hackers Reportedly Leak Kenya eCitizen Identity Records Online",
+      "summary": "Hackers have reportedly started publishing identity records from Kenya's eCitizen government portal on the dark web. Authorities are investigating, have not confirmed the reported total of 32 million affected people, and say the platform remains online.",
+      "category": "data-breach",
+      "importance": 8,
+      "published": "2026-11-28T09:14:31+00:00",
+      "first_seen": "2026-11-28T09:40:52+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/kenya-ecitizen-data-breach/",
+          "published": "2026-11-28T09:14:31+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a data breach?",
+        "points": [
+          "A data breach happens when hackers break into a computer system and steal private information, such as names, ID numbers, or addresses.",
+          "Hackers find a weak spot, copy the stored records, and may sell them or post them on the dark web (a hidden part of the internet).",
+          "Organizations can protect records with strong passwords, regular updates, and by keeping only the data they really need."
+        ]
+      },
+      "concept_checked": true
+    },
     {
       "id": "25d1ba7db7ae",
       "story_key": "telegram-ios-massive-hacking-warning",
@@ -37,12 +64,17 @@
       "importance": 6,
       "published": "2026-11-27T19:26:04+00:00",
       "first_seen": "2026-11-27T22:53:44+00:00",
-      "updated": "2026-11-27T22:53:44+00:00",
+      "updated": "2026-11-28T09:40:52+00:00",
       "sources": [
         {
           "name": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
           "published": "2026-11-27T19:26:04+00:00"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+          "published": "2026-11-28T08:08:11+00:00"
         }
       ],
       "concept": {
