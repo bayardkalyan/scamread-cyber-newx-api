@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T07:40:25+00:00",
+  "updated_at": "2026-11-28T08:39:56+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -15,35 +15,6 @@
   "window_hours": 24,
   "count": 5,
   "items": [
-    {
-      "id": "0449f70f74fb",
-      "headline": "Linux NFS Server Flaw Lets Remote Attackers Gain Root Privileges",
-      "summary": "A 12-year-old critical flaw in the Linux kernel's NFS server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. Administrators running affected kernels should check for and apply fixes.",
-      "category": "vulnerability",
-      "importance": 8,
-      "published": "2026-11-27T08:06:58+00:00",
-      "updated": "2026-11-27T15:40:34+00:00",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-          "published": "2026-11-27T08:06:58+00:00"
-        },
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/nfs2root-linux-vulnerability/",
-          "published": "2026-11-27T14:48:39+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a vulnerability in server software?",
-        "points": [
-          "A vulnerability is a weak spot in software, like a broken lock on a door that was built wrong by mistake.",
-          "An attacker who finds the weak spot can send specially made requests to the server over a network and trick it into giving them top-level control, called root access.",
-          "People can protect themselves by installing the security fix (a patch) that the software maker releases, as soon as it is available."
-        ]
-      }
-    },
     {
       "id": "25d1ba7db7ae",
       "headline": "Telegram Warns iPhone Users on Older iOS Are Being Hacked at Scale",
@@ -142,6 +113,30 @@
           "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
           "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
           "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
+        ]
+      }
+    },
+    {
+      "id": "d0ebc8952af1",
+      "headline": "Remus Stealer Uses Hidden Chrome Extension to Read Gmail Messages",
+      "summary": "Windows malware Remus Stealer installs a Chrome extension disguised as Google Sheets to read unread Gmail messages from an already open session. Victims' sign-in codes and reset links are at risk, and a password reset alone does not remove the extension.",
+      "category": "malware",
+      "importance": 6,
+      "published": "2026-11-27T12:19:36+00:00",
+      "updated": "2026-11-27T12:40:34+00:00",
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/",
+          "published": "2026-11-27T12:19:36+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a malicious browser extension?",
+        "points": [
+          "A browser extension is a small add-on for Chrome that gives the browser extra features, like a tool added to a car.",
+          "Attackers hide a harmful add-on under a friendly name, such as a fake Google Sheets tool, so the user installs it. Once installed, it can read emails from an account that is already signed in.",
+          "People can check their list of extensions and remove any they do not recognise, and they should only install add-ons from trusted sources."
         ]
       }
     }

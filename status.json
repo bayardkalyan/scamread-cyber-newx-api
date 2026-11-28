@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-28T07:40:25+00:00",
+  "run_at": "2026-11-28T08:39:56+00:00",
   "mode": "full",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "SecurityWeek",
       "ok": true,
-      "items": 9,
+      "items": 8,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Dark Reading",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
       "error": null
     }
   ],
-  "fetched_items": 62,
+  "fetched_items": 60,
   "new_items": 0,
   "curated_items": 0,
   "kept_items": 0,
