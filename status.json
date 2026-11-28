@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-28T06:40:28+00:00",
+  "run_at": "2026-11-28T07:40:25+00:00",
   "mode": "full",
   "sources": [
     {
       "name": "The Hacker News",
       "ok": true,
-      "items": 12,
+      "items": 10,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
       "error": null
     }
   ],
-  "fetched_items": 64,
+  "fetched_items": 62,
   "new_items": 0,
   "curated_items": 0,
   "kept_items": 0,

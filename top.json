@@ -1,6 +1,6 @@
 {
   "name": "ScamRead cyber news feed",
-  "updated_at": "2026-11-28T06:40:28+00:00",
+  "updated_at": "2026-11-28T07:40:25+00:00",
   "note": "Headlines and summaries are written by AI (Claude) from the original reports. Follow the source links for the full articles.",
   "categories": [
     "data-breach",
@@ -98,35 +98,6 @@
       }
     },
     {
-      "id": "2eabdffe562b",
-      "headline": "Tampered Windows Utility Installers Deliver Remote Access Trojan",
-      "summary": "Trojanized installers for Q-Dir and DesktopOK, distributed through official SoftwareOK downloads, installed a Python remote access trojan. Malicious files also reached users through updates of existing installations.",
-      "category": "malware",
-      "importance": 7,
-      "published": "2026-11-27T07:27:11+00:00",
-      "updated": "2026-11-27T11:40:25+00:00",
-      "sources": [
-        {
-          "name": "Cyber Security News",
-          "url": "https://cybersecuritynews.com/hackers-turn-trusted-windows-software/",
-          "published": "2026-11-27T07:27:11+00:00"
-        },
-        {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
-          "published": "2026-11-27T09:29:30+00:00"
-        }
-      ],
-      "concept": {
-        "title": "What is a trojanized installer?",
-        "points": [
-          "A trojanized installer is a normal-looking program setup file that secretly has harmful code hidden inside, like a gift box with a trap inside.",
-          "The attacker changes the setup file so that when a person runs it, it also installs a remote access trojan, which lets someone else control the computer from far away.",
-          "People can reduce the risk by downloading software only from the official maker's website and checking that the file is signed by the maker."
-        ]
-      }
-    },
-    {
       "id": "90b56ad7fedd",
       "headline": "pCloud Confirms Cyberattack on Pass Password Manager",
       "summary": "pCloud says its Pass password manager was attacked. Some users reported unknown devices logging into their accounts even with two-factor authentication turned on.",
@@ -147,6 +118,30 @@
           "An account takeover means a criminal gets into your online account and controls it, like someone copying your house key and walking in.",
           "Attackers often steal or guess a password, then log in from their own device, sometimes using stolen login details that were leaked earlier.",
           "Turning on two-factor authentication (a second check, such as a code sent to your phone) and using a unique password for each account makes this much harder."
+        ]
+      }
+    },
+    {
+      "id": "99a920c2585a",
+      "headline": "Vietnam-Linked Hackers Target Southeast Asian Governments in Espionage Campaign",
+      "summary": "A hacking group suspected of Vietnamese sponsorship attacked military, government and legislative bodies in Southeast Asia. The campaign, called WeaveLotus, aimed to gather intelligence on South China Sea defense agreements.",
+      "category": "other",
+      "importance": 6,
+      "published": "2026-11-27T16:36:11+00:00",
+      "updated": "2026-11-27T17:39:51+00:00",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "published": "2026-11-27T16:36:11+00:00"
+        }
+      ],
+      "concept": {
+        "title": "What is a state-sponsored hacking campaign?",
+        "points": [
+          "A state-sponsored hacking group is a team of hackers that is secretly backed by a government. Their main goal is often to steal secret information, not money.",
+          "They often send fake emails or use hidden software to get into computers, then quietly watch and copy files over a long period of time.",
+          "Governments and organizations can protect themselves by keeping software updated and training staff to spot suspicious messages."
         ]
       }
     }
