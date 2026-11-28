@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "run_at": "2026-11-28T12:39:58+00:00",
+  "run_at": "2026-11-28T13:40:19+00:00",
   "mode": "full",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "SecurityWeek",
       "ok": true,
-      "items": 6,
+      "items": 5,
       "error": null
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Help Net Security",
       "ok": true,
-      "items": 8,
+      "items": 7,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
       "error": null
     }
   ],
-  "fetched_items": 55,
+  "fetched_items": 53,
   "new_items": 0,
   "curated_items": 0,
   "kept_items": 0,
